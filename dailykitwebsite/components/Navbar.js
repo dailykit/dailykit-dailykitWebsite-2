@@ -61,7 +61,7 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="/sells/on-demand-online-store"
+                      href="/sells/on_demand_online_store"
                     >
                       onDemand Store
                     </a>
@@ -74,7 +74,7 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="/sells/subscription-online-store"
+                      href="/sells/subscription_store"
                     >
                       Subscription Store
                     </a>
@@ -87,7 +87,7 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="/menu/overview"
+                      href="/sells/menu_management"
                     >
                       Menu Management
                     </a>

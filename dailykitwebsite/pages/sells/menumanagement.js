@@ -1,0 +1,187 @@
+import React, { PureComponent } from "react";
+import Head from "next/head";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
+import ScheduleMeetingSection1 from "../../components/subcomponents/shared/ScheduleMeetingSection1";
+import BannerSection6 from "../../components/subcomponents/shared/BannerSection6";
+import Bluebox3 from "../../components/subcomponents/menumanagepage/Bluebox3";
+import BannerSection3 from "../../components/subcomponents/shared/BannerSection3";
+export default class MenuManagementpage extends PureComponent {
+  render() {
+    return (
+      <div style={{ marginTop: "12rem" }}>
+        <Head>
+          <title>Sells: Menu Management</title>
+          {/* <!-- CSS only --> */}
+          <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossOrigin="anonymous"
+          />
+          {/* <!-- JavaScript Bundle with Popper --> */}
+          <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossOrigin="anonymous"
+            defer
+          ></script>
+          {/* <!-- MailerLite Universal --> */}
+          {/* <script>
+      (function (m, a, i, l, e, r) {
+        m["MailerLiteObject"] = e;
+        function f() {
+          var c = { a: arguments, q: [] };
+          var r = this.push(c);
+          return "number" != typeof r ? r : f.bind(c.q);
+        }
+        f.q = f.q || [];
+        m[e] = m[e] || f.bind(f.q);
+        m[e].q = m[e].q || f.q;
+        r = a.createElement(i);
+        var _ = a.getElementsByTagName(i)[0];
+        r.async = 1;
+        r.src = l + "?v" + ~~(new Date().getTime() / 1000000);
+        _.parentNode.insertBefore(r, _);
+      })(
+        window,
+        document,
+        "script",
+        "https://static.mailerlite.com/js/universal.js",
+        "ml"
+      );
+      var ml_account = ml("accounts", "3161173", "g2o5g2c3i8", "load");
+    </script> */}
+          {/* <!-- End MailerLite Universal --> */}
+          <script
+            type="text/javascript"
+            src="https://assets.calendly.com/assets/external/widget.js"
+            async
+          ></script>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;400;700;900&family=Nunito:wght@400;600;700;800;900&display=swap"
+            rel="stylesheet"
+          />
+
+          <meta
+            name="Dailykit"
+            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+          />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        <Navbar />
+        <BannerSection3
+          text={
+            "With our powerful tools at your disposal, menu innovations are just a few clicks away, so be creative and stand-out from the rest."
+          }
+          heading={"Be An Innovator"}
+          image={
+            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/menu/menu-banner.jpg"
+          }
+          blackbuttontext={"Start Now"}
+        />
+        <BannerSection6
+          greenbuttontext={"Learn More"}
+          heading={"Personalization Done Right"}
+          para={[
+            "To Eat or To Cook? With DailyKIT you win either way, by offering your customers the choice of Ready-to-Eat or Ready-to-Cook",
+            "How Many Servings? You can choose to offer different products with different available servings.",
+            "What Sides Would You Like? Configure the specfic sides to offer along with a main product.",
+            "How Do You Want It? Offer your customers a choice of different recipes for the main product and sides to cater to your customer’s dietary preferences.",
+          ]}
+          leftImage={
+            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/menu/personalization.gif"
+          }
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm={"4175704:a4w7j9"}
+        />{" "}
+        <BannerSection6
+          greenbuttontext={"Learn More"}
+          heading={"Give Life To Your Menu"}
+          para={[
+            "Gone are the days of The Static Menu",
+            "With DailyKIT, you can rotate your menu by days & seasons, and offer special menus for special occasions to bring life to your brand, keeping your valued cusomters coming back for more!",
+          ]}
+          leftImage={
+            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/menu/give-life-to-your-menu2.gif"
+          }
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm={"4175704:a4w7j9"}
+        />
+        <Bluebox3
+          heading={"Menu Management vs Menu Engineering"}
+          buttonlink={"#scheduledemo"}
+          buttontext={"Schedule A Meeting"}
+          leftpara={
+            "Menu management is a general menu building excercise done periodically and ideally before the start of business each day, where you simply build & discuss your menu, as well as specials and substitutions, rather than getting into the weeds of your customer's demands and desires. Novice businesses often miss out on the importance of menu engineering."
+          }
+          rightpara={
+            "Menu Engineering is Active & Modern Menu Management. Ask yourself: When was the last time you paid detailed attention to your menu and revamped it according to your customer's expectations? With increased competition, providing newer experiences to your customers is necessary to help you stand out and ultimately drive the success you wish for."
+          }
+        />
+        <BannerSection6
+          greenbuttontext={"Learn More"}
+          heading={"How Intimately Do You Know Your Food Costs?"}
+          para={[
+            "It’s impossible to optimize business profitablity without having a detailed handle on your Food Costs.",
+            "DailyKIT’s Automated Food Cost Tracking gives you all of the data you'll need to help you run a successful and profitable business.",
+          ]}
+          rightImage={
+            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/menu/Food-cost.png"
+          }
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm={"4175704:a4w7j9"}
+        />
+        <BannerSection6
+          greenbuttontext={"Learn More"}
+          heading={"Zero In On Product Pricing."}
+          para={[
+            "No more back-of-the-envelope math. No more calculators and excel sheets. With DailyKIT’s Intelligent Product Pricing, you can easily set target food cost %'s and get a suggested price range that falls within your targeted food cost. With minimal effort and easy decision making, set your menu prices like the experts.",
+          ]}
+          rightImage={
+            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/menu/product-pricing.png"
+          }
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm={"4175704:a4w7j9"}
+        />
+        <BannerSection6
+          buttonlink={"#scheduledemo"}
+          heading={"Automation is the New Mantra."}
+          para={[
+            "Today Nutritional & Allergen data are one of the most important factors in the consumer’s decision making process.",
+            "Unlike other tools, DailyKIT automatically builds a nutrition chart for you.",
+          ]}
+          rightImage={
+            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/menu/automation.png"
+          }
+          buttontext={"Schedule A Meeting"}
+        />
+        <ScheduleMeetingSection1
+          heading={"Schedule an E-Meeting"}
+          image={
+            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
+          }
+          id={"scheduledemo"}
+          content={[
+            {
+              question: "How Do You Schedule A Meeting?",
+              answer:
+                "Select the date on the calendar, the time slot, and then simply fill in your information. Done!",
+            },
+            {
+              question: "What Happens After You Schedule A Meeting?",
+              answer:
+                "We will send you a calendar invite to your supplied email address with the Google Meet link at the scheduled date & time.In the event that you're unable to join by laptop/computer, we will call you on the given phone number",
+            },
+            {
+              question: "What Happens During The Meeting?",
+              answer:
+                "We invite you to share good, bad and the ugly of your business. After understanding your requirements and concerns, we will figure out how to deploy the proper DailyKIT tech solutions based on your business strategy.",
+            },
+          ]}
+        />
+        <Footer />
+      </div>
+    );
+  }
+}

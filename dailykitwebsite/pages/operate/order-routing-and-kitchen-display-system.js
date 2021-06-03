@@ -1,0 +1,203 @@
+import React, { PureComponent } from "react";
+import Head from "next/head";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
+import EndToEndFoodBusiness from "../../components/subcomponents/shared/EndToEndFoodBusiness";
+import ScheduleMeetingSection1 from "../../components/subcomponents/shared/ScheduleMeetingSection1";
+import Bluebox1 from "../../components/subcomponents/orderpage/Bluebox1";
+import Digitalise from "../../components/subcomponents/orderpage/Digitalise";
+import BannerSection3 from "../../components/subcomponents/shared/BannerSection3";
+import BannerSection8 from "../../components/subcomponents/shared/BannerSection8";
+export default class Orderroutingpage extends PureComponent {
+  render() {
+    return (
+      <div style={{ marginTop: "12rem" }}>
+        <Head>
+          <title>Operate: Order Routing and Kitchen display system</title>
+          {/* <!-- CSS only --> */}
+          <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossOrigin="anonymous"
+          />
+          {/* <!-- JavaScript Bundle with Popper --> */}
+          <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossOrigin="anonymous"
+            defer
+          ></script>
+          {/* <!-- MailerLite Universal --> */}
+          {/* <script>
+      (function (m, a, i, l, e, r) {
+        m["MailerLiteObject"] = e;
+        function f() {
+          var c = { a: arguments, q: [] };
+          var r = this.push(c);
+          return "number" != typeof r ? r : f.bind(c.q);
+        }
+        f.q = f.q || [];
+        m[e] = m[e] || f.bind(f.q);
+        m[e].q = m[e].q || f.q;
+        r = a.createElement(i);
+        var _ = a.getElementsByTagName(i)[0];
+        r.async = 1;
+        r.src = l + "?v" + ~~(new Date().getTime() / 1000000);
+        _.parentNode.insertBefore(r, _);
+      })(
+        window,
+        document,
+        "script",
+        "https://static.mailerlite.com/js/universal.js",
+        "ml"
+      );
+      var ml_account = ml("accounts", "3161173", "g2o5g2c3i8", "load");
+    </script> */}
+          {/* <!-- End MailerLite Universal --> */}
+          <script
+            type="text/javascript"
+            src="https://assets.calendly.com/assets/external/widget.js"
+            async
+          ></script>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;400;700;900&family=Nunito:wght@400;600;700;800;900&display=swap"
+            rel="stylesheet"
+          />
+
+          <meta
+            name="Dailykit"
+            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+          />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+
+        <Navbar />
+        <BannerSection3
+          subheading={
+            "Operate a Kitchen Where Everyone Knows Their Roles & Responsibilites."
+          }
+          heading={"Idiot-Proof Production"}
+          image={
+            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-routing/Idiot%20Proof.....png"
+          }
+          blackbuttontext={"Start Now"}
+        />
+        <Bluebox1
+          heading={"Large or Small, We're Built for Every Scale of Operations"}
+          subheading={
+            "You Can Configure Fully-Automated Flows, Manual Flows Or Both Using DailyOS"
+          }
+          col1heading={"Kitchen Display System (KDS)"}
+          col1para={
+            "A KDS is any screen-based device that can replace paper order tickets for streamlined back-of-house workflow."
+          }
+          col2heading={"Kitchen Order Tickets (KOT)"}
+          col2para={
+            "No KDS? No problem! Print receipts with precise job instructions."
+          }
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
+        />
+
+        <Digitalise />
+        <Bluebox1
+          heading={"DailyKIT Understands Production Nuances"}
+          subheading={
+            "The Need For Ideal Flow For Production Fluctuates At Different Kitchen Production Volumes. We Provide You With The Option To Switch To Any Of The Below At Will."
+          }
+          col1heading={"Batch/Planned Mode"}
+          col1para={
+            "For pre-orders with scheduled delivery times, it is best to operate knowing the required inventory beforehand, so you can save time by packing similar ingredients in one shot, allowing for seamless final packaging"
+          }
+          col2heading={"Made to Order Mode"}
+          col2para={
+            "For on-demand ordering it is best to assign priority to each received order and pack & assemble them according to their expected dispatch time."
+          }
+          learn={"one"}
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
+        />
+        <BannerSection8
+          heading={"How It Works for Meal Kits"}
+          subheading={"Routing Meal Kit Ingredients"}
+          image={
+            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-routing/Work-for-MealKit@2x.png"
+          }
+          para={[
+            "Step 1 - The meal kit ingredients are reported at the stations according to your operational configuration, either through KDS or KOTs.",
+            "Step 2 - Your staff is shown precise instructions regarding packaging, weight, SOPs, etc., in order to ensure product consistency.",
+            "Step 3 - Post ingredients packing, the assembly station is notified. Staff then assemble meal kits using a hand-scanner or mobile app.",
+          ]}
+        />
+        <BannerSection8
+          heading={"How It Works for Ready-to-Eat"}
+          subheading={"Routing Menu Items"}
+          image={
+            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-routing/ready-to-eat.png"
+          }
+          para={[
+            "Step 1 - All of the items in a Ready-to-Eat order are routed to assigned work stations.",
+            "Step 2 - Your staff is shown precise instructions, packaging, and any customer-generated modification. Once staff marks it done, the label is automatically printed if configured.",
+            "Step 3 - Once all of the items are packed, it's sent to the designated assembly station, where label is scanned or marked manually.",
+          ]}
+        />
+        <BannerSection8
+          heading={"How It Works for Grocery"}
+          subheading={"Routing Grocery Items"}
+          image={
+            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-routing/Order-routing@2x.png"
+          }
+          para={[
+            "Step 1 - All of the grocery items are routed to their assigned stations for picking & packaging.",
+            "Step 2 - Your staff is shown precise instructions on picking the supplier item, along with the quantity needed, as well as packaging. Once staff marks it done, the label is automatically printed if configured.",
+            "Step 3 - Once all items are packed, it's then sent to the designated assembly station where the label is scanned or marked manually & the items are assembled in their respective bags",
+          ]}
+        />
+        <EndToEndFoodBusiness
+          subheading={"An End-To-End Food Business Software Solution Provider"}
+          heading={"You've Never Managed Your Food Business Like This Before"}
+          dataAccount={"3161173:g2o5g2c3i8"}
+          dataForm={"4175542:d4z0s3"}
+          points={[
+            [
+              "Recipe & Menu Engineering",
+              "Manufacturing Technology",
+              "Sales & Marketing Platform",
+            ],
+            [
+              "Delivery & Packaging Integrations",
+              "Inventory Management",
+              "Analytics",
+            ],
+          ]}
+        />
+        <ScheduleMeetingSection1
+          heading={"Schedule an E-Meeting"}
+          image={
+            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
+          }
+          id={"scheduledemo"}
+          content={[
+            {
+              question: "How Do You Schedule A Meeting?",
+              answer:
+                "Select the date on the calendar, the time slot, and then simply fill in your information. Done!",
+            },
+            {
+              question: "What Happens After You Schedule A Meeting?",
+              answer:
+                "We will send you a calendar invite to your supplied email address with the Google Meet link at the scheduled date & time.In the event that you're unable to join by laptop/computer, we will call you on the given phone number",
+            },
+            {
+              question: "What Happens During The Meeting?",
+              answer:
+                "We invite you to share good, bad and the ugly of your business. After understanding your requirements and concerns, we will figure out how to deploy the proper DailyKIT tech solutions based on your business strategy.",
+            },
+          ]}
+        />
+        <Footer />
+      </div>
+    );
+  }
+}

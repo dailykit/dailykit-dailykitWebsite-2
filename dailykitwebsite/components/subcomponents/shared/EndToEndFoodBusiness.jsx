@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import tick from "../../tick.PNG";
+import Image from "next/image";
 import TrialForm from "./TrialForm";
 
 export default class EndToEndFoodBusiness extends PureComponent {
@@ -41,7 +41,11 @@ export default class EndToEndFoodBusiness extends PureComponent {
             {this.props.points[0].map((point) => {
               return (
                 <div className="col-md-3 col-xs-10 p-4">
-                  <img alt="icon" src={tick} style={{ width: "50px" }} />
+                  <img
+                    alt="icon"
+                    src="/assets/images/tick.PNG"
+                    style={{ width: "50px" }}
+                  />
                   <h6 style={{ display: "inline" }}>{point}</h6>
                   <br />
                 </div>
@@ -52,7 +56,11 @@ export default class EndToEndFoodBusiness extends PureComponent {
             {this.props.points[1].map((point) => {
               return (
                 <div className="col-md-3 col-xs-10 p-4">
-                  <img alt="icon" src={tick} style={{ width: "50px" }} />
+                  <img
+                    alt="icon"
+                    src="/assets/images/tick.PNG"
+                    style={{ width: "50px" }}
+                  />
                   <h6 style={{ display: "inline" }}>{point}</h6>
                   <br />
                 </div>
