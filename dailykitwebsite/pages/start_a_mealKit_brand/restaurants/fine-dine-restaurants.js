@@ -41,8 +41,9 @@ export default class For_Restaurants extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="WHY FINE DINING RESTAURANTS SHOULD DO MEAL KITS?"
+            content="Your recipes are unique, Loyal Customers & You can get very high ROI. Low turnout on regular week nights. Losing revenue by unexpected crowd. 
+            Conundrum to partner with 3rd party delivery or not."
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

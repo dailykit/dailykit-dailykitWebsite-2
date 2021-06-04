@@ -41,8 +41,8 @@ export default class HowtodecideyourMealKitMenu extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="How to prepare a Meal Kit Menu"
+            content="Perfect Meal Kit Menu takes time but we can make this process easier for you. This strategy seems like the perfect one to start with. Here are some tips on coming up with the right Meal Kit menu"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

@@ -42,8 +42,8 @@ export default class Cloud_kitchen extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="WHY CLOUD KITCHENS SHOULD DO MEAL KITS?"
+            content="Dailykit is the most Startup friendly software technology company. We help you build a strong and sustainable business by providing Customization control to your customer, Delivery within hours & Real Time Control. Boost your Brand up with Dailykit. Off the Roof ROI. Sell more and Streamline Operations. Easy to scale. "
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

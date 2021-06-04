@@ -41,8 +41,8 @@ export default class BakeryPage extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="WHY SHOULD BAKERIES DO MEAL KITS?"
+            content="Bakers can get the most out ofMeal Kits by enjoying Substantial Revenue, Diverse menu & Increased Customer Loyalty. Diversify your Menu. Your Loyal Customers would be craving for your recipes. Achieve Higher Profit Margins"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

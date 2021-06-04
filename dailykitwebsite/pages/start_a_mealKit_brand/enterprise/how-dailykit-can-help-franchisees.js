@@ -42,8 +42,9 @@ export default class Franchisees extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="WHY SHOULD FRANCHISEES START MEAL KITS?"
+            content="How do you stand out from the competition? How do you increase profitability and increase your offering? How do you add new franchisees? Dailykit will address all the challenges presented above. Discard Competition. Achieve Sustainable Operations. Explore New Revenue Streams. Expand your customers base.
+            "
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

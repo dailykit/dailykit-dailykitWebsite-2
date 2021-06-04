@@ -41,8 +41,8 @@ export default class Meal_kit_packaging extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="How to pack your Meal Kits?"
+            content="Works for all types of Meal Kits like Shelf-Based Meal Kits, Prepped Meal Kits, raw Meal Kits and more. Subscription Based Meal Kits. Manage Inner Packaging. More Sustainable Ideas. Meal Kits are nothing to be afraid of and it’s packaged exactly how you think it should be. "
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

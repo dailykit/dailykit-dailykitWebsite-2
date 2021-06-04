@@ -42,8 +42,8 @@ export default class Grocers extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="WHY SHOULD GROCERS DO MEAL KITS?"
+            content="Grab Your share of the Meal Kit Revenue. Discard Competition. Achieve Sustainable Operations. Explore New Revenue Streams. Expand your customers base. Dailykit will help you get there easily. "
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

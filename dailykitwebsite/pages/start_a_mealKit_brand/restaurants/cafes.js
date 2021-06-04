@@ -41,8 +41,8 @@ export default class QSR_Cafes extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="WHY QSRS, CAFES AND CASUAL DINING SHOULD DO MEAL KITS?"
+            content="Stagnant to Increasing Revenue, Shrinking to Expanding Consumer base & Unsustainable Margin to Healthy Profits. Increase Revenue. Expand Consumer Base. Achieve healthy profits"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
