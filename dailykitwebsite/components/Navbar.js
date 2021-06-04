@@ -242,12 +242,14 @@ export default class Navbar extends PureComponent {
                     </a>
                     <ul className="special-styling">
                       <li className="hover">
-                        <a href="/restaurants/fine-dine-restaurants">
+                        <a href="/start_a_mealKit_brand/restaurants/fine-dine-restaurants">
                           Casual and Fine Dining
                         </a>
                       </li>
                       <li className="hover">
-                        <a href="/restaurants/cafes">QSR, Cafes</a>
+                        <a href="/start_a_mealKit_brand/restaurants/cafes">
+                          QSR, Cafes
+                        </a>
                       </li>
                     </ul>
                   </li>
@@ -265,15 +267,17 @@ export default class Navbar extends PureComponent {
                     </a>
                     <ul className="special-styling">
                       <li className="hover">
-                        <a href="/enterprise/grocers">Grocers</a>
+                        <a href="/start_a_mealKit_brand/enterprise/grocers">
+                          Grocers
+                        </a>
                       </li>
                       <li className="hover">
-                        <a href="/enterprise/meal-kit-startups">
+                        <a href="/start_a_mealKit_brand/enterprise/meal-kit-startups">
                           Meal kit Startups
                         </a>
                       </li>
                       <li className="hover">
-                        <a href="/enterprise/how-dailykit-can-help-franchisees">
+                        <a href="/start_a_mealKit_brand/enterprise/how-dailykit-can-help-franchisees">
                           Franchisees
                         </a>
                       </li>
@@ -288,7 +292,7 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="/cloud_kitchen"
+                      href="start_a_mealKit_brand/cloud_kitchen"
                     >
                       Cloud Kitchen
                     </a>
@@ -301,7 +305,7 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="/bakerypage"
+                      href="start_a_mealKit_brand/bakerypage"
                     >
                       Bakery
                     </a>
@@ -319,7 +323,7 @@ export default class Navbar extends PureComponent {
                     </a>
                     <ul className="special-styling">
                       <li className="hover">
-                        <a href="/meal-kit-guides/meal-kit-packaging">
+                        <a href="start_a_mealKit_brand/meal-kit-guides/meal-kit-packaging">
                           Meal Kit Packaging
                         </a>
                       </li>
@@ -327,22 +331,22 @@ export default class Navbar extends PureComponent {
                         <a>The Meal Kit Marketing Guide ▼</a>
                         <ul className="special-styling">
                           <li className="hover">
-                            <a href="/meal-kit-guides/meal-kit-guides/how-to-decide-your-meal-kits">
+                            <a href="start_a_mealKit_brand/start_a_mealKit_brand/meal-kit-guides/meal-kit-guides/how-to-decide-your-meal-kits">
                               How to decide your meal kits
                             </a>
                           </li>
                           <li className="hover">
-                            <a href="/meal-kit-guides/meal-kit-guides/how-to-price-your-meal-kits">
+                            <a href="/start_a_mealKit_brand/meal-kit-guides/meal-kit-guides/how-to-price-your-meal-kits">
                               How to price your meal kits
                             </a>
                           </li>
                           <li className="hover">
-                            <a href="/meal-kit-guides/meal-kit-guides/how-to-promote-your-meal-kits">
+                            <a href="/start_a_mealKit_brand/meal-kit-guides/meal-kit-guides/how-to-promote-your-meal-kits">
                               How to promote your meal kits
                             </a>
                           </li>
                           <li className="hover">
-                            <a href="/meal-kit-guides/meal-kit-guides/how-to-sell-your-meal-kits">
+                            <a href="/start_a_mealKit_brand/meal-kit-guides/meal-kit-guides/how-to-sell-your-meal-kits">
                               How to sell your meal kits
                             </a>
                           </li>
@@ -364,12 +368,12 @@ export default class Navbar extends PureComponent {
                     </a>
                     <ul className="special-styling">
                       <li className="hover">
-                        <a href="/start-meal-kit-brands/what-is-meal-kit">
+                        <a href="/start_a_mealKit_brand/start-meal-kit-brands/what-is-meal-kit">
                           What is a Meal Kit?
                         </a>
                       </li>
                       <li className="hover">
-                        <a href="/start-meal-kit-brands/how-to-start-a-Meal-Kit-Service">
+                        <a href="/start_a_mealKit_brand/start-meal-kit-brands/how-to-start-a-Meal-Kit-Service">
                           How to start a Meal Kit Service
                         </a>
                       </li>
@@ -388,7 +392,7 @@ export default class Navbar extends PureComponent {
                     </a>
                     <ul className="special-styling">
                       <li className="hover">
-                        <a href="/case-study/Groctaurant-Case-Study">
+                        <a href="/start_a_mealKit_brand/case-study/Groctaurant-Case-Study">
                           Groctaurant Case Study
                         </a>
                       </li>
@@ -407,16 +411,24 @@ export default class Navbar extends PureComponent {
                     </a>
                     <ul className="special-styling">
                       <li className="hover">
-                        <a href="/do-more/Recipe-Provider">Recipe Provider</a>
+                        <a href="/start_a_mealKit_brand/do-more/Recipe-Provider">
+                          Recipe Provider
+                        </a>
                       </li>
                       <li className="hover">
-                        <a href="/do-more/Co-Packer">Co-Packer</a>
+                        <a href="/start_a_mealKit_brand/do-more/Co-Packer">
+                          Co-Packer
+                        </a>
                       </li>
                       <li className="hover">
-                        <a href="/do-more/Co-Seller">Co-Seller</a>
+                        <a href="/start_a_mealKit_brand/do-more/Co-Seller">
+                          Co-Seller
+                        </a>
                       </li>
                       <li className="hover">
-                        <a href="/do-more/Delivery-Partner">Delivery Partner</a>
+                        <a href="/start_a_mealKit_brand/do-more/Delivery-Partner">
+                          Delivery Partner
+                        </a>
                       </li>
                     </ul>
                   </li>
@@ -455,7 +467,7 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="/Aboutus/Ourphilosophy"
+                      href="/start_a_mealKit_brand/Aboutus/Ourphilosophy"
                     >
                       Our Philosophy
                     </a>
@@ -468,7 +480,7 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="/AboutUs/Blog"
+                      href="/start_a_mealKit_brand/AboutUs/Blog"
                     >
                       Blog
                     </a>

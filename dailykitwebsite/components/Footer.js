@@ -8,7 +8,7 @@ const Footer = () => {
           <Image
             src="/assets/images/dailykit_logo.svg"
             width="50"
-            height="auto"
+            height="60"
             style={{ paddingBottom: "1rem" }}
             alt="footer_logo"
           />

@@ -20,15 +20,7 @@ const VideoBanner = (props) => {
         <br />
         <h5>{props.subheadingtext}</h5>
         <br />
-        <h4
-          id="yourElem"
-          className="all-text"
-          onClick={setInterval(() => {
-            document
-              .querySelector("#yourElem")
-              .text(props.toggletextarr[Math.floor(Math.random() * 4) + 0]);
-          }, 2000)}
-        >
+        <h4 id="yourElem" className="all-text">
           {props.toggletextarr[0]}
         </h4>
         <br />

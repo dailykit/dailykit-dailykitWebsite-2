@@ -28,31 +28,7 @@ export default class Marketpage extends PureComponent {
             defer
           ></script>
           {/* <!-- MailerLite Universal --> */}
-          {/* <script>
-      (function (m, a, i, l, e, r) {
-        m["MailerLiteObject"] = e;
-        function f() {
-          var c = { a: arguments, q: [] };
-          var r = this.push(c);
-          return "number" != typeof r ? r : f.bind(c.q);
-        }
-        f.q = f.q || [];
-        m[e] = m[e] || f.bind(f.q);
-        m[e].q = m[e].q || f.q;
-        r = a.createElement(i);
-        var _ = a.getElementsByTagName(i)[0];
-        r.async = 1;
-        r.src = l + "?v" + ~~(new Date().getTime() / 1000000);
-        _.parentNode.insertBefore(r, _);
-      })(
-        window,
-        document,
-        "script",
-        "https://static.mailerlite.com/js/universal.js",
-        "ml"
-      );
-      var ml_account = ml("accounts", "3161173", "g2o5g2c3i8", "load");
-    </script> */}
+          <script src="../components/mailerlite.js" defer></script>
           {/* <!-- End MailerLite Universal --> */}
           <script
             type="text/javascript"
@@ -85,7 +61,7 @@ export default class Marketpage extends PureComponent {
           button2link={"#scheduledemo"}
         />
         <BannerSection5
-          icon="/assets/paperplane.PNG"
+          icon="/assets/icons/paperplane.PNG"
           heading={"Build Smarter Campaigns."}
           description={
             "Create and deliver engaging experiences, improve customer engagement and boost ROI in the process."
@@ -95,7 +71,7 @@ export default class Marketpage extends PureComponent {
           }
         />
         <BannerSection5
-          icon="/assets/paperplane.PNG"
+          icon="/assets/icons/paperplane.PNG"
           heading={"Inspire customers to take action."}
           para={[
             "Customers are always looking for fresh new deals. With DailyKIT's Custom Coupons become a lead magnet with exclusive offers and motivate customers to take action.",
@@ -106,7 +82,7 @@ export default class Marketpage extends PureComponent {
           }
         />
         <BannerSection5
-          icon="/assets/paperplane.PNG"
+          icon="/assets/icons/paperplane.PNG"
           heading={"Create Rewarding Experiences."}
           description={
             "Keep your customers coming back by rewarding them when they take a certain action. With Loyalty Points, retain and keep your customers engaged."
@@ -133,7 +109,7 @@ export default class Marketpage extends PureComponent {
           }
         />
         <BannerSection5
-          icon="/assets/paperplane.PNG"
+          icon="/assets/icons/paperplane.PNG"
           heading={"Keep them Loyal."}
           description={
             "With our cashbacks, maintain customer loyalty by rewarding them for their action. With DailyKIT Wallets, provide more than one way to shop for your customer."
