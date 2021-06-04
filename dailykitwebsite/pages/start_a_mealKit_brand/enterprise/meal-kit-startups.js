@@ -7,12 +7,13 @@ import BlogSection from "../../../components/subcomponents/BlogSection";
 import GreenHeading from "../../../components/subcomponents/GreenHeading";
 import Sidebar from "../../../components/subcomponents/Sidebar";
 import FormSection1 from "../../../components/subcomponents/FormSection1";
-export default class For_Restaurants extends PureComponent {
+export default class MealkitStartups extends PureComponent {
   render() {
     return (
       <div>
+        {" "}
         <Head>
-          <title>Restaurants: Fine dine restaurants</title>
+          <title>Enterprise: MealkitStartups</title>
           {/* <!-- CSS only --> */}
           <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -46,16 +47,15 @@ export default class For_Restaurants extends PureComponent {
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-
         <Navbar />
-        <Restaurants />
+        <MealkitStartupsComponent />
         <Footer />
       </div>
     );
   }
 }
 
-export class Restaurants extends PureComponent {
+export class MealkitStartupsComponent extends PureComponent {
   render() {
     return (
       <div>
@@ -64,57 +64,48 @@ export class Restaurants extends PureComponent {
           dataForm="4175704:a4w7j9"
         />
         <div className="head">
-          <GreenHeading text="Fine Dine customers love Meal Kits the most since" />
-          <BlackHeading text="Your recipes are unique, Loyal Customers & You can get very high ROI" />
+          <GreenHeading text="Start your business journey" />
+          <BlackHeading text="Explore all the tools you need to start, run, and grow your business" />
         </div>
         {/* <--first sidebar--> */}
         <Sidebar
           rest={[
             {
-              sidebar_heading:
-                "WHY FINE DINING RESTAURANTS SHOULD DO MEAL KITS?",
+              sidebar_heading: "WHY YOU SHOULDN'T BUILD YOUR OWN TECHNOLOGY?",
               sidebar_link: [
-                "Low turnout on regular week nights",
-                "Losing revenue by unexpected crowd",
-                "Conundrum to partner with 3rd party delivery or not",
+                "We founders aren’t CTOs",
+                "Building a technology product",
+                "Raise funds",
               ],
-              para_heading: "Fine dining or experience restaurants ",
+              para_heading: "",
               para: [
-                "are the places that we love to dine in. They provide an ambiance and service to look forward to. There are hardly any restaurants who can attribute their loyal customers to ambiance and service alone. Everyone knows that if the food ain’t right, then the place ain’t right.",
-                "So, if you are running your establishment successfully, we have a reason to believe that your food is exceptional and makes people come to you again and again. Every business has some challenges and the case is same here.",
-                "Below we discuss some of the challenges faced by fine dining",
+                "If you are a founder of a Meal Kit Brand, we’re so glad you’re here.",
+                "I’m Rishi, founder of Dailykit and before Dailykit, I was founder of a meal kit company.",
+                "Here are the experience from my previous company and other meal kit founders who were in the industry,",
               ],
               para2: [
                 {
-                  para2_heading: "Low turnout on regular week nights",
+                  para2_heading: "We founders aren’t CTOs",
                   para2: [
-                    "Most people follow the corporate style, hangout on weekends and relax at home on regular nights. It is not uncommon to see, restaurants almost empty on most of the nights and crowded way above capacity on weekends and some special dates.",
-                    "It would be a shame if fancy dishes like yours were to be delivered cooked in some plastic ware and we know that . Your chef curated meals does not deserve that.",
-                    "Well, if there’s any truth to success behind blueapron, it’s their fancy recipes that people love to cook at home. It makes them feel like a chef and gives them a satisfaction that is only making them more loyal to company like BA.",
-                    "So what do you do now?",
-                    "With Meal Kits, you have a chance to build brand loyalty with your  customers and add new customers who would love to cook your recipes at home, try and succeed to make it look like and bring out the flavours your chefs intended.",
+                    "We all know that meal kit operations require a custom technology because it’s much deeper and complex. When I started my company, I was in constant search for a CTO for my company. One thing that is rarer than the rarest things on earth, are CTOs.",
+                    "We ourselves are passionate about bringing good food to the people but often restrained by our skills.",
                   ],
                 },
                 {
-                  para2_heading: "Losing revenue by unexpected crowd",
+                  para2_heading: "Building a technology product",
                   para2: [
-                    "Table reservations.. They have been a social norm for past many decades. When a place is so successful that people have to reserve the tables hours before to in some cases even months.",
-                    "As an establishment owner, you are proud and satisfied with this enormous success but losing clients who were impromptu and impulsive may mean that you may lose them forever. Countless incidents have been heard when people tired of waiting and reservations, choose places that they are certain would be available.",
-                    "Well here again, adding Meal Kits, any customer who is there for food and not particularly for ambiance, have an opportunity to cook your meal kit at home and not disappoint their spouse on anniversary for their failure to secure a reservation.",
-                    "Adding new item in menu is a risk",
-                    "How often do you introduce and play around with your menu? Your menu for cooked food is something that should not be fooled around with but how does your culinary team test out the recipes if not put on the menu?",
-                    "Well, with meal kits, you have an opportunity to develop a recipe, and test it in market before introducing that to your main menu",
+                    "Let’s say you found a CTO or decided to be CTO of your company like me (Fine, I’ll do it myself attitude), we all know the problem is just starting.",
+                    "Now, you require product managers, developers, UI/UX designer and what not.",
+                    "Let me ask you? Are you in the business of selling food or selling technology. Building your own technology in the context of Meal kit is same as building your own ERP/Restaurant management system if you want to start a restaurant",
                   ],
                 },
                 {
-                  para2_heading:
-                    "Conundrum to partner with 3rd party delivery or not",
+                  para2_heading: "Raise funds",
                   para2: [
-                    "As said in the first point, delivery in plastic ware wouldn’t do justice to your finely chef curated meals. We know that you know that which is why such a low percentage of fine dining places are present on these marketplaces.",
-                    "Condensation, coldness, shakiness in delivery? Those fancy meals couldn’t handle that. Well, with meal kits, any recipe is delivery safe. People cook them at home and garnish the way you direct them to with recipe cards.",
-                    "Meaning? Well, now you can sell meal kits on aggregators and instead of runining your brand image, you’ll be getting more revenue and increased brand loyalty.",
-                    "Some examples of some fine dining restaurants doing meal kits in one of the forms is one of steakhouses out of NY. This place, sells kits of steaks costing about 300 dollars and they sell quite a lot.",
-                    "So, we don’t know what you’re waiting for but if you want to learn how we help you do it, then read our section.",
+                    "What comes first? Chicken or Egg? Well, that’s the nightmare of every startup founder. Funding would come when you become big, you become big when you have the technology and resources, you can have the tech and resources when you have funding. Sigh!",
+                    "Well, you can read more on “You don’t need VC money to start a meal kit brand”",
+                    "In all essence, I decided to be the CTO of my company and it taught me a lesson that the technology I was building can come to use of founders of other meal kit companies like me.",
+                    "So, if you are thinking of competing with Dailykit in future, we welcome you to build your own tech (we’re open source, so you can fork us on github). But if your passion is to be in food industry, then don’t get into the sink of IT expenditures and take help of Dailykit in succeeding yourself.",
                   ],
                 },
               ],

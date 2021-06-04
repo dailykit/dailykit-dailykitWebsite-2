@@ -292,7 +292,7 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="start_a_mealKit_brand/cloud_kitchen"
+                      href="/start_a_mealKit_brand/cloud_kitchen"
                     >
                       Cloud Kitchen
                     </a>
@@ -305,7 +305,7 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="start_a_mealKit_brand/bakerypage"
+                      href="/start_a_mealKit_brand/bakerypage"
                     >
                       Bakery
                     </a>
@@ -323,7 +323,7 @@ export default class Navbar extends PureComponent {
                     </a>
                     <ul className="special-styling">
                       <li className="hover">
-                        <a href="start_a_mealKit_brand/meal-kit-guides/meal-kit-packaging">
+                        <a href="/start_a_mealKit_brand/meal-kit-guides/meal-kit-packaging">
                           Meal Kit Packaging
                         </a>
                       </li>
@@ -331,22 +331,22 @@ export default class Navbar extends PureComponent {
                         <a>The Meal Kit Marketing Guide ▼</a>
                         <ul className="special-styling">
                           <li className="hover">
-                            <a href="start_a_mealKit_brand/start_a_mealKit_brand/meal-kit-guides/meal-kit-guides/how-to-decide-your-meal-kits">
+                            <a href="/start_a_mealKit_brand/start_a_mealKit_brand/meal-kit-guides/meal-kit-marketing-guides/how-to-decide-your-meal-kits">
                               How to decide your meal kits
                             </a>
                           </li>
                           <li className="hover">
-                            <a href="/start_a_mealKit_brand/meal-kit-guides/meal-kit-guides/how-to-price-your-meal-kits">
+                            <a href="/start_a_mealKit_brand/meal-kit-guides/meal-kit-marketing-guides/how-to-price-your-meal-kits">
                               How to price your meal kits
                             </a>
                           </li>
                           <li className="hover">
-                            <a href="/start_a_mealKit_brand/meal-kit-guides/meal-kit-guides/how-to-promote-your-meal-kits">
+                            <a href="/start_a_mealKit_brand/meal-kit-guides/meal-kit-marketing-guides/how-to-promote-your-meal-kits">
                               How to promote your meal kits
                             </a>
                           </li>
                           <li className="hover">
-                            <a href="/start_a_mealKit_brand/meal-kit-guides/meal-kit-guides/how-to-sell-your-meal-kits">
+                            <a href="/start_a_mealKit_brand/meal-kit-guides/meal-kit-marketing-guides/how-to-sell-your-meal-kits">
                               How to sell your meal kits
                             </a>
                           </li>

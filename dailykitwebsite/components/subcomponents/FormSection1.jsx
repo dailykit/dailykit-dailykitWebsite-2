@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react";
-import "../style.css";
 export default class FormSection1 extends PureComponent {
   render() {
     return (
