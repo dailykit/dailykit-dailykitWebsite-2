@@ -6,7 +6,7 @@ export default class SpecialBanner3 extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "6rem" }}>
-        <div class="container bluebox2-container">
+        <div className="container bluebox2-container">
           {this.props.SubHeading2text && (
             <SubHeading1 text={this.props.SubHeading2text} />
           )}
@@ -17,15 +17,15 @@ export default class SpecialBanner3 extends PureComponent {
             <SubHeading1 text={this.props.SubHeading1text} />
           )}
 
-          <div class="row">
-            <div class="col-md-6 col-xs-10 ">
+          <div className="row">
+            <div className="col-md-6 col-xs-10 ">
               <img
                 src={this.props.imageurl1}
                 alt="..."
                 className="image-responsive-2"
               />
             </div>
-            <div class="col-md-6 col-xs-10">
+            <div className="col-md-6 col-xs-10">
               <img
                 src={this.props.imageurl2}
                 alt="..."

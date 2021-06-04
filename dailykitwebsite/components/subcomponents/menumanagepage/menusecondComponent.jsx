@@ -4,18 +4,18 @@ export default class PersonalizationDoneRight extends PureComponent {
   render() {
     return (
       <>
-        <div class="container" style={{ marginTop: "8rem" }}>
-          <div class="row justify-content-between">
+        <div className="container" style={{ marginTop: "8rem" }}>
+          <div className="row justify-content-between">
             {this.props.leftImage && (
-              <div class="col-md-5 col-xs-10">
+              <div className="col-md-5 col-xs-10">
                 <img
                   src={this.props.leftImage}
-                  class="d-block image-responsive-size"
+                  className="d-block image-responsive-size"
                   alt="..."
                 />
               </div>
             )}
-            <div class="col-md-5 col-xs-10 trend-responsive">
+            <div className="col-md-5 col-xs-10 trend-responsive">
               <h2
                 style={{
                   fontWeight: "bolder",
@@ -43,7 +43,7 @@ export default class PersonalizationDoneRight extends PureComponent {
                 <button
                   type="button"
                   style={{ fontSize: "14px", width: "250px" }}
-                  class="btn btn-success btn-lg p-3 pl-4 pr-4"
+                  className="btn btn-success btn-lg p-3 pl-4 pr-4"
                 >
                   {this.props.buttontext
                     ? this.props.buttontext
@@ -52,10 +52,10 @@ export default class PersonalizationDoneRight extends PureComponent {
               </p>
             </div>
             {this.props.rightImage && (
-              <div class="col-md-5 col-xs-10">
+              <div className="col-md-5 col-xs-10">
                 <img
                   src={this.props.rightImage}
-                  class="d-block image-responsive-size"
+                  className="d-block image-responsive-size"
                   width="480px"
                   alt="..."
                 />

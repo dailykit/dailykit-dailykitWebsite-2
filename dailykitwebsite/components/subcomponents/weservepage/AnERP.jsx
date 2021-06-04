@@ -4,9 +4,9 @@ export default class AnERP extends PureComponent {
   render() {
     return (
       <>
-        <div class="container" style={{ marginTop: "12rem" }}>
-          <div class="row justify-content-between">
-            <div class="col-md-6 col-xs-10 trend-responsive">
+        <div className="container" style={{ marginTop: "12rem" }}>
+          <div className="row justify-content-between">
+            <div className="col-md-6 col-xs-10 trend-responsive">
               <h2 className="nunito we-serve-heading">{this.props.heading}</h2>
               <p
                 style={{
@@ -23,11 +23,11 @@ export default class AnERP extends PureComponent {
                 </button>
               </a>
             </div>
-            <div class="col-md-6 col-xs-10 right-image-margintop">
+            <div className="col-md-6 col-xs-10 right-image-margintop">
               <img
                 src={this.props.rightImage}
                 alt="..."
-                class="enterprise-image"
+                className="enterprise-image"
               />
             </div>
           </div>

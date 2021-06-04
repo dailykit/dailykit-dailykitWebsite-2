@@ -29,7 +29,7 @@ export default class OptimizeKitchen extends PureComponent {
           </div>
           <div className="sideBar_right">
             <div
-              class="container"
+              className="container"
               style={{
                 marginTop: "6rem",
                 padding: "2rem 0rem 6rem 0rem",
@@ -37,16 +37,16 @@ export default class OptimizeKitchen extends PureComponent {
                 textAlign: "center",
               }}
             >
-              <div class="row justify-content-evenly mb-4">
+              <div className="row justify-content-evenly mb-4">
                 {this.props.points[0].map((point) => {
                   return (
-                    <div class="col-md-4 col-xs-8 p-4 column3 justify-content-center">
+                    <div className="col-md-4 col-xs-8 p-4 column3 justify-content-center">
                       <h5
                         style={{
                           display: "inline",
                           fontWeight: "bolder",
                         }}
-                        class="nunito"
+                        className="nunito"
                       >
                         {point.heading}
                       </h5>
@@ -72,16 +72,16 @@ export default class OptimizeKitchen extends PureComponent {
                   );
                 })}
 
-                <div class="row justify-content-evenly mt-8">
+                <div className="row justify-content-evenly mt-8">
                   {this.props.points[1].map((point) => {
                     return (
-                      <div class="col-md-4 col-xs-8 p-4 column3 justify-content-center">
+                      <div className="col-md-4 col-xs-8 p-4 column3 justify-content-center">
                         <h5
                           style={{
                             display: "inline",
                             fontWeight: "bolder",
                           }}
-                          class="nunito"
+                          className="nunito"
                         >
                           {point.heading}
                         </h5>

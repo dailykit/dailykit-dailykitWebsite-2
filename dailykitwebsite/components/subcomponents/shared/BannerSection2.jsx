@@ -19,19 +19,17 @@ export default class BannerSection2 extends PureComponent {
             )}
             {this.props.heading && <h2>{this.props.heading}</h2>}
             {this.props.description && (
-              <p className="descriptiontype1">{this.props.description}</p>
+              <div className="descriptiontype1">{this.props.description}</div>
             )}{" "}
             {this.props.descriptiontype2 && (
-              <p className="descriptiontype2 nunito">
+              <div className="descriptiontype2 nunito">
                 {this.props.descriptiontype2}
-              </p>
+              </div>
             )}{" "}
             {this.props.descriptionpoints && (
               <ul className="onDemandCategories">
                 {this.props.descriptionpoints.map((point) => {
-                  return (
-                    <li key={Math.round(Math.random() * 1000)}>{point}</li>
-                  );
+                  return <li key={point}>{point}</li>;
                 })}
               </ul>
             )}

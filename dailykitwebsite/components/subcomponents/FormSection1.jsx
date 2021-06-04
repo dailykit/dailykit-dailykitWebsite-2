@@ -5,34 +5,34 @@ export default class FormSection1 extends PureComponent {
       <>
         <button
           type="button"
-          class="btn btn-primary sidebar-contactus sticky-top"
+          className="btn btn-primary sidebar-contactus sticky-top"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
         >
           Contact Us
         </button>
         <div
-          class="modal fade"
+          className="modal fade"
           id="exampleModal"
-          tabindex="-1"
+          tabIndex="-1"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
         >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">
+          <div className="modal-dialog modal-dialog-centered">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title" id="exampleModalLabel">
                   Fill the form
                 </h5>
                 <button
                   type="button"
-                  class="btn-close"
+                  className="btn-close"
                   data-bs-dismiss="modal"
                   aria-label="Close"
                 ></button>
               </div>
               <div
-                class="ml-form-embed"
+                className="ml-form-embed"
                 data-account={this.props.dataAccount}
                 data-form={this.props.dataForm}
               ></div>

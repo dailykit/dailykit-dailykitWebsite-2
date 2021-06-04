@@ -18,20 +18,20 @@ export default class Bluebox extends PureComponent {
         <a href={this.props.buttonlink}>
           <button
             type="button"
-            class="btn-style-thirteen green p-3 pl-4 pr-4 mb-4"
+            className="btn-style-thirteen green p-3 pl-4 pr-4 mb-4"
           >
             {this.props.buttontext}
           </button>
         </a>
         <div className="container">
-          <div class="row justify-content-center mb-4 mt-4">
-            <p class="col-md-5 col-xs-10 bluebox-right">
+          <div className="row justify-content-center mb-4 mt-4">
+            <div className="col-md-5 col-xs-10 bluebox-right">
               {this.props.leftpara}
-            </p>
-            <p class="col-md-1 blackline"></p>
-            <p class="col-md-5 col-xs-10 bluebox-left">
+            </div>
+            <div className="col-md-1 blackline"></div>
+            <div className="col-md-5 col-xs-10 bluebox-left">
               {this.props.rightpara}
-            </p>
+            </div>
           </div>
         </div>
       </div>

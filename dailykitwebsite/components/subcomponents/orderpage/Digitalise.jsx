@@ -3,7 +3,7 @@ export default class Digitalise extends PureComponent {
   render() {
     return (
       <>
-        <div class="container" style={{ marginTop: "8rem" }}>
+        <div className="container" style={{ marginTop: "8rem" }}>
           <small
             style={{
               color: "#8ac03b",
@@ -11,18 +11,18 @@ export default class Digitalise extends PureComponent {
               textAlign: "center",
               marginBottom: "6rem",
             }}
-            class="nunito"
+            className="nunito"
           >
             Define As You Go
           </small>
-          <h2 class="bluebox-heading nunito" style={{ color: "#111B2B" }}>
+          <h2 className="bluebox-heading nunito" style={{ color: "#111B2B" }}>
             Digitalize Your Kitchen Operations
           </h2>
-          <div class="row justify-content-between">
-            <div class="col-md-6 col-xs-10">
-              <div class="row justify-content-evenly">
+          <div className="row justify-content-between">
+            <div className="col-md-6 col-xs-10">
+              <div className="row justify-content-evenly">
                 <div
-                  class="col-12 p-4"
+                  className="col-12 p-4"
                   style={{ boxShadow: "0px 10px 20px rgb(19 116 246 / 10%);" }}
                 >
                   <img src="/assets/icons/map2.PNG" alt="icon" width="50px" />
@@ -44,9 +44,9 @@ export default class Digitalise extends PureComponent {
                   </small>
                 </div>
               </div>
-              <div class="row justify-content-evenly">
+              <div className="row justify-content-evenly">
                 <div
-                  class="col-12 p-4"
+                  className="col-12 p-4"
                   style={{ boxShadow: "0px 10px 20px rgb(19 116 246 / 10%);" }}
                 >
                   <img
@@ -69,9 +69,9 @@ export default class Digitalise extends PureComponent {
                   </small>
                 </div>
               </div>
-              <div class="row justify-content-evenly">
+              <div className="row justify-content-evenly">
                 <div
-                  class="col-12 p-4"
+                  className="col-12 p-4"
                   style={{ boxShadow: "0px 10px 20px rgb(19 116 246 / 10%);" }}
                 >
                   <img src="/assets/icons/people.svg" alt="icon" width="50px" />
@@ -93,7 +93,7 @@ export default class Digitalise extends PureComponent {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xs-10 imagebox18"></div>
+            <div className="col-md-6 col-xs-10 imagebox18"></div>
           </div>
         </div>
       </>

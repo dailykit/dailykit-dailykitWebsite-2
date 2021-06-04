@@ -14,13 +14,18 @@ export default class SpecialBanner5 extends PureComponent {
             {this.props.heading}
           </h1>
         )}
-        {this.props.subpara && <p class="why_choose">{this.props.subpara}</p>}
+        {this.props.subpara && (
+          <p className="why_choose">{this.props.subpara}</p>
+        )}
         {/* categories */}
-        <div class="container" style={{ textAlign: "left" }}>
-          <div class="row justify-content-center">
+        <div className="container" style={{ textAlign: "left" }}>
+          <div className="row justify-content-center">
             {this.props.points[0].map((point) => {
               return (
-                <div class="col-md-3 col-xs-10 p-4 column">
+                <div
+                  className="col-md-3 col-xs-10 p-4 column"
+                  key={point.heading}
+                >
                   <img alt="icon" src={point.icon} style={{ width: "30px" }} />
                   <h5>{point.heading}</h5>
                   <br />
@@ -29,10 +34,13 @@ export default class SpecialBanner5 extends PureComponent {
               );
             })}
           </div>
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
             {this.props.points[1].map((point) => {
               return (
-                <div class="col-md-3 col-xs-10 p-4 column">
+                <div
+                  className="col-md-3 col-xs-10 p-4 column"
+                  key={point.heading}
+                >
                   <img alt="icon" src={point.icon} style={{ width: "30px" }} />
                   <h5>{point.heading}</h5>
                   <br />
@@ -43,7 +51,7 @@ export default class SpecialBanner5 extends PureComponent {
           </div>
         </div>
         <a href={this.props.buttonlink}>
-          <button type="button" class="btn-style-thirteen green">
+          <button type="button" className="btn-style-thirteen green">
             {this.props.buttontext}
           </button>
         </a>
@@ -57,11 +65,14 @@ export default class SpecialBanner5 extends PureComponent {
             marginTop: "6rem",
           }}
         >
-          <div class="container whychoose-container2">
-            <div class="row justify-content-evenly">
+          <div className="container whychoose-container2">
+            <div className="row justify-content-evenly">
               {this.props.points[2].map((point) => {
                 return (
-                  <div class="col-md-3 col-xs-10 p-4 column2">
+                  <div
+                    className="col-md-3 col-xs-10 p-4 column2"
+                    key={point.heading}
+                  >
                     <img
                       alt="icon"
                       src={point.icon}
@@ -74,10 +85,13 @@ export default class SpecialBanner5 extends PureComponent {
                 );
               })}
             </div>
-            <div class="row justify-content-evenly">
+            <div className="row justify-content-evenly">
               {this.props.points[3].map((point) => {
                 return (
-                  <div class="col-md-3 col-xs-10 p-4 column2">
+                  <div
+                    className="col-md-3 col-xs-10 p-4 column2"
+                    key={point.heading}
+                  >
                     <img
                       alt="icon"
                       src={point.icon}

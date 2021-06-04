@@ -9,7 +9,7 @@ const SmallPara = (props) => {
             <img
               src={smallPara.image}
               alt="smallParaImage"
-              class="startAMealImage"
+              className="startAMealImage"
             />
           </>
         ) : (

@@ -24,7 +24,7 @@ export default class BannerSection5 extends PureComponent {
               >
                 {this.props.heading}
               </h2>
-              <p
+              <div
                 style={{
                   fontSize: "16px",
                 }}
@@ -45,7 +45,7 @@ export default class BannerSection5 extends PureComponent {
                       </div>
                     );
                   })}
-              </p>
+              </div>
               {this.props.box1title && (
                 <div className="row justify-content-evenly">
                   <div
@@ -65,9 +65,9 @@ export default class BannerSection5 extends PureComponent {
                       </h5>
                     )}
                     {this.props.box1description && (
-                      <p style={{ marginTop: "2rem" }}>
+                      <div style={{ marginTop: "2rem" }}>
                         {this.props.box1description}
-                      </p>
+                      </div>
                     )}
                   </div>
                   <div
@@ -87,9 +87,9 @@ export default class BannerSection5 extends PureComponent {
                       </h5>
                     )}
                     {this.props.box2description && (
-                      <p style={{ marginTop: "2rem" }}>
+                      <div style={{ marginTop: "2rem" }}>
                         {this.props.box2description}
-                      </p>
+                      </div>
                     )}
                   </div>
                 </div>

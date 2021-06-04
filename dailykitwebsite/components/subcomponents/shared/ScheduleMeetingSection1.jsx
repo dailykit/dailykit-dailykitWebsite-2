@@ -9,11 +9,11 @@ export default class ScheduleMeetingSection1 extends PureComponent {
             {this.props.content &&
               this.props.content.map((line) => {
                 return (
-                  <>
+                  <span key={line.question}>
                     <div className="question">{line.question}</div>
                     <p className="answer">{line.answer}</p>
                     <br />
-                  </>
+                  </span>
                 );
               })}
           </div>

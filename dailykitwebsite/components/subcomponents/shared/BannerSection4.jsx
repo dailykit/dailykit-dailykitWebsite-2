@@ -32,7 +32,7 @@ export default class BannerSection4 extends PureComponent {
                   {this.props.heading}
                 </h2>
               )}
-              <p className="descriptiontype3">
+              <div className="descriptiontype3">
                 {this.props.description && (
                   <div className="row">
                     <div
@@ -51,13 +51,12 @@ export default class BannerSection4 extends PureComponent {
                   >
                     {this.props.points.map((point) => {
                       return (
-                        <ul className="col-md-6 col-xs-10 onDemandCategories">
+                        <ul
+                          className="col-md-6 col-xs-10 onDemandCategories"
+                          key={point}
+                        >
                           {point.map((li) => {
-                            return (
-                              <li key={Math.round(Math.random() * 1000)}>
-                                {li}
-                              </li>
-                            );
+                            return <li key={li}>{li}</li>;
                           })}
                         </ul>
                       );
@@ -84,7 +83,7 @@ export default class BannerSection4 extends PureComponent {
                     )}
                   </div>
                 )}
-              </p>
+              </div>
             </div>
             {this.props.rightimage && (
               <div className="col-md-6 col-xs-10">

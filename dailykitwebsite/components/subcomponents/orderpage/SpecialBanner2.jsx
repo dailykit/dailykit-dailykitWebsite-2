@@ -6,7 +6,7 @@ export default class SpecialBanner2 extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "8rem" }}>
-        <div class="container bluebox2-container">
+        <div className="container bluebox2-container">
           {this.props.SubHeading2text && (
             <SubHeading1 text={this.props.SubHeading2text} />
           )}
@@ -16,12 +16,12 @@ export default class SpecialBanner2 extends PureComponent {
           {this.props.SubHeading1text && (
             <SubHeading1 text={this.props.SubHeading1text} />
           )}
-          <div class="row justify-content-evenly mb-4">
+          <div className="row justify-content-evenly mb-4">
             {this.props.lists &&
               this.props.lists.map((list) => {
                 return (
                   <div
-                    class="col-md-3 col-xs-10 mt-2 p-4"
+                    className="col-md-3 col-xs-10 mt-2 p-4"
                     style={{
                       background:
                         "linear-gradient(135deg, #121c2d 0%, #101a29 100%)",
@@ -44,7 +44,7 @@ export default class SpecialBanner2 extends PureComponent {
                         textAlign: "center",
                         color: "#90c345",
                       }}
-                      class="nunito"
+                      className="nunito"
                     >
                       {list.heading2}
                     </h5>

@@ -29,37 +29,41 @@ export default class Weserve extends PureComponent {
           We Serve
         </h1>
         {/* image-box */}
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-3 col-xs-10">
-              <div class="card card-responsive">
-                <div class="card-body imagebox1">
-                  <a class="btn btn-dark p-4 below-image-button">Restaurants</a>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-3 col-xs-10">
+              <div className="card card-responsive">
+                <div className="card-body imagebox1">
+                  <a className="btn btn-dark p-4 below-image-button">
+                    Restaurants
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-xs-10">
-              <div class="card card-responsive">
-                <div class="card-body imagebox2">
-                  <a class="btn btn-dark p-4 below-image-button">
+            <div className="col-md-3 col-xs-10">
+              <div className="card card-responsive">
+                <div className="card-body imagebox2">
+                  <a className="btn btn-dark p-4 below-image-button">
                     SuperMarkets
                   </a>
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-xs-10">
-              <div class="card card-responsive">
-                <div class="card-body imagebox3">
-                  <a class="btn btn-dark p-4 below-image-button">
+            <div className="col-md-3 col-xs-10">
+              <div className="card card-responsive">
+                <div className="card-body imagebox3">
+                  <a className="btn btn-dark p-4 below-image-button">
                     Cloud Kitchens
                   </a>
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-xs-10">
-              <div class="card card-responsive">
-                <div class="card-body imagebox4">
-                  <a class="btn btn-dark p-4 below-image-button">Enterprise</a>
+            <div className="col-md-3 col-xs-10">
+              <div className="card card-responsive">
+                <div className="card-body imagebox4">
+                  <a className="btn btn-dark p-4 below-image-button">
+                    Enterprise
+                  </a>
                 </div>
               </div>
             </div>
