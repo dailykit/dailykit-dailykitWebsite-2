@@ -4,7 +4,6 @@ import ImageBox from "./ImageBox";
 const BlogSection = (props) => {
   return (
     <>
-      {console.log(props.blogs)}
       {!props.blogs ? (
         <h2>Loading...</h2>
       ) : (

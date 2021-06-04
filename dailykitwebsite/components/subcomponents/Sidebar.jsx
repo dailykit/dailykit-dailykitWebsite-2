@@ -4,7 +4,6 @@ import SmallPara from "./SmallPara";
 const Sidebar = (props) => {
   return (
     <div className="container">
-      {console.log(props)}
       <div className="row">
         <div className="col-md-3 col-xs-10 trend-responsive">
           <div className="sticky-top">

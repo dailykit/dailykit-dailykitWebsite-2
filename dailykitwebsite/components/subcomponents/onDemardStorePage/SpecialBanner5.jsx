@@ -19,7 +19,6 @@ export default class SpecialBanner5 extends PureComponent {
         <div class="container" style={{ textAlign: "left" }}>
           <div class="row justify-content-center">
             {this.props.points[0].map((point) => {
-              console.log(point);
               return (
                 <div class="col-md-3 col-xs-10 p-4 column">
                   <img alt="icon" src={point.icon} style={{ width: "30px" }} />
