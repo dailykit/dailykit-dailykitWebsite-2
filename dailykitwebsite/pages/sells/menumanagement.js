@@ -40,8 +40,8 @@ export default class MenuManagementpage extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="Menu Management like never before - Dailykit"
+            content="Best Menu management software. Adjust recipes. Offer nutritional Information. Offer allergen Information. Manage multiple Menus across multiple store and Ghost Brands under a single platform. Improve Efficiency. Improve Customer Ordering Experience. Offer Recommendations. Upsell and Cross Sell"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

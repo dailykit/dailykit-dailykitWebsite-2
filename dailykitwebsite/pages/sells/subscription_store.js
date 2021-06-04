@@ -42,8 +42,8 @@ export default class SubscriptionStorepage extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="Best Subscription Management Software - Free Demo "
+            content="Automate your billing with powereful auto deduct features. Generate Recurring Revenue. Allow customers to subscribe to Weekly Plans. Incorporate weekly or monthly changing Menus easily. Experience Customer Retention like never before. Personalise subscriber experience "
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

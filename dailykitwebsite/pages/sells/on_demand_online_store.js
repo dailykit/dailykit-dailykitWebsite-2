@@ -42,8 +42,8 @@ export default class OnDemandStorepage extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="Dailykit Restaurant Online Ordering - Best E Commerce Platform"
+            content="Best Online Restaurant Ordering System For Online Ordering, Takeout, & Delivery. Increase Daily Revenue. Marketing Insights. Unparalleled Service. Increase Avg. Check Size. Multi-store website. Operate Multiple Ghost Brands"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
