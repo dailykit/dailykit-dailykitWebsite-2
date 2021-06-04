@@ -29,31 +29,7 @@ export default class Orderdashboardpage extends PureComponent {
             defer
           ></script>
           {/* <!-- MailerLite Universal --> */}
-          {/* <script>
-      (function (m, a, i, l, e, r) {
-        m["MailerLiteObject"] = e;
-        function f() {
-          var c = { a: arguments, q: [] };
-          var r = this.push(c);
-          return "number" != typeof r ? r : f.bind(c.q);
-        }
-        f.q = f.q || [];
-        m[e] = m[e] || f.bind(f.q);
-        m[e].q = m[e].q || f.q;
-        r = a.createElement(i);
-        var _ = a.getElementsByTagName(i)[0];
-        r.async = 1;
-        r.src = l + "?v" + ~~(new Date().getTime() / 1000000);
-        _.parentNode.insertBefore(r, _);
-      })(
-        window,
-        document,
-        "script",
-        "https://static.mailerlite.com/js/universal.js",
-        "ml"
-      );
-      var ml_account = ml("accounts", "3161173", "g2o5g2c3i8", "load");
-    </script> */}
+          <script src="../components/mailerlite.js" defer></script>
           {/* <!-- End MailerLite Universal --> */}
           <script
             type="text/javascript"
@@ -66,8 +42,8 @@ export default class Orderdashboardpage extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="The Most Complete Order Management Software Capabilities"
+            content="Dailykit's Order Management is equipped with one of the most advanced Order Management Capabilities. Easily Manage Meal Kit Orders. Pack Meal Kits with Ease. Delivery Management Made Easy. Print KOTs and Recipe Information. Ingredient Level Information. Recieve Pre Orders and make Ingredient level Inventory Planning"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

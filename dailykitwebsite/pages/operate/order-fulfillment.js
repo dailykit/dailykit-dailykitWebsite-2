@@ -31,31 +31,7 @@ export default class Orderfulfillmentpage extends PureComponent {
             defer
           ></script>
           {/* <!-- MailerLite Universal --> */}
-          {/* <script>
-      (function (m, a, i, l, e, r) {
-        m["MailerLiteObject"] = e;
-        function f() {
-          var c = { a: arguments, q: [] };
-          var r = this.push(c);
-          return "number" != typeof r ? r : f.bind(c.q);
-        }
-        f.q = f.q || [];
-        m[e] = m[e] || f.bind(f.q);
-        m[e].q = m[e].q || f.q;
-        r = a.createElement(i);
-        var _ = a.getElementsByTagName(i)[0];
-        r.async = 1;
-        r.src = l + "?v" + ~~(new Date().getTime() / 1000000);
-        _.parentNode.insertBefore(r, _);
-      })(
-        window,
-        document,
-        "script",
-        "https://static.mailerlite.com/js/universal.js",
-        "ml"
-      );
-      var ml_account = ml("accounts", "3161173", "g2o5g2c3i8", "load");
-    </script> */}
+          <script src="../components/mailerlite.js" defer></script>
           {/* <!-- End MailerLite Universal --> */}
           <script
             type="text/javascript"
@@ -68,8 +44,8 @@ export default class Orderfulfillmentpage extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="DailyKit Delivery Management - Assign, Track and Manage"
+            content="Manage Pick Up, Delivery or Handle Multiple 3rd Part Delivery Platforms all from one dashboard. Track and Manage Orders very easily. Handle Multiple deliveries at the same time. Work with Multiple Delivery partners for Pre Orders or Same Day Delivery all at the same time. Enjoy easy order fulfillment using our Insights and Analytics tool. "
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
