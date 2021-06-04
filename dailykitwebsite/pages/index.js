@@ -36,8 +36,8 @@ export default function HomePage() {
         />
 
         <meta
-          name="Dailykit"
-          content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+          name="Dailykit: The Only Trend-Responsive Food-Tech Solution You'll Ever Need."
+          content="Dailykit is the only trend responsive platform that allows you to sell anything from Meal Kits, Meal Prep, Subscription, On Demand, Ready to Eat, Grocery..,etc and manage Operations like a boss with Inventory, Recipe Management, Menu Management, Product Management, Manage Ghost Brands, Order Management and Delivery Tracking and many more."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

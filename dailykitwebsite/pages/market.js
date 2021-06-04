@@ -41,8 +41,8 @@ export default class Marketpage extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="Referral Campaigns, Loyalty Points, Wallet and Reward Points"
+            content="Dailykit's Rule based Campaign Management allows you to apply simple to complex rules to your campaigns so that you can be creative with you Loyalty Points, Referral Campaigns, Wallet Rewards and many more"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

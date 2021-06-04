@@ -43,8 +43,8 @@ export default class Weservepage extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="Restaurants, Cloud Kitchens, Super Markets, Enterprise - One Stop Solution"
+            content="Dailykit is a one stop shop for Restaurants, Cloud Kitchens, Franchisees, Super Markets, Food Startups or even Large Enterprises. Optimize Kitchen Workflows. Explore Multiple New Sales Channels. Never before seen scalability as Dailykit Scales as you Scale. "
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
