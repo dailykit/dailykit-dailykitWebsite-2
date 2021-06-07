@@ -52,9 +52,7 @@ export default class Portioncontrolpage extends PureComponent {
         <SpecialBanner1
           heading={"Ensuring Portion Consistency"}
           subheading={""}
-          imageurl={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/portion-control/idiotproof-banner.png"
-          }
+          imageurl={"/assets/images/portion-control/idiotproof-banner.png"}
           button1text={"Get Started Now"}
           button2text={"Free Demo"}
           button1link={"#scheduledemo"}
@@ -64,15 +62,9 @@ export default class Portioncontrolpage extends PureComponent {
           heading={"Portion Control"}
           subheading={`Is the operational tactic of making sure that the quantities used
             in production are in accordance with your standard operating procedures`}
-          image1={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/portion-control/customer-satisfaction.png"
-          }
-          image2={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/portion-control/follow-recipe.gif"
-          }
-          image3={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/portion-control/Food-cost2@2x.png"
-          }
+          image1={"/assets/images/portion-control/customer-satisfaction.png"}
+          image2={"/assets/images/portion-control/follow-recipe.gif"}
+          image3={"/assets/images/portion-control/Food-cost2@2x.png"}
           imagetitle1={"Customer Satisfaction"}
           imagetitle2={"Follow Recipes"}
           imagetitle3={"Reduce Food Cost"}
@@ -90,9 +82,7 @@ export default class Portioncontrolpage extends PureComponent {
           heading={`How It Works:
           Meal Kits`}
           subheading={"Meal Kit Ingredient Packaging"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/portion-control/portion-control-meal-kits.png"
-          }
+          image={"/assets/images/portion-control/portion-control-meal-kits.png"}
           para={[
             "Step 1 - Staff picks recommended ingredient & packaging displayed on workstation's KDS.",
             "Step 2 - Staff potions ingredient. If the weight is more or less than the defined weight, they are instructed to correct the weight.",
@@ -103,9 +93,7 @@ export default class Portioncontrolpage extends PureComponent {
           heading={`How It Works:
           Meal Prep`}
           subheading={"Meal Prep Tray Packaging"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/portion-control/portion-control-meal-prep.png"
-          }
+          image={"/assets/images/portion-control/portion-control-meal-prep.png"}
           para={[
             "Step 1 - Staff is notified of each component that has to be packed together with their defined weight.",
             "Step 2 - Staff packs the first ingredient, when the correct weight is achieved, the scale tares automatically and instructs staff to proceed with next the ingredient",
@@ -115,9 +103,7 @@ export default class Portioncontrolpage extends PureComponent {
         <BannerSection8
           heading={"How It Works:Grocery"}
           subheading={"White-Label Artisanal Grocery Packaging"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/portion-control/portion-control-grocery.png"
-          }
+          image={"/assets/images/portion-control/portion-control-grocery.png"}
           para={[
             "Step 1 - A work-order is received for the supplier Item to be packeted according to the specified quantity.",
             "Step 2 - Each Supplier Item is portioned and check-weighed against the specified quantity.",
@@ -128,6 +114,11 @@ export default class Portioncontrolpage extends PureComponent {
         <SpecialBanner4
           dataAccount="3161173:g2o5g2c3i8"
           dataForm="4175704:a4w7j9"
+          image1="/assets/images/portion-control/longfly.png"
+          image2="/assets/images/portion-control/averyweigh-tronix.png"
+          image3="/assets/images/portion-control/badeer.png"
+          image4="/assets/images/portion-control/Scanvaegt%20Systems.png"
+          image5="/assets/images/portion-control/Fairbanks%20Scales.png"
         />
         <EndToEndFoodBusiness
           subheading={"An End-To-End Food Business Software Solution Provider"}
@@ -149,9 +140,6 @@ export default class Portioncontrolpage extends PureComponent {
         />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
-          image={
-            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
-          }
           id={"scheduledemo"}
           content={[
             {

@@ -55,7 +55,7 @@ export default class Orderfulfillmentpage extends PureComponent {
           heading={"Set Your Own Delivery Terms"}
           subheading={"Flexible Order Fulfillment"}
           imageurl={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-fulfilment/order-fulfilment-hero@2x.png"
+            "/assets/images/order-fulfilment/order-fulfilment-hero@2x.png"
           }
           button1text={"Get Started Now"}
           button2text={"Free Demo"}
@@ -75,12 +75,8 @@ export default class Orderfulfillmentpage extends PureComponent {
               para: "Opt for Self-Delivery or Partner with a 3rd-Party Set Multiple Delivery Choices Based on: Day, Delivery Range, Cost, etc..",
             },
           ]}
-          image1url={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-fulfilment/pickup@2x.png"
-          }
-          image2url={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-fulfilment/delivery@2x.png"
-          }
+          image1url={"/assets/images/order-fulfilment/pickup@2x.png"}
+          image2url={"/assets/images/order-fulfilment/delivery@2x.png"}
         />
         <SpecialBanner2
           SubHeading2text={"Delivery Integrations"}
@@ -106,19 +102,13 @@ export default class Orderfulfillmentpage extends PureComponent {
         <SpecialBanner3
           SubHeading2text={"Order Tracking"}
           Heading1text={"Customer or Operator? Track Orders the Same Way!"}
-          imageurl1={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-fulfilment/consumer@2x.png"
-          }
-          imageurl2={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-fulfilment/operator@2x-1.png"
-          }
+          imageurl1={"/assets/images/order-fulfilment/consumer@2x.png"}
+          imageurl2={"/assets/images/order-fulfilment/operator@2x-1.png"}
         />
         <BannerSection8
           heading={"Seamless Order Fulfillment"}
           subheading={""}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-fulfilment/ondemand-delivery.png"
-          }
+          image={"/assets/images/order-fulfilment/ondemand-delivery.png"}
           para={[
             "We understand the nuances of pick-up & delivery. With DailyKIT easily configure precise mile ranges, order value limits, custom delivery charges, as well as days and times at which you deliver or pickup.",
             "Whether 3rd-Party or in-house, once configured, DailyKIT's rule-based & automatic pick-up and delivery assignment is a breeze.",
@@ -129,7 +119,7 @@ export default class Orderfulfillmentpage extends PureComponent {
           heading={"Schedule Weekly Shipments with Ease"}
           subheading={"Subscription Delivery"}
           rightImage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-fulfilment/subscription-delivery.png"
+            "/assets/images/order-fulfilment/subscription-delivery.png"
           }
           para={[
             "Operate subscription deliveries from your fingertips. Select delivery days & zip codes, along with with custom delivery prices.DailyKIT takes care of your scheduled & recurring deliveries by assigning the right delivery partner beforehand, ensuring on-time delivery every time.",
@@ -166,9 +156,6 @@ export default class Orderfulfillmentpage extends PureComponent {
         />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
-          image={
-            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
-          }
           id={"scheduledemo"}
           content={[
             {

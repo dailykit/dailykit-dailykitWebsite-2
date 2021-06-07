@@ -29,7 +29,7 @@ export default class Orderdashboardpage extends PureComponent {
             defer
           ></script>
           {/* <!-- MailerLite Universal --> */}
-          <script src="../components/mailerlite.js" defer></script>
+          {/* <script src="../components/mailerlite.js" defer></script> */}
           {/* <!-- End MailerLite Universal --> */}
           <script
             type="text/javascript"
@@ -52,9 +52,7 @@ export default class Orderdashboardpage extends PureComponent {
         <SpecialBanner1
           heading={"Centralized Order Management"}
           subheading={"Make Your Life Easier"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-dashboard/order-dashboard-hero2@2x.png"
-          }
+          image={"/assets/images/order-dashboard/order-dashboard-hero2@2x"}
           button1text={"Get Started Now"}
           button2text={"Free Demo"}
           button1link={"#scheduledemo"}
@@ -62,9 +60,7 @@ export default class Orderdashboardpage extends PureComponent {
         />
 
         <BannerSection2
-          rightimageurl={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-dashboard/all-orders-2@2x.png"
-          }
+          rightimageurl={"/assets/images/order-dashboard/all-orders-2@2x.png"}
           heading={"One Dashboard For Every Product Line"}
           bluesubheading={"Easy & Intuitive"}
           description="Be it Meal Kits, Ready-To-Eat, Private-Label Artisanal Grocery or Any Other Trending Product Line, DailyKIT Offers One Comprehensive Dashboard to Manage Them All."
@@ -76,14 +72,10 @@ export default class Orderdashboardpage extends PureComponent {
         />
 
         <BannerSection9
-          image1={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-dashboard/DailyOS-Notifications@2x.png"
-          }
-          image2={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-dashboard/print-KOTs@2x.png"
-          }
+          image1={"/assets/images/order-dashboard/DailyOS-Notifications@2x.png"}
+          image2={"/assets/images/order-dashboard/print-KOTs@2x.png"}
           image3={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-dashboard/Email-%26-SMS-Notifications@2x.png"
+            "/assets/images/order-dashboard/Email-%26-SMS-Notifications@2x.png"
           }
         />
 
@@ -118,9 +110,6 @@ export default class Orderdashboardpage extends PureComponent {
         />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
-          image={
-            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
-          }
           id={"scheduledemo"}
           content={[
             {

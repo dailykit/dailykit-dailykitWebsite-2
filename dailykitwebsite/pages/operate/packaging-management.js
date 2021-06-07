@@ -52,9 +52,7 @@ export default class Packagingmanagementpage extends PureComponent {
             "With Integrated Packaging Management Platform,Eliminate Low-Quality & Improper Packaging"
           }
           heading={"Packaging Made Easy"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/packaging/packaging-banner.png"
-          }
+          image={"/assets/images/packaging/packaging-banner.png"}
           blackbuttontext={"Start Now"}
         />
         <BannerSection9
@@ -62,15 +60,9 @@ export default class Packagingmanagementpage extends PureComponent {
           subheading={
             "Packaging not only ties your product together for final product presentation but it is also your Brand's Identity."
           }
-          image1={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/packaging/Unique%20Product.png"
-          }
-          image2={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/packaging/Envir.%20Concern.png"
-          }
-          image3={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/packaging/Consumer%20ed..png"
-          }
+          image1={"/assets/images/packaging/Unique Product.png"}
+          image2={"/assets/images/packaging/Envir. Concern.png"}
+          image3={"/assets/images/packaging/Consumer ed..png"}
           imagetitle1={"Each Product is Unique"}
           imagetitle2={"Environmental Concerns"}
           imagetitle3={"Consumer Education"}
@@ -87,9 +79,7 @@ export default class Packagingmanagementpage extends PureComponent {
         <BannerSection8
           heading={"The Proper Packaging for The Product"}
           subheading={"Integrated Packaging Module"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/packaging/1st.png"
-          }
+          image={"/assets/images/packaging/1st.png"}
           para={[
             "Get recommendations for packaging for your unique products be they meal kits, desserts, beverages, hot or cold food, etc., based on different parameters such as if they are solid, liquid or require refrigration.",
           ]}
@@ -99,9 +89,7 @@ export default class Packagingmanagementpage extends PureComponent {
         <BannerSection8
           heading={"Explore & Purchase Packaging"}
           subheading={"Integrated Packaging Store"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/packaging/2nd.png"
-          }
+          image={"/assets/images/packaging/2nd.png"}
           para={[
             "Use PackagingHub to Review Pricing, Explore & Filter Out packaging items per your product requirements. Be it insulated ones for cold items, heat-resistant for Ready-to-Eat, tranparent, polyethylene or paper-based, we've got it all.",
             " ",
@@ -113,9 +101,7 @@ export default class Packagingmanagementpage extends PureComponent {
         <BannerSection8
           heading={"Ensure Each Order is Properly Packed"}
           subheading={"Leave Nothing To Chance"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/packaging/3rd.png"
-          }
+          image={"/assets/images/packaging/3rd.png"}
           para={[
             "Showcase the product packaging to be used per your input at KDS or KOTs to save time and headaches.",
             "Packaging Inventory is tracked as well, so you're notified if you're running short and need to immediately order additional packaging.",
@@ -143,9 +129,6 @@ export default class Packagingmanagementpage extends PureComponent {
         />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
-          image={
-            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
-          }
           id={"scheduledemo"}
           content={[
             {

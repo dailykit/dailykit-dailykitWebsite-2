@@ -54,9 +54,7 @@ export default class Orderroutingpage extends PureComponent {
             "Operate a Kitchen Where Everyone Knows Their Roles & Responsibilites."
           }
           heading={"Idiot-Proof Production"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-routing/Idiot%20Proof.....png"
-          }
+          image={"/assets/images/order-routing/Idiot Proof.....png"}
           blackbuttontext={"Start Now"}
         />
         <Bluebox1
@@ -97,9 +95,7 @@ export default class Orderroutingpage extends PureComponent {
         <BannerSection8
           heading={"How It Works for Meal Kits"}
           subheading={"Routing Meal Kit Ingredients"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-routing/Work-for-MealKit@2x.png"
-          }
+          image={"/assets/images/order-routing/Work-for-MealKit@2x.png"}
           para={[
             "Step 1 - The meal kit ingredients are reported at the stations according to your operational configuration, either through KDS or KOTs.",
             "Step 2 - Your staff is shown precise instructions regarding packaging, weight, SOPs, etc., in order to ensure product consistency.",
@@ -109,9 +105,7 @@ export default class Orderroutingpage extends PureComponent {
         <BannerSection8
           heading={"How It Works for Ready-to-Eat"}
           subheading={"Routing Menu Items"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-routing/ready-to-eat.png"
-          }
+          image={"/assets/images/order-routing/ready-to-eat.png"}
           para={[
             "Step 1 - All of the items in a Ready-to-Eat order are routed to assigned work stations.",
             "Step 2 - Your staff is shown precise instructions, packaging, and any customer-generated modification. Once staff marks it done, the label is automatically printed if configured.",
@@ -121,9 +115,7 @@ export default class Orderroutingpage extends PureComponent {
         <BannerSection8
           heading={"How It Works for Grocery"}
           subheading={"Routing Grocery Items"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/order-routing/Order-routing@2x.png"
-          }
+          image={"/assets/images/order-routing/Order-routing@2x.png"}
           para={[
             "Step 1 - All of the grocery items are routed to their assigned stations for picking & packaging.",
             "Step 2 - Your staff is shown precise instructions on picking the supplier item, along with the quantity needed, as well as packaging. Once staff marks it done, the label is automatically printed if configured.",
@@ -150,9 +142,6 @@ export default class Orderroutingpage extends PureComponent {
         />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
-          image={
-            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
-          }
           id={"scheduledemo"}
           content={[
             {
