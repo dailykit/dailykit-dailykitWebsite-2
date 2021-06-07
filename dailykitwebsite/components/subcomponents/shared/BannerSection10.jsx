@@ -48,10 +48,7 @@ export default class BannerSection10 extends PureComponent {
                   <ul className="col-md-6 col-xs-10 onDemandCategories trend-responsive">
                     {this.props.list1.map((list) => {
                       return (
-                        <li
-                          key={Math.round(Math.random() * 1000)}
-                          style={{ fontSize: "14px" }}
-                        >
+                        <li key={list} style={{ fontSize: "14px" }}>
                           {list}
                         </li>
                       );
@@ -60,10 +57,7 @@ export default class BannerSection10 extends PureComponent {
                   <ul className="col-md-6 col-xs-10 onDemandCategories">
                     {this.props.list2.map((list) => {
                       return (
-                        <li
-                          key={Math.round(Math.random() * 1000)}
-                          style={{ fontSize: "14px" }}
-                        >
+                        <li key={list} style={{ fontSize: "14px" }}>
                           {list}
                         </li>
                       );

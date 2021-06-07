@@ -9,7 +9,7 @@ export default class Categoriessection extends PureComponent {
               <div className="col-md-3 col-xs-10">
                 <ul className="onDemandCategories">
                   {item.map((li) => {
-                    return <li key={Math.round(Math.random() * 1000)}>{li}</li>;
+                    return <li key={li}>{li}</li>;
                   })}
                 </ul>
               </div>
