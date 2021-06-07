@@ -231,16 +231,16 @@ ul.link_container {
 
 /* homepage and we-serve-page-images(restaurant,image2s)*/
 .imagebox1 {
-  background-image: url("https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/Serve-restaurant@2x.png");
+  background-image: url("/assets/images/we-serve/Serve-restaurant@2x.png");
 }
 .imagebox2 {
-  background-image: url("https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/Serve-supermarket@2x.png");
+  background-image: url("/assets/images/we-serve/Serve-supermarket@2x.png");
 }
 .imagebox3 {
-  background-image: url("https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/Serve-cloudkitchen@2x.png");
+  background-image: url("/assets/images/we-serve/Serve-cloudkitchen@2x.png");
 }
 .imagebox4 {
-  background-image: url("https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/Serve-enterprise@2x.png");
+  background-image: url("/assets/images/we-serve/Serve-enterprise@2x.png");
 }
 .imagebox1,
 .imagebox2,

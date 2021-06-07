@@ -54,16 +54,12 @@ export default class Weservepage extends PureComponent {
         <Makethejuice
           subheading={"One-Stop Shop"}
           heading={"Make The Juice Worth The Squeeze"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/Lob-hero@2x.png"
-          }
+          image={"/assets/images/we-serve/Lob-hero@2x.png"}
           button1text={"Schedule A Call"}
           button2text={"Learn More"}
           button1link={"#scheduledemo"}
           button2link={"/"}
-          smallimage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/osaas/images/icons/chat-icon.png"
-          }
+          smallimage={"assets/icons/chat-icon.png"}
           smallheading={"Minimum Added Revenue"}
           smallsubheading={"$100000"}
           para={
@@ -82,9 +78,7 @@ export default class Weservepage extends PureComponent {
           button1text={"Schedule A Call"}
           button1link={"#scheduledemo"}
           button2text={"Learn More"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/restaurant-chef-fold@2x.png"
-          }
+          image={"/assets/images/we-serve/restaurant-chef-fold@2x.png"}
           points={[
             [
               {
@@ -116,9 +110,7 @@ export default class Weservepage extends PureComponent {
         <BannerSection10
           subheading={"For Supermarkets"}
           heading={"Meet Rapidly Evolving Consumer Needs With Ease"}
-          leftImage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/supermarket@2x.png"
-          }
+          leftImage={"/assets/images/we-serve/supermarket@2x.png"}
           para={
             "Online Grocery Sales Hit A Record $7.2 BN in 2020 & That Is Just Scratching The Surface."
           }
@@ -136,9 +128,7 @@ export default class Weservepage extends PureComponent {
         <BannerSection10
           subheading={"For Cloud Kitchens"}
           heading={"Built For Cloud Kitchen Operations"}
-          rightImage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/Cloudkitchen@2x.png"
-          }
+          rightImage={"/assets/images/we-serve/Cloudkitchen@2x.png"}
           para={
             "Cloud Kitchens rely heavily on technology to help run their brands. DailyKIT’s ability to take any kitchen to cloud will help bring life into your Ghost Kitchen brands."
           }
@@ -149,9 +139,7 @@ export default class Weservepage extends PureComponent {
         />
         <AnERP
           heading={"An ERP for Large Enterprises"}
-          rightImage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/enterprise-solution@2x.png"
-          }
+          rightImage={"/assets/images/we-serve/enterprise-solution@2x.png"}
           para={
             "Easily address the complexities of large food manufacturers and distributors while dealing with high transaction volumes and multiple locations."
           }
@@ -161,9 +149,6 @@ export default class Weservepage extends PureComponent {
 
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
-          image={
-            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
-          }
           id={"scheduledemo"}
           content={[
             {
