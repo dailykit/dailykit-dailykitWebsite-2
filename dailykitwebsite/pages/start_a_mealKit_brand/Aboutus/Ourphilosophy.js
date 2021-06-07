@@ -12,7 +12,7 @@ export default class OurPhilosophyPage extends PureComponent {
     return (
       <div>
         <Head>
-          <title>Case-study: Groctaurant-Case-Study</title>
+          <title>About Us: Our Philosophy</title>
           {/* <!-- CSS only --> */}
           <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -41,8 +41,8 @@ export default class OurPhilosophyPage extends PureComponent {
           />
 
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="Our Philosophy : No Harvested Grain of Grocery should be lost wasted"
+            content="We believe in the future either Cooking will become obsolete or Meal Kits will thrive as a go to choice for the daily food. We fear the former and inspire from latter."
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
