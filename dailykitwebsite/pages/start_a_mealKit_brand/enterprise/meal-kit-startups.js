@@ -29,7 +29,7 @@ export default class MealkitStartups extends PureComponent {
             defer
           ></script>
           {/* <!-- MailerLite Universal --> */}
-          <script src="../components/mailerlite.js" defer></script>
+          {/* <script src="../components/mailerlite.js" defer></script> */}
           {/* <!-- End MailerLite Universal --> */}
           <script
             type="text/javascript"

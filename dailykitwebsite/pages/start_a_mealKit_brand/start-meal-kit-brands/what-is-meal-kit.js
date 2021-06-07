@@ -28,7 +28,7 @@ export default class What_is_a_mealkit extends PureComponent {
             defer
           ></script>
           {/* <!-- MailerLite Universal --> */}
-          <script src="../components/mailerlite.js" defer></script>
+          {/* <script src="../components/mailerlite.js" defer></script> */}
           {/* <!-- End MailerLite Universal --> */}
           <script
             type="text/javascript"

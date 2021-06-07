@@ -1,12 +1,12 @@
 import React, { PureComponent } from "react";
-import Navbar from "../../../components/Navbar";
-import Footer from "../../../components/Footer";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import Head from "next/head";
-import BlackHeading from "../../../components/subcomponents/BlackHeading";
-import BlogSection from "../../../components/subcomponents/BlogSection";
-import GreenHeading from "../../../components/subcomponents/GreenHeading";
-import Sidebar from "../../../components/subcomponents/Sidebar";
-import FormSection1 from "../../../components/subcomponents/FormSection1";
+import BlackHeading from "../../components/subcomponents/BlackHeading";
+import BlogSection from "../../components/subcomponents/BlogSection";
+import GreenHeading from "../../components/subcomponents/GreenHeading";
+import Sidebar from "../../components/subcomponents/Sidebar";
+import FormSection1 from "../../components/subcomponents/FormSection1";
 
 export default class Cloud_kitchen extends PureComponent {
   render() {
@@ -29,7 +29,7 @@ export default class Cloud_kitchen extends PureComponent {
             defer
           ></script>
           {/* <!-- MailerLite Universal --> */}
-          <script src="../components/mailerlite.js" defer></script>
+          {/* <script src="../components/mailerlite.js" defer></script> */}
           {/* <!-- End MailerLite Universal --> */}
           <script
             type="text/javascript"
