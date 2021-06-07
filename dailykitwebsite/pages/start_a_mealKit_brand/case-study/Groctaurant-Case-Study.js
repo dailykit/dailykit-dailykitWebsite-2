@@ -156,8 +156,7 @@ export class GroctaurantCaseStudyComponent extends PureComponent {
           blogs={[
             {
               id: "1",
-              image:
-                "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/Screenshot%202021-04-14%20at%206.55.19%20PM.png",
+              image: "/assets/images/blogSection/image1.png",
               title: "HOW TO LAUNCH MEAL KITS AT YOUR RESTAURANT?",
               cardText:
                 "There is an urgent need to make sure Restaurants try every possible way in which they can get people ordering. If you think you as a Restaurateur have tried everything then,think again. Yes,...",
@@ -165,8 +164,7 @@ export class GroctaurantCaseStudyComponent extends PureComponent {
             },
             {
               id: "2",
-              image:
-                "https://lh6.googleusercontent.com/W179jGz7_CWkKJJHsQeertViy_N7W6nQASgk07vzJ_m6WWSfKCO3-BZzi6yAdjzak2R8o2758sHE8ovCYo9cWXrEZJMFK3KEXIttymyJ1FiqNIPQgQ0azI0R8OMoZeAiZzOqe1_A",
+              image: "/assets/images/blogSection/image2.png",
               title: "YOUR PACKAGING SHOULD BUILD BRAND RECALL",
               cardText:
                 "Your brand is in a constant battle to retain customers,build confidence and encourage brand recall. To ensure this, a brand needs to build their brand voice. When it comes to food, brand voice...",
