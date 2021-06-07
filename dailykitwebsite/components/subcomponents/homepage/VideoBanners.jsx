@@ -9,10 +9,7 @@ const VideoBanner = (props) => {
         muted
         style={{ opacity: "0.1" }}
       >
-        <source
-          src="https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/home-video-3.mp4"
-          type="video/mp4"
-        />
+        <source src="/assets/videos/home-video-3.mp4" type="video/mp4" />
       </video>
       <div className="header">
         <div className="heading-1">{props.heading1text}</div>
