@@ -51,15 +51,11 @@ export default class OnDemandStorepage extends PureComponent {
         <BannerSection3
           subheading={"DailyKIT for Online Ordering"}
           heading={"A Store That Sells"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/ondemand-hero1.gif"
-          }
+          image={"/assets/images/ondemand-hero1.gif"}
           blackbuttontext={"Start Now"}
         />
         <BannerSection2
-          rightimageurl={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/popularOrderingExperiences.gif"
-          }
+          rightimageurl={"/assets/images/popularOrderingExperiences.gif"}
           heading={"Popular Ordering Experiences"}
           bluesubheading={"Familiar & Intuitive"}
           description="Customer Experience shouldn't be an expense. DailyKIT offers turnkey solutions for higher conversions."
@@ -80,9 +76,7 @@ export default class OnDemandStorepage extends PureComponent {
             ["Kitchen Order Status", "Delivery Personnel Info"],
             ["ETA & Map Tracking", "Review & Rating"],
           ]}
-          leftimage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/Real-TimeOrderTracking@2x.png"
-          }
+          leftimage={"/assets/images/Real-TimeOrderTracking@2x.png"}
         />
         <BannerSection4
           heading={"Showcase your COVID Safety Measures"}
@@ -93,9 +87,7 @@ export default class OnDemandStorepage extends PureComponent {
             ["Body-Temp Reports", "Safety report on Invoice"],
             ["Use of PPE Checklist", "Cleaning Protocols"],
           ]}
-          rightimage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/ShowcaseYourCOVIDSafetyMeasures@2x.png"
-          }
+          rightimage={"/assets/images/ShowcaseYourCOVIDSafetyMeasures@2x.png"}
         />
         <BannerSection4
           heading={"Own Your Online Store Completely"}
@@ -107,9 +99,7 @@ export default class OnDemandStorepage extends PureComponent {
             ["Your Own Domain", "Themes & Brand Colors"],
             ["iOS & Android Apps", "Custom Brand Pages"],
           ]}
-          leftimage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/own-store/Themes%20and%20brand%20colors.png"
-          }
+          leftimage={"/assets/images/Themes and brand colors.png"}
         />
         <SpecialBanner5
           heading={"Why Choose DailyKIT"}
@@ -121,78 +111,78 @@ export default class OnDemandStorepage extends PureComponent {
               {
                 heading: "Unlimited Categories",
                 para: "Manage multiple categories for easy browsing.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/unlimited-categories.png",
+                icon: "/assets/icons/whychoose/unlimited-categories.png",
               },
               {
                 heading: "SEO-Friendly Pages",
                 para: "URL-based pages for Products & Categories.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/seo-friendly.png",
+                icon: "/assets/icons/whychoose/seo-friendly.png",
               },
               {
                 heading: "Product Tags",
                 para: "Tag your products for easy filtering and discoverability.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/product-tags.png",
+                icon: "/assets/icons/whychoose/product-tags.png",
               },
               {
                 heading: "Product Images",
                 para: "Display Amazing Product Pictures for Higher Conversion.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/product-images.png",
+                icon: "/assets/icons/whychoose/product-images.png",
               },
             ],
             [
               {
                 heading: "Product Description",
                 para: "Convert more via enticing product descriptions.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/product-description.png",
+                icon: "/assets/icons/whychoose/product-description.png",
               },
               {
                 heading: "Social Media Sharing",
                 para: "Integrated Social Media sharing functionality on every product page.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/social-media-share.png",
+                icon: "/assets/icons/whychoose/social-media-share.png",
               },
               {
                 heading: "Desktop Friendly",
                 para: "Don't miss out on the 20% of consumers ordering food through their laptops/desktops.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/desktop-friendly.png",
+                icon: "/assets/icons/whychoose/desktop-friendly.png",
               },
               {
                 heading: "Mobile & Tab Friendly",
                 para: "Perfect experience through any browser app or in-app browsers.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/mobile-friendly.png",
+                icon: "/assets/icons/whychoose/mobile-friendly.png",
               },
             ],
             [
               {
                 heading: "Advanced Scheduling",
                 para: "BreakFast, Lunch, Dinner or Daily/Weekly Recurring, Festive Menus.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/Advance%20Scheduling.svg",
+                icon: "/assets/icons/whychoose/Advance Scheduling.svg",
               },
               {
                 heading: "Know your Margins",
                 para: "Control your food cost with Sales Price Recommendations.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/Margins.svg",
+                icon: "/assets/icons/whychoose/Margins.svg",
               },
               {
                 heading: "Precise Configuration",
                 para: "Configure Inventory, Packaging and Product Labels.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/Precise%20Configuration.svg",
+                icon: "/assets/icons/whychoose/Precise Configuration.svg",
               },
             ],
             [
               {
                 heading: "Smart Insights",
                 para: "Automated Sales Reports with conversion details.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/Smart%20Insights.svg",
+                icon: "/assets/icons/whychoose/Smart Insights.svg",
               },
               {
                 heading: "Discounts & Coupons",
                 para: "Create Smart Rewards, Vouchers and more from CRM",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/Discounts%20%26%20Coupons.svg",
+                icon: "/assets/icons/whychoose/Discounts & Coupons.svg",
               },
               {
                 heading: "Delivery Integrations",
                 para: "Supporting Selected Delivery Partners in your Area.",
-                icon: "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/sell-why%20choose%20us/Delivery%20Integrations.svg",
+                icon: "/assets/icons/whychoose/Delivery Integrations.svg",
               },
             ],
           ]}
@@ -201,9 +191,6 @@ export default class OnDemandStorepage extends PureComponent {
         />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
-          image={
-            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
-          }
           id={"scheduledemo"}
           content={[
             {

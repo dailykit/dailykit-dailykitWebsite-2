@@ -51,9 +51,7 @@ export default class MenuManagementpage extends PureComponent {
             "With our powerful tools at your disposal, menu innovations are just a few clicks away, so be creative and stand-out from the rest."
           }
           heading={"Be An Innovator"}
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/menu/menu-banner.jpg"
-          }
+          image={"/assets/images/menu-banner.jpg"}
           blackbuttontext={"Start Now"}
         />
         <BannerSection6
@@ -65,9 +63,7 @@ export default class MenuManagementpage extends PureComponent {
             "What Sides Would You Like? Configure the specfic sides to offer along with a main product.",
             "How Do You Want It? Offer your customers a choice of different recipes for the main product and sides to cater to your customer’s dietary preferences.",
           ]}
-          leftImage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/menu/personalization.gif"
-          }
+          leftImage={"/assets/images/personalization.gif"}
           dataAccount="3161173:g2o5g2c3i8"
           dataForm={"4175704:a4w7j9"}
         />{" "}
@@ -78,9 +74,7 @@ export default class MenuManagementpage extends PureComponent {
             "Gone are the days of The Static Menu",
             "With DailyKIT, you can rotate your menu by days & seasons, and offer special menus for special occasions to bring life to your brand, keeping your valued cusomters coming back for more!",
           ]}
-          leftImage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/menu/give-life-to-your-menu2.gif"
-          }
+          leftImage={"/assets/images/give-life-to-your-menu2.gif"}
           dataAccount="3161173:g2o5g2c3i8"
           dataForm={"4175704:a4w7j9"}
         />
@@ -102,9 +96,7 @@ export default class MenuManagementpage extends PureComponent {
             "It’s impossible to optimize business profitablity without having a detailed handle on your Food Costs.",
             "DailyKIT’s Automated Food Cost Tracking gives you all of the data you'll need to help you run a successful and profitable business.",
           ]}
-          rightImage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/menu/Food-cost.png"
-          }
+          rightImage={"/assets/images/Food-cost.png"}
           dataAccount="3161173:g2o5g2c3i8"
           dataForm={"4175704:a4w7j9"}
         />
@@ -114,9 +106,7 @@ export default class MenuManagementpage extends PureComponent {
           para={[
             "No more back-of-the-envelope math. No more calculators and excel sheets. With DailyKIT’s Intelligent Product Pricing, you can easily set target food cost %'s and get a suggested price range that falls within your targeted food cost. With minimal effort and easy decision making, set your menu prices like the experts.",
           ]}
-          rightImage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/menu/product-pricing.png"
-          }
+          rightImage={"/assets/images/product-pricing.png"}
           dataAccount="3161173:g2o5g2c3i8"
           dataForm={"4175704:a4w7j9"}
         />
@@ -127,16 +117,11 @@ export default class MenuManagementpage extends PureComponent {
             "Today Nutritional & Allergen data are one of the most important factors in the consumer’s decision making process.",
             "Unlike other tools, DailyKIT automatically builds a nutrition chart for you.",
           ]}
-          rightImage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/menu/automation.png"
-          }
+          rightImage={"/assets/images/automation.png"}
           buttontext={"Schedule A Meeting"}
         />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
-          image={
-            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
-          }
           id={"scheduledemo"}
           content={[
             {

@@ -35,20 +35,16 @@ export default class Home extends PureComponent {
           }
           imagetext1={"Restaurants"}
           imagetext2={"Supermarkets"}
-          image1url={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/Serve-restaurant@2x.png"
-          }
-          image2url={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/Serve-supermarket@2x.png"
-          }
+          image1url={"/assets/images/Serve-restaurant@2x.png"}
+          image2url={"/assets/images/Serve-supermarket@2x.png"}
         />
         <BannerSection1
           boximage1subheading="Product Presentation"
           boximage1heading="Trend-Responsive Demand Platform"
-          boximage1url="https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/trending@2x.png"
+          boximage1url="assets/images/trending@2x.png"
           boximage2subheading="Add Combos"
           boximage2heading="Add Accompaniments"
-          boximage2url="https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/slidertrending@2x.png"
+          boximage2url="/assets/images/slidertrending@2x.png"
           heading={"Sell Everything With EveryWARE"}
           subheading={"Trend-Responsive Demand Platform"}
           buttontext={"TELL ME MORE"}
@@ -84,9 +80,9 @@ export default class Home extends PureComponent {
         />
         <BannerSection2
           rightimagecarousel={[
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/homepage/Coupons.png",
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/homepage/Referral%20Campaigns.png",
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/homepage/Points.png",
+            "/assets/images/Coupons.png",
+            "/assets/images/Referral Campaigns.png",
+            "/assets/images/Points.png",
           ]}
           heading={"Gamify Your Marketing"}
           buttonlink={"/market"}
@@ -120,7 +116,7 @@ export default class Home extends PureComponent {
           ]}
         />
         <BannerSection2
-          leftimageurl="https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/Operate-hero@2x.png"
+          leftimageurl="assets/images/Operate-hero@2x.png"
           heading={"Deliver Excellence With DailyOS"}
           subheading={"Trend-Agnostic Supply Platform"}
           greenbuttontext={"TELL ME MORE"}
@@ -154,38 +150,32 @@ export default class Home extends PureComponent {
           subheading={"We’re There For You Every Step Of The Way"}
           boxes={[
             {
-              image:
-                "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/homepage/Technical%20Support.png",
+              image: "/assets/icons/Technical Support.png",
               heading: "Technical Support",
               para: "Tech Glitches Happen.Our support team will be there.",
             },
             {
-              image:
-                "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/homepage/Emp.%20Training.png",
+              image: "/assets/icons/Emp. Training.png",
               heading: "Employee Training",
               para: "We Make Sure Your Staff Knows The System Like We Do.",
             },
             {
-              image:
-                "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/homepage/Menu%20%26%20Recipe%20Ideas.png",
+              image: "/assets/icons/Menu & Recipe Ideas.png",
               heading: "Menu & Recipe Ideas",
               para: "Need Inspiration? No Sweat! We Can Help.",
             },
             {
-              image:
-                "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/homepage/Migrate.png",
+              image: "/assets/icons/Migrate.png",
               heading: "Migrate",
               para: "Running Outdated Tech? Don't Worry, We'll Handle It.",
             },
             {
-              image:
-                "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/homepage/Data%20Onboarding.png",
+              image: "/assets/icons/Data Onboarding.png",
               heading: "Data Onboarding",
               para: "Got Tons of Recipes to Upload? Our Team Can Get You There in a Snap!",
             },
             {
-              image:
-                "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/homepage/Packaging%20Ass..png",
+              image: "/assets/icons/Packaging Ass..png",
               heading: "Packaging Assistance",
               para: "We Know Finding Right Packaging is Tough. Let Our Partners Help You.",
             },
@@ -208,7 +198,7 @@ export default class Home extends PureComponent {
           ]}
         />
         <BannerSection2
-          rightimageurl="https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/homepage/Reseller.png"
+          rightimageurl="/assets/images/Reseller.png"
           heading={"Partner with DailyKIT."}
           subheading={"Are You A Reseller?"}
           descriptiontype2={
@@ -220,9 +210,6 @@ export default class Home extends PureComponent {
 
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
-          image={
-            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
-          }
           id={"scheduledemo"}
           content={[
             {

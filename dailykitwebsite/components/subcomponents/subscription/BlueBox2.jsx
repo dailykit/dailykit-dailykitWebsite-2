@@ -89,7 +89,7 @@ export default class BlueBox2 extends PureComponent {
                   }}
                   className="nunito"
                 >
-                  Auto-Card Debit At Cut Off Time
+                  20px-Card Debit At Cut Off Time
                 </h5>
                 <br />
                 <p
@@ -99,7 +99,7 @@ export default class BlueBox2 extends PureComponent {
                     textAlign: "center",
                   }}
                 >
-                  Saved Card is automatically debited and order is placed after
+                  Saved Card is 20pxmatically debited and order is placed after
                   cutoff time
                 </p>
                 <Image
@@ -229,7 +229,7 @@ export default class BlueBox2 extends PureComponent {
                   <Image
                     alt="icon"
                     width="20px"
-                    height="auto"
+                    height="20px"
                     src="/assets/icons/Margins.svg"
                     style={{ marginRight: "0.8rem", display: "inline" }}
                   />{" "}
@@ -244,10 +244,10 @@ export default class BlueBox2 extends PureComponent {
                 <div className="col-md-5 col-xs-10 column3">
                   <Image
                     width="20px"
-                    height="auto"
+                    height="20px"
                     alt="icon"
                     src="/assets/icons/Precise Configuration.svg"
-                    style={{ marginRight: "0.8rem", display: "inline" }}
+                    style={{ display: "inline" }}
                   />{" "}
                   <h5 style={{ display: "inline" }}>
                     Add Items based on Each Week
@@ -261,11 +261,10 @@ export default class BlueBox2 extends PureComponent {
                   <div className="col-md-5 col-xs-10 column3">
                     <Image
                       width="20px"
-                      height="auto"
+                      height="20px"
                       alt="icon"
                       src="/assets/icons/Smart Insights.svg"
                       style={{
-                        marginRight: "0.8rem",
                         display: "inline",
                       }}
                     />{" "}
@@ -276,7 +275,7 @@ export default class BlueBox2 extends PureComponent {
                     <p
                       style={{
                         fontSize: "14px",
-                        marginTop: "0.8rem",
+                        marginTop: "1.5rem",
                       }}
                     >
                       Accurately Add Menu Items into multiple plans at once with
@@ -286,11 +285,10 @@ export default class BlueBox2 extends PureComponent {
                   <div className="col-md-5 col-xs-10 column3">
                     <Image
                       width="20px"
-                      height="auto"
+                      height="20px"
                       alt="icon"
                       src="/assets/icons/Discounts&Coupons.svg"
                       style={{
-                        marginRight: "0.8rem",
                         display: "inline",
                       }}
                     />
@@ -301,7 +299,7 @@ export default class BlueBox2 extends PureComponent {
                     <p
                       style={{
                         fontSize: "14px",
-                        marginTop: "0.8rem",
+                        marginTop: "1.5rem",
                       }}
                     >
                       Configure selected products with an added price over plan
