@@ -53,9 +53,7 @@ export default class Marketpage extends PureComponent {
           subheading={
             "Must have Innovative Marketing tools to help you connect your brand with your customers."
           }
-          image={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/marketing-overview/Marketing%20made%20easy.png"
-          }
+          image={"/assets/images/marketing-overview/Marketing made easy.png"}
           button2={["Get Started Now", "Get Demo"]}
           button1link={"#scheduledemo"}
           button2link={"#scheduledemo"}
@@ -67,7 +65,7 @@ export default class Marketpage extends PureComponent {
             "Create and deliver engaging experiences, improve customer engagement and boost ROI in the process."
           }
           rightimage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/marketing-overview/Build%20smarter%20campaigns.png"
+            "/assets/images/marketing-overview/Build smarter campaigns.png"
           }
         />
         <BannerSection5
@@ -78,7 +76,7 @@ export default class Marketpage extends PureComponent {
             "Use DailyKIT's Smart Coupon Generation to experiment with various actions that you think your customers will perform.",
           ]}
           leftimage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/marketing-overview/Inspire%20customer%20to%20take%20action.png"
+            "/assets/images/marketing-overview/Inspire customer to take action.png"
           }
         />
         <BannerSection5
@@ -88,7 +86,7 @@ export default class Marketpage extends PureComponent {
             "Keep your customers coming back by rewarding them when they take a certain action. With Loyalty Points, retain and keep your customers engaged."
           }
           leftimage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/marketing-overview/Creat%20rewarding%20experiances.png"
+            "/assets/images/marketing-overview/Creat rewarding experiances.png"
           }
           box1title={"Simple. Powerful. Fast"}
           box2title={"ROI-Focused"}
@@ -105,7 +103,7 @@ export default class Marketpage extends PureComponent {
             ["Keep them coming back", "Get more customers from your customers"],
           ]}
           rightimage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/marketing-overview/Your%20tryst%20with%20virality.png"
+            "/assets/images/marketing-overview/Your tryst with virality.png"
           }
         />
         <BannerSection5
@@ -114,9 +112,7 @@ export default class Marketpage extends PureComponent {
           description={
             "With our cashbacks, maintain customer loyalty by rewarding them for their action. With DailyKIT Wallets, provide more than one way to shop for your customer."
           }
-          leftimage={
-            "https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/marketing-overview/keep%20them%20loyal.png"
-          }
+          leftimage={"/assets/images/marketing-overview/keep them loyal.png"}
           box1title={"Consumer B2C App"}
           box2title={"Partner Restaurant Integration"}
           box1description={""}
@@ -142,9 +138,6 @@ export default class Marketpage extends PureComponent {
         />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
-          image={
-            "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
-          }
           id={"scheduledemo"}
           content={[
             {
