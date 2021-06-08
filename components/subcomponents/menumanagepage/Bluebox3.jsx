@@ -10,7 +10,7 @@ export default class Bluebox extends PureComponent {
           style={{
             fontWeight: "bolder",
             fontSize: "50px",
-            margin: "5rem 0rem 2rem 0rem",
+            margin: "3rem 0rem 2rem 0rem",
           }}
         >
           {this.props.heading}
