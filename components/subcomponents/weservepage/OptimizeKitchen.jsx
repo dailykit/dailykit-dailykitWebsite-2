@@ -40,7 +40,10 @@ export default class OptimizeKitchen extends PureComponent {
               <div className="row justify-content-evenly mb-4">
                 {this.props.points[0].map((point) => {
                   return (
-                    <div className="col-md-4 col-xs-8 p-4 column3 justify-content-center">
+                    <div
+                      className="col-md-4 col-xs-8 p-4 column3 justify-content-center"
+                      key={point}
+                    >
                       <h5
                         style={{
                           display: "inline",
@@ -75,7 +78,10 @@ export default class OptimizeKitchen extends PureComponent {
                 <div className="row justify-content-evenly mt-8">
                   {this.props.points[1].map((point) => {
                     return (
-                      <div className="col-md-4 col-xs-8 p-4 column3 justify-content-center">
+                      <div
+                        className="col-md-4 col-xs-8 p-4 column3 justify-content-center"
+                        key={point}
+                      >
                         <h5
                           style={{
                             display: "inline",
