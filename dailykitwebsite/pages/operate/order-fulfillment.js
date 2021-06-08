@@ -16,38 +16,10 @@ export default class Orderfulfillmentpage extends PureComponent {
       <div style={{ marginTop: "12rem" }}>
         <Head>
           <title>Operate: Order Fulfillment</title>
-          {/* <!-- CSS only --> */}
-          <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-            crossOrigin="anonymous"
-          />
-          {/* <!-- JavaScript Bundle with Popper --> */}
-          <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-            crossOrigin="anonymous"
-            defer
-          ></script>
-          {/* <!-- MailerLite Universal --> */}
-          {/* <script src="../components/mailerlite.js" defer></script> */}
-          {/* <!-- End MailerLite Universal --> */}
-          <script
-            type="text/javascript"
-            src="https://assets.calendly.com/assets/external/widget.js"
-            async
-          ></script>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;400;700;900&family=Nunito:wght@400;600;700;800;900&display=swap"
-            rel="stylesheet"
-          />
-
           <meta
             name="DailyKit Delivery Management - Assign, Track and Manage"
             content="Manage Pick Up, Delivery or Handle Multiple 3rd Part Delivery Platforms all from one dashboard. Track and Manage Orders very easily. Handle Multiple deliveries at the same time. Work with Multiple Delivery partners for Pre Orders or Same Day Delivery all at the same time. Enjoy easy order fulfillment using our Insights and Analytics tool. "
           />
-          <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <Navbar />

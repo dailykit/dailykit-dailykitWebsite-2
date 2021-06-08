@@ -13,38 +13,10 @@ export default class QSR_Cafes extends PureComponent {
       <div>
         <Head>
           <title>Restaurants: QSR_Cafes</title>
-          {/* <!-- CSS only --> */}
-          <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-            crossOrigin="anonymous"
-          />
-          {/* <!-- JavaScript Bundle with Popper --> */}
-          <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-            crossOrigin="anonymous"
-            defer
-          ></script>
-          {/* <!-- MailerLite Universal --> */}
-          {/* <script src="../components/mailerlite.js" defer></script> */}
-          {/* <!-- End MailerLite Universal --> */}
-          <script
-            type="text/javascript"
-            src="https://assets.calendly.com/assets/external/widget.js"
-            async
-          ></script>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;400;700;900&family=Nunito:wght@400;600;700;800;900&display=swap"
-            rel="stylesheet"
-          />
-
           <meta
             name="WHY QSRS, CAFES AND CASUAL DINING SHOULD DO MEAL KITS?"
             content="Stagnant to Increasing Revenue, Shrinking to Expanding Consumer base & Unsustainable Margin to Healthy Profits. Increase Revenue. Expand Consumer Base. Achieve healthy profits"
           />
-          <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <Navbar />
