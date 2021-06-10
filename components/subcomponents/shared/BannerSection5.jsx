@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import Image from "next/image";
 export default class BannerSection5 extends PureComponent {
   render() {
     return (
@@ -7,7 +8,9 @@ export default class BannerSection5 extends PureComponent {
           <div className="row justify-content-between nunito">
             {this.props.leftimage && (
               <div className="col-md-6 col-xs-10">
-                <img
+                <Image
+                  height="590px"
+                  width="550.17px"
                   src={this.props.leftimage}
                   className="d-block w-100"
                   alt="..."
@@ -16,7 +19,12 @@ export default class BannerSection5 extends PureComponent {
             )}
             <div className="col-md-6 col-xs-10 trend-responsive">
               {this.props.icon && (
-                <img src={this.props.icon} width="120px" alt=".." />
+                <Image
+                  src={this.props.icon}
+                  height="125.13px"
+                  width="120px"
+                  alt=".."
+                />
               )}
               <h2
                 className="nunito blueboxHeading"
@@ -53,7 +61,12 @@ export default class BannerSection5 extends PureComponent {
                     style={{ boxShadow: "0 0 10px 0px rgba(0, 0, 0, 0.3)" }}
                   >
                     {this.props.box2icon ? (
-                      <img src={this.props.box1icon} width="40px" alt="icon" />
+                      <Image
+                        src={this.props.box1icon}
+                        height="40px"
+                        width="40px"
+                        alt="icon"
+                      />
                     ) : (
                       <h1 style={{ color: "#4FD153", fontWeight: "bolder" }}>
                         01
@@ -75,7 +88,12 @@ export default class BannerSection5 extends PureComponent {
                     style={{ boxShadow: "0 0 10px 0px rgba(0, 0, 0, 0.3)" }}
                   >
                     {this.props.box2icon ? (
-                      <img src={this.props.box2icon} width="40px" alt="icon" />
+                      <Image
+                        src={this.props.box2icon}
+                        height="40px"
+                        width="40px"
+                        alt="icon"
+                      />
                     ) : (
                       <h1 style={{ color: "#4FD153", fontWeight: "bolder" }}>
                         02
@@ -97,7 +115,9 @@ export default class BannerSection5 extends PureComponent {
             </div>
             {this.props.rightimage && (
               <div className="col-md-6 col-xs-10">
-                <img
+                <Image
+                  height="590px"
+                  width="550.17px"
                   src={this.props.rightimage}
                   className="d-block w-100"
                   alt="..."

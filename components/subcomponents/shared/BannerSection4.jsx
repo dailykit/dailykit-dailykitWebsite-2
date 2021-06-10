@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import Image from "next/image";
 export default class BannerSection4 extends PureComponent {
   render() {
     return (
@@ -7,7 +8,9 @@ export default class BannerSection4 extends PureComponent {
           <div className="row justify-content-between">
             {this.props.leftimage && (
               <div className="col-md-6 col-xs-10">
-                <img
+                <Image
+                  height="592px"
+                  width="552.85px"
                   src={this.props.leftimage}
                   className="d-block w-100"
                   alt="..."
@@ -87,7 +90,9 @@ export default class BannerSection4 extends PureComponent {
             </div>
             {this.props.rightimage && (
               <div className="col-md-6 col-xs-10">
-                <img
+                <Image
+                  height="592px"
+                  width="552.85px"
                   src={this.props.rightimage}
                   className="d-block w-100"
                   alt="..."

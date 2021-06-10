@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import TrialForm from "./TrialForm";
-
+import Image from "next/image";
 export default class BannerSection3 extends PureComponent {
   render() {
     return (
@@ -73,7 +73,9 @@ export default class BannerSection3 extends PureComponent {
             </div>
             <div className="col-md-6 col-xs-10">
               {this.props.image && (
-                <img
+                <Image
+                  width="546px"
+                  height="378px"
                   src={this.props.image}
                   className="d-block w-100 image-responsive"
                   alt="..."

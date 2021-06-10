@@ -41,10 +41,11 @@ export default class EndToEndFoodBusiness extends PureComponent {
             {this.props.points[0].map((point) => {
               return (
                 <div className="col-md-3 col-xs-10 p-4">
-                  <img
+                  <Image
+                    width="50px"
+                    height="35px"
                     alt="icon"
                     src="/assets/images/tick.PNG"
-                    style={{ width: "50px" }}
                   />
                   <h6 style={{ display: "inline" }}>{point}</h6>
                   <br />
@@ -56,10 +57,11 @@ export default class EndToEndFoodBusiness extends PureComponent {
             {this.props.points[1].map((point) => {
               return (
                 <div className="col-md-3 col-xs-10 p-4">
-                  <img
+                  <Image
+                    width="50px"
+                    height="35px"
                     alt="icon"
                     src="/assets/images/tick.PNG"
-                    style={{ width: "50px" }}
                   />
                   <h6 style={{ display: "inline" }}>{point}</h6>
                   <br />
