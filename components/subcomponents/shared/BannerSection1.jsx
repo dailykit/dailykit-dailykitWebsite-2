@@ -50,7 +50,7 @@ export default class BannerSection1 extends PureComponent {
             <div className="row justify-content-start">
               <div className="col-12 col-xs-10 box-image3">
                 <img
-                  src="https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/accompaniments.gif"
+                  src="/assets/images/customizableProduct.gif"
                   alt="box-image3"
                 />
               </div>
