@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import Image from "next/image";
 export default class IdealProduct extends PureComponent {
   render() {
     return (
@@ -68,8 +69,10 @@ export default class IdealProduct extends PureComponent {
 
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="10000">
-              <img
-                src="https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/customizableProduct.gif"
+              <Image
+                height="393px"
+                width="509px"
+                src="/assets/images/customizableProduct.gif"
                 className="d-block w-30"
                 alt="..."
               />
@@ -111,8 +114,10 @@ export default class IdealProduct extends PureComponent {
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="2000">
-              <img
-                src="https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/customizableProduct.gif"
+              <Image
+                height="393px"
+                width="509px"
+                src="/assets/images/customizableProduct.gif"
                 className="d-block w-30"
                 alt="..."
               />
@@ -155,8 +160,10 @@ export default class IdealProduct extends PureComponent {
               </div>
             </div>
             <div className="carousel-item">
-              <img
-                src="https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/customizableProduct.gif"
+              <Image
+                height="393px"
+                width="509px"
+                src="/assets/images/customizableProduct.gif"
                 className="d-block w-30"
                 alt="..."
               />
@@ -189,7 +196,7 @@ export default class IdealProduct extends PureComponent {
                       letterSpacing: "1.5px",
                     }}
                   >
-                    Flexible Combo Options{" "}
+                    Flexible Combo Options
                   </h1>
                 </div>
                 <h3>Suited for "Build Your Own Meal" concepts</h3>
@@ -232,16 +239,4 @@ export default class IdealProduct extends PureComponent {
       </div>
     );
   }
-}
-
-{
-  /* <img
-src="https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/customizableProduct.gif"
- className="d-block w-30"
-alt="..."
-/> */
-}
-
-{
-  /*  */
 }

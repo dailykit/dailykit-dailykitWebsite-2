@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import Image from "next/image";
 export default class SpecialBanner5 extends PureComponent {
   render() {
     return (
@@ -26,7 +27,12 @@ export default class SpecialBanner5 extends PureComponent {
                   className="col-md-3 col-xs-10 p-4 column"
                   key={point.heading}
                 >
-                  <img alt="icon" src={point.icon} style={{ width: "30px" }} />
+                  <Image
+                    width="30px"
+                    height="30px"
+                    alt="icon"
+                    src={point.icon}
+                  />
                   <h5>{point.heading}</h5>
                   <br />
                   <small>{point.para}</small>
@@ -41,7 +47,12 @@ export default class SpecialBanner5 extends PureComponent {
                   className="col-md-3 col-xs-10 p-4 column"
                   key={point.heading}
                 >
-                  <img alt="icon" src={point.icon} style={{ width: "30px" }} />
+                  <Image
+                    width="30px"
+                    height="30px"
+                    alt="icon"
+                    src={point.icon}
+                  />
                   <h5>{point.heading}</h5>
                   <br />
                   <small>{point.para}</small>
@@ -73,11 +84,12 @@ export default class SpecialBanner5 extends PureComponent {
                     className="col-md-3 col-xs-10 p-4 column2"
                     key={point.heading}
                   >
-                    <img
+                    <Image
+                      width="30px"
+                      height="30px"
                       alt="icon"
                       src={point.icon}
-                      style={{ width: "30px" }}
-                    />{" "}
+                    />
                     <h5 style={{ display: "inline" }}>{point.heading}</h5>
                     <br />
                     <small>{point.para}</small>
@@ -92,11 +104,12 @@ export default class SpecialBanner5 extends PureComponent {
                     className="col-md-3 col-xs-10 p-4 column2"
                     key={point.heading}
                   >
-                    <img
+                    <Image
+                      width="30px"
+                      height="30px"
                       alt="icon"
                       src={point.icon}
-                      style={{ width: "30px" }}
-                    />{" "}
+                    />
                     <h5 style={{ display: "inline" }}>{point.heading}</h5>
                     <br />
                     <small>{point.para}</small>

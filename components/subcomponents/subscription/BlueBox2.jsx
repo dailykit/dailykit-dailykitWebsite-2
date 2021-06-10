@@ -40,14 +40,16 @@ export default class BlueBox2 extends PureComponent {
                   Multiple Plans like Vegan or Seafood | Couple or family | 2 or
                   3 items. It's upto you.
                 </p>
-                <Image
-                  alt="icon"
-                  src="/assets/icons/edit.svg"
-                  width="90px"
-                  height="auto"
-                  margin="2rem 40% 2rem 30%"
-                  display="block important!"
-                />
+                <div style={{ margin: "2rem 40% 2rem 30%" }}>
+                  <Image
+                    alt="icon"
+                    src="/assets/icons/edit.svg"
+                    width="110px"
+                    height="120px"
+                    margin="2rem 40% 2rem 30%"
+                    display="block important!"
+                  />
+                </div>
               </div>
               <div className="col-md-3 col-xs-10 column3 justify-content-center">
                 <h5
@@ -69,16 +71,18 @@ export default class BlueBox2 extends PureComponent {
                 >
                   Select the number of days and the time
                 </p>
-                <Image
-                  alt="icon"
-                  src="/assets/icons/calendar-timer.svg"
-                  width="90px"
-                  height="auto"
-                  style={{
-                    display: "block",
-                    margin: "2rem 40% 2rem 30%",
-                  }}
-                />
+                <div style={{ margin: "2rem 40% 2rem 30%" }}>
+                  <Image
+                    alt="icon"
+                    src="/assets/icons/calendar-timer.svg"
+                    width="110px"
+                    height="120px"
+                    style={{
+                      display: "block",
+                      margin: "2rem 40% 2rem 30%",
+                    }}
+                  />
+                </div>
               </div>
               <div className="col-md-3 col-xs-10 column3 justify-content-center">
                 {" "}
@@ -102,16 +106,18 @@ export default class BlueBox2 extends PureComponent {
                   Saved Card is 20pxmatically debited and order is placed after
                   cutoff time
                 </p>
-                <Image
-                  alt="icon"
-                  src="/assets/icons/ccTimer.svg"
-                  width="90px"
-                  height="auto"
-                  style={{
-                    display: "block",
-                    margin: "2rem 40% 2rem 30%",
-                  }}
-                />
+                <div style={{ margin: "2rem 40% 2rem 30%" }}>
+                  <Image
+                    alt="icon"
+                    src="/assets/icons/ccTimer.svg"
+                    width="110px"
+                    height="120px"
+                    style={{
+                      display: "block",
+                      margin: "2rem 40% 2rem 30%",
+                    }}
+                  />
+                </div>
               </div>
 
               <div className="row justify-content-evenly mt-4">
@@ -137,16 +143,18 @@ export default class BlueBox2 extends PureComponent {
                   >
                     Configure Deliverable zipcodes for each subscription plan.
                   </p>
-                  <Image
-                    alt="icon"
-                    src="/assets/icons/location.svg"
-                    width="90px"
-                    height="auto"
-                    style={{
-                      display: "block",
-                      margin: "2rem 40% 1.5rem 30%",
-                    }}
-                  />
+                  <div style={{ margin: "2rem 40% 2rem 30%" }}>
+                    <Image
+                      alt="icon"
+                      src="/assets/icons/location.svg"
+                      width="110px"
+                      height="120px"
+                      style={{
+                        display: "block",
+                        margin: "2rem 40% 1.5rem 30%",
+                      }}
+                    />
+                  </div>
                 </div>
                 <div className="col-md-3 col-xs-10 column3 justify-content-center">
                   <h5
@@ -169,16 +177,18 @@ export default class BlueBox2 extends PureComponent {
                   >
                     Offer Free Delivery or Configure price as per each zipcode.
                   </p>
-                  <Image
-                    width="120px"
-                    height="auto"
-                    alt="icon"
-                    src="/assets/icons/dollarTruck.svg"
-                    style={{
-                      display: "block",
-                      margin: "2rem 40% 2rem 30%",
-                    }}
-                  />
+                  <div style={{ margin: "2rem 40% 2rem 30%" }}>
+                    <Image
+                      width="110px"
+                      height="120px"
+                      alt="icon"
+                      src="/assets/icons/dollarTruck.svg"
+                      style={{
+                        display: "block",
+                        margin: "2rem 40% 2rem 30%",
+                      }}
+                    />
+                  </div>
                 </div>
                 <div className="col-md-3 col-xs-10 column3 justify-content-center">
                   <h5
@@ -202,16 +212,18 @@ export default class BlueBox2 extends PureComponent {
                     Control Selection of Delivery Week-Days as per zipcode and
                     subscription plan.
                   </p>
-                  <Image
-                    alt="icon"
-                    src="/assets/icons/calendarTruck.svg"
-                    width="90px"
-                    height="auto"
-                    style={{
-                      display: "block",
-                      margin: "2rem 40% 2rem 30%",
-                    }}
-                  />
+                  <div style={{ margin: "2rem 40% 2rem 30%" }}>
+                    <Image
+                      alt="icon"
+                      src="/assets/icons/calendarTruck.svg"
+                      width="110px"
+                      height="120px"
+                      style={{
+                        display: "block",
+                        margin: "2rem 40% 2rem 30%",
+                      }}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -226,13 +238,20 @@ export default class BlueBox2 extends PureComponent {
             <div className="container bluebox2-container">
               <div className="row justify-content-evenly">
                 <div className="col-md-5 col-xs-10 column3">
-                  <Image
-                    alt="icon"
-                    width="20px"
-                    height="20px"
-                    src="/assets/icons/Margins.svg"
-                    style={{ marginRight: "0.8rem", display: "inline" }}
-                  />{" "}
+                  <div
+                    style={{
+                      margin: "2rem 0.3rem 2rem 1rem",
+                      display: "inline",
+                    }}
+                  >
+                    <Image
+                      alt="icon"
+                      width="20px"
+                      height="20px"
+                      src="/assets/icons/Margins.svg"
+                      style={{ marginRight: "0.8rem", display: "inline" }}
+                    />{" "}
+                  </div>
                   <h5 style={{ display: "inline" }}>
                     Add Permanent Items to Plans
                   </h5>
@@ -242,13 +261,20 @@ export default class BlueBox2 extends PureComponent {
                   </p>
                 </div>
                 <div className="col-md-5 col-xs-10 column3">
-                  <Image
-                    width="20px"
-                    height="20px"
-                    alt="icon"
-                    src="/assets/icons/Precise Configuration.svg"
-                    style={{ display: "inline" }}
-                  />{" "}
+                  <div
+                    style={{
+                      margin: "2rem 0.3rem 2rem 1rem",
+                      display: "inline",
+                    }}
+                  >
+                    <Image
+                      width="20px"
+                      height="20px"
+                      alt="icon"
+                      src="/assets/icons/Precise Configuration.svg"
+                      style={{ display: "inline" }}
+                    />{" "}
+                  </div>
                   <h5 style={{ display: "inline" }}>
                     Add Items based on Each Week
                   </h5>
@@ -259,15 +285,22 @@ export default class BlueBox2 extends PureComponent {
                 </div>
                 <div className="row justify-content-evenly mt-4">
                   <div className="col-md-5 col-xs-10 column3">
-                    <Image
-                      width="20px"
-                      height="20px"
-                      alt="icon"
-                      src="/assets/icons/Smart Insights.svg"
+                    <div
                       style={{
+                        margin: "2rem 0.3rem 2rem 1rem",
                         display: "inline",
                       }}
-                    />{" "}
+                    >
+                      <Image
+                        width="20px"
+                        height="20px"
+                        alt="icon"
+                        src="/assets/icons/Smart Insights.svg"
+                        style={{
+                          display: "inline",
+                        }}
+                      />{" "}
+                    </div>
                     <h5 style={{ display: "inline" }}>
                       Bulk Actions for Ease of Use
                     </h5>
@@ -283,15 +316,19 @@ export default class BlueBox2 extends PureComponent {
                     </p>
                   </div>
                   <div className="col-md-5 col-xs-10 column3">
-                    <Image
-                      width="20px"
-                      height="20px"
-                      alt="icon"
-                      src="/assets/icons/Discounts&Coupons.svg"
+                    <div
                       style={{
+                        margin: "2rem 0.3rem 2rem 1rem",
                         display: "inline",
                       }}
-                    />
+                    >
+                      <Image
+                        width="20px"
+                        height="20px"
+                        alt="icon"
+                        src="/assets/icons/Discounts&Coupons.svg"
+                      />
+                    </div>
                     <h5 style={{ display: "inline" }}>
                       Premium Products with Add-on Price
                     </h5>
