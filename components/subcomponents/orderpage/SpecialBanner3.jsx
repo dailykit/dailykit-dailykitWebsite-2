@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
 import Heading1 from "../shared/Heading";
 import SubHeading1 from "../shared/SubHeading";
-
+import Image from "next/image";
 export default class SpecialBanner3 extends PureComponent {
   render() {
     return (
@@ -19,14 +19,18 @@ export default class SpecialBanner3 extends PureComponent {
 
           <div className="row">
             <div className="col-md-6 col-xs-10 ">
-              <img
+              <Image
+                width={this.props.width ? this.props.width : "446px"}
+                height={this.props.height ? this.props.height : "557px"}
                 src={this.props.imageurl1}
                 alt="..."
                 className="image-responsive-2"
               />
             </div>
             <div className="col-md-6 col-xs-10">
-              <img
+              <Image
+                width={this.props.width ? this.props.width : "446px"}
+                height={this.props.height ? this.props.height : "557px"}
                 src={this.props.imageurl2}
                 alt="..."
                 className="image-responsive-2"

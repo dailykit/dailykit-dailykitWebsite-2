@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import Image from "next/image";
 export default class Digitalise extends PureComponent {
   render() {
     return (
@@ -25,7 +26,12 @@ export default class Digitalise extends PureComponent {
                   className="col-12 p-4"
                   style={{ boxShadow: "0px 10px 20px rgb(19 116 246 / 10%);" }}
                 >
-                  <img src="/assets/icons/map2.PNG" alt="icon" width="50px" />
+                  <Image
+                    height="50px"
+                    src="/assets/icons/map2.PNG"
+                    alt="icon"
+                    width="50px"
+                  />
                   <h4 style={{ fontWeight: "bolder", display: "inline" }}>
                     Station Operations
                   </h4>
@@ -49,7 +55,8 @@ export default class Digitalise extends PureComponent {
                   className="col-12 p-4"
                   style={{ boxShadow: "0px 10px 20px rgb(19 116 246 / 10%);" }}
                 >
-                  <img
+                  <Image
+                    height="50px"
                     src="/assets/icons/rewards.svg"
                     alt="icon"
                     width="50px"
@@ -74,7 +81,12 @@ export default class Digitalise extends PureComponent {
                   className="col-12 p-4"
                   style={{ boxShadow: "0px 10px 20px rgb(19 116 246 / 10%);" }}
                 >
-                  <img src="/assets/icons/people.svg" alt="icon" width="50px" />
+                  <Image
+                    height="50px"
+                    src="/assets/icons/people.svg"
+                    alt="icon"
+                    width="50px"
+                  />
                   <h4 style={{ fontWeight: "bolder", display: "inline" }}>
                     Grant & Control Permissions
                   </h4>

@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import Image from "next/image";
 export default class SpecialBanner1 extends PureComponent {
   render() {
     return (
@@ -51,7 +52,11 @@ export default class SpecialBanner1 extends PureComponent {
                 >
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <img
+                      <Image
+                        width={this.props.width ? this.props.width : "546px"}
+                        height={
+                          this.props.height ? this.props.height : "260.8px"
+                        }
                         src={this.props.imageurl}
                         className="d-block w-80 specialbanner1image"
                         alt="..."

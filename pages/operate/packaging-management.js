@@ -26,6 +26,8 @@ export default class Packagingmanagementpage extends PureComponent {
           heading={"Packaging Made Easy"}
           image={"/assets/images/packaging/packaging-banner.png"}
           blackbuttontext={"Start Now"}
+          height="364px"
+          width="546px"
         />
         <BannerSection9
           heading={"Packaging Matters"}

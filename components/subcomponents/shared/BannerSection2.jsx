@@ -56,8 +56,8 @@ export default class BannerSection2 extends PureComponent {
           {this.props.rightimageurl && (
             <div className="col-md-6 col-xs-10 leftimage1">
               <Image
-                width="694px"
-                height="546px"
+                width={this.props.width ? this.props.width : "694px"}
+                height={this.props.height ? this.props.height : "546px"}
                 src={this.props.rightimageurl}
                 alt="right-picture"
               />

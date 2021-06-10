@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import ContactFormSection2 from "../shared/ContactFormSection2";
+import Image from "next/image";
 export default class Bluebox1 extends PureComponent {
   render() {
     return (
@@ -34,7 +35,8 @@ export default class Bluebox1 extends PureComponent {
                   {this.props.col1heading}
                 </div>
                 <div className="col-md-2 col-xs-10">
-                  <img
+                  <Image
+                    height="60px"
                     src="/assets/icons/phone.svg"
                     alt=".."
                     width="80px"
@@ -90,7 +92,8 @@ export default class Bluebox1 extends PureComponent {
               {" "}
               <div className="row justify-content-start mb-4 mt-4">
                 <div className="col-md-2 col-xs-10">
-                  <img
+                  <Image
+                    height="60px"
                     src="/assets/icons/corrugatedBox.svg"
                     alt="..."
                     width="90px"

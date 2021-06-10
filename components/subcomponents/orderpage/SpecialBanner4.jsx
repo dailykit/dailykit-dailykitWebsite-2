@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import ContactFormSection2 from "../shared/ContactFormSection2";
-
+import Image from "next/image";
 export default class SpecialBanner4 extends PureComponent {
   render() {
     return (
@@ -13,11 +13,37 @@ export default class SpecialBanner4 extends PureComponent {
             flexWrap: "wrap",
           }}
         >
-          <img src={this.props.image1} alt="..." />
-          <img src={this.props.image2} alt="..." />
-          <img src={this.props.image3} alt="..." />
-          <img src={this.props.image4} alt="..." width="200px" />{" "}
-          <img src={this.props.image5} alt="..." />
+          <Image
+            width="200px"
+            height="200px"
+            src={this.props.image1}
+            alt="..."
+          />
+          <Image
+            width="200px"
+            height="200px"
+            src={this.props.image2}
+            alt="..."
+          />
+          <Image
+            width="200px"
+            height="200px"
+            src={this.props.image3}
+            alt="..."
+          />
+          <Image
+            width="200px"
+            height="200px"
+            src={this.props.image4}
+            alt="..."
+            width="200px"
+          />{" "}
+          <Image
+            width="200px"
+            height="200px"
+            src={this.props.image5}
+            alt="..."
+          />
         </div>{" "}
         <button
           type="button"

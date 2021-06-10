@@ -28,6 +28,8 @@ export default class Orderroutingpage extends PureComponent {
           heading={"Idiot-Proof Production"}
           image={"/assets/images/order-routing/Idiot Proof.....png"}
           blackbuttontext={"Start Now"}
+          height="360.8px"
+          width="546px"
         />
         <Bluebox1
           heading={"Large or Small, We're Built for Every Scale of Operations"}

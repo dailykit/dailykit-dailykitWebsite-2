@@ -30,6 +30,8 @@ export default class Portioncontrolpage extends PureComponent {
           button2text={"Free Demo"}
           button1link={"#scheduledemo"}
           button2link={"#scheduledemo"}
+          height="579px"
+          width="655px"
         />
         <BannerSection9
           heading={"Portion Control"}
@@ -61,6 +63,8 @@ export default class Portioncontrolpage extends PureComponent {
             "Step 2 - Staff potions ingredient. If the weight is more or less than the defined weight, they are instructed to correct the weight.",
             "Step 3 - As soon as correct weight is achieved, the ingredient sachet gets marked completed and the label is printed out automatically.",
           ]}
+          width="400px"
+          height="420px"
         />{" "}
         <BannerSection8
           heading={`How It Works:
@@ -72,6 +76,8 @@ export default class Portioncontrolpage extends PureComponent {
             "Step 2 - Staff packs the first ingredient, when the correct weight is achieved, the scale tares automatically and instructs staff to proceed with next the ingredient",
             "Step 3 - Once all of the components for the Meal Prep product are portioned and packed, the label is automatically printed, and marked as complete.",
           ]}
+          width="400px"
+          height="460px"
         />
         <BannerSection8
           heading={"How It Works:Grocery"}
@@ -82,6 +88,8 @@ export default class Portioncontrolpage extends PureComponent {
             "Step 2 - Each Supplier Item is portioned and check-weighed against the specified quantity.",
             "Step 3 - As soon as right weight is achieved, packet gets marked completed and label is printed out automatically.",
           ]}
+          width="400px"
+          height="420px"
         />
         <Heading text={"Supported Weighing Scale"} />
         <SpecialBanner4
@@ -92,6 +100,8 @@ export default class Portioncontrolpage extends PureComponent {
           image3="/assets/images/portion-control/badeer.png"
           image4="/assets/images/portion-control/Scanvaegt%20Systems.png"
           image5="/assets/images/portion-control/Fairbanks%20Scales.png"
+          height="200px"
+          width="200px"
         />
         <EndToEndFoodBusiness
           subheading={"An End-To-End Food Business Software Solution Provider"}

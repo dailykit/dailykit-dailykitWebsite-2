@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import Image from "next/image";
 export default class BlueBoxSection1 extends PureComponent {
   render() {
     return (
@@ -13,7 +14,12 @@ export default class BlueBoxSection1 extends PureComponent {
                   <div className="col-md-4 col-xs-10 box-container">
                     <div className="row justify-content-center ">
                       <div className="col-md-4 col-xs-10 ">
-                        <img src={box.image} alt="icon" />
+                        <Image
+                          width="80px"
+                          height="80px"
+                          src={box.image}
+                          alt="icon"
+                        />
                       </div>
                       <div className="col-8 box">
                         <h5

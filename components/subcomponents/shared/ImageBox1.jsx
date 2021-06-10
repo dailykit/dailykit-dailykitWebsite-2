@@ -36,7 +36,11 @@ export default class ImageBox1 extends PureComponent {
                 )}
 
                 {this.props.imagepara && (
-                  <a href="/" className="btn btn-dark image1-button">
+                  <a
+                    href="/"
+                    className="btn btn-dark image1-button"
+                    style={{ position: "absolute" }}
+                  >
                     <h4 className="card-title nunito">
                       {" "}
                       {this.props.imagepara[0].heading}
@@ -72,7 +76,11 @@ export default class ImageBox1 extends PureComponent {
                 )}
 
                 {this.props.imagepara && (
-                  <a href="#" className="btn btn-dark image2-button">
+                  <a
+                    href="#"
+                    className="btn btn-dark image2-button"
+                    style={{ position: "absolute" }}
+                  >
                     <h4 className="card-title nunito">
                       {" "}
                       {this.props.imagepara[1].heading}

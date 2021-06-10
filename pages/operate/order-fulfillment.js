@@ -33,6 +33,8 @@ export default class Orderfulfillmentpage extends PureComponent {
           button2text={"Free Demo"}
           button1link={"#scheduledemo"}
           button2link={"#scheduledemo"}
+          height="946px"
+          width="1190px"
         />
         <ImageBox1
           Heading1text={"What Do You Need? Pick-Up? Delivery? Both?"}

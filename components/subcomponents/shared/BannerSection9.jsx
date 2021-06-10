@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import Image from "next/image";
 export default class BannerSection9 extends PureComponent {
   render() {
     return (
@@ -23,7 +24,9 @@ export default class BannerSection9 extends PureComponent {
         <div className="container bannerSection9-container">
           <div className="row justify-content-evenly">
             <div className="col-md-3 col-xs-10 p-4  justify-content-center">
-              <img
+              <Image
+                width={this.props.width ? this.props.width : "200px"}
+                height={this.props.height ? this.props.height : "206.25px"}
                 alt="icon"
                 src={this.props.image1}
                 style={{
@@ -60,7 +63,9 @@ export default class BannerSection9 extends PureComponent {
               </p>
             </div>
             <div className="col-md-3 col-xs-10 p-4  justify-content-center">
-              <img
+              <Image
+                width={this.props.width ? this.props.width : "220px"}
+                height={this.props.height ? this.props.height : "206.25px"}
                 alt="icon"
                 src={this.props.image2}
                 style={{
@@ -95,7 +100,9 @@ export default class BannerSection9 extends PureComponent {
             </div>
             <div className="col-md-3 col-xs-10 p-4  justify-content-center">
               {" "}
-              <img
+              <Image
+                width={this.props.width ? this.props.width : "220px"}
+                height={this.props.height ? this.props.height : "206.25px"}
                 alt="icon"
                 src={this.props.image3}
                 style={{

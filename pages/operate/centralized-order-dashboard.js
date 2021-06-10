@@ -41,6 +41,8 @@ export default class Orderdashboardpage extends PureComponent {
             "Cloud-Based Access allowing you to manage orders from anywhere",
             "Apply Filters & Sorting using multiple parameters to help with Order Expediting",
           ]}
+          height="546px"
+          width="546px"
         />
 
         <BannerSection9

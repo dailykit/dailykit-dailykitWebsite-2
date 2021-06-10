@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 const SmallPara = (props) => {
   return props.smallPara.map((smallPara) => {
     return (
@@ -6,7 +7,9 @@ const SmallPara = (props) => {
         {smallPara.description ? (
           <>
             {smallPara.description}
-            <img
+            <Image
+              width="400px"
+              height="420px"
               src={smallPara.image}
               alt="smallParaImage"
               className="startAMealImage"

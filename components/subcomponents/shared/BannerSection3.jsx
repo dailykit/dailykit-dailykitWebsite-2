@@ -74,8 +74,8 @@ export default class BannerSection3 extends PureComponent {
             <div className="col-md-6 col-xs-10">
               {this.props.image && (
                 <Image
-                  width="546px"
-                  height="546px"
+                  width={this.props.width ? this.props.width : "546px"}
+                  height={this.props.height ? this.props.height : "546px"}
                   src={this.props.image}
                   className="d-block w-100 image-responsive"
                   alt="..."
