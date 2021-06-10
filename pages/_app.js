@@ -27,6 +27,12 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;400;700;900&family=Nunito:wght@400;600;700;800;900&display=swap"
           rel="stylesheet"
         />
+        {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-146874242-1"
+        ></script>
+
         <link rel="icon" href="/Dailykit Icon.png" />
       </Head>
       <Component {...pageProps} />;

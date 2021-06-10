@@ -14,6 +14,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           <script defer src="/mailer.js" />
+          <script defer src="/analytics.js" />
         </body>
       </Html>
     );
