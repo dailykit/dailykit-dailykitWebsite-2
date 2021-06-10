@@ -1,13 +1,14 @@
 import React from "react";
+import Image from "next/image";
 const ImageBox = (props) => {
   return (
     <div className="col">
       <div className="card imagebox-start-mealkit-brand">
         {console.log(props.rest.image)}
-        <img
+        <Image
           src={props.rest.image}
-          width="auto"
-          height="auto"
+          width="448px"
+          height="272px"
           className="card-img-top"
           alt="..."
         />

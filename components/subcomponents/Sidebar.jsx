@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 import SmallPara from "./SmallPara";
 const Sidebar = (props) => {
   return (
@@ -48,7 +48,11 @@ const Sidebar = (props) => {
               ></iframe>
             )}
             {props.imageurl && (
-              <img src={props.imageurl} className="startAMealImage" alt="..." />
+              <Image
+                src={props.imageurl}
+                className="startAMealImage"
+                alt="..."
+              />
             )}
             {/* <--first Para--> */}
             {props.rest[0].para2.map((para) => {

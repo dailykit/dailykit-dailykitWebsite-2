@@ -1018,6 +1018,9 @@ ul.link_container {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.inner-box {
+  height: 305px;
+}
 .card {
   border: 0;
   max-width: 100%;
@@ -1032,12 +1035,11 @@ ul.link_container {
 .image1-button,
 .image2-button {
   font-size: 25px;
-  margin-top: -4.2rem;
+  margin-top: 15rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   cursor: pointer;
   width: 90%;
-  margin-left: 5%;
 }
 
 .image1-button:hover,
