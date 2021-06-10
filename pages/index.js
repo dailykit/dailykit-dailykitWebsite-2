@@ -4,17 +4,26 @@ import Navbar from "../components/Navbar";
 import Home from "../components/Home";
 export default function HomePage() {
   return (
-    <div>
+    <>
       <Head>
-        <title>Dailykit</title>
+        <title>Dailykit | Home</title>
         <meta
           name="Dailykit: The Only Trend-Responsive Food-Tech Solution You'll Ever Need."
           content="Dailykit is the only trend responsive platform that allows you to sell anything from Meal Kits, Meal Prep, Subscription, On Demand, Ready to Eat, Grocery..,etc and manage Operations like a boss with Inventory, Recipe Management, Menu Management, Product Management, Manage Ghost Brands, Order Management and Delivery Tracking and many more."
+        />
+
+        <meta property="og:site_name" content="Dailykit" key="ogsitename" />
+        <meta property="og:title" content="Dailykit" key="ogtitle" />
+        <meta property="og:image" content="/Dailykit Icon.png" key="ogimage" />
+        <meta
+          property="og:description"
+          content="Dailykit is the only trend responsive platform that allows you to sell anything from Meal Kits, Meal Prep, Subscription, On Demand, Ready to Eat, Grocery..,etc and manage Operations like a boss with Inventory, Recipe Management, Menu Management, Product Management, Manage Ghost Brands, Order Management and Delivery Tracking and many more."
+          key="ogdesc"
         />
       </Head>
       <Navbar />
       <Home />
       <Footer />
-    </div>
+    </>
   );
 }
