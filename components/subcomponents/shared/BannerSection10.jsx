@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import ContactFormSection2 from "./ContactFormSection2";
+import Image from "next/image";
 export default class BannerSection10 extends PureComponent {
   render() {
     return (
@@ -12,7 +13,9 @@ export default class BannerSection10 extends PureComponent {
           <div className="row justify-content-between">
             {this.props.leftImage && (
               <div className="col-md-6 col-xs-10">
-                <img
+                <Image
+                  height="606px"
+                  width="546px"
                   src={this.props.leftImage}
                   className="d-block w-100"
                   alt="..."
@@ -86,7 +89,9 @@ export default class BannerSection10 extends PureComponent {
             />
             {this.props.rightImage && (
               <div className="col-md-6 col-xs-10 right-image-margintop">
-                <img
+                <Image
+                  height="606px"
+                  width="546px"
                   src={this.props.rightImage}
                   className="d-block w-100"
                   alt="..."

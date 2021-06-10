@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-
+import Image from "next/image";
 export default class AnERP extends PureComponent {
   render() {
     return (
@@ -23,11 +23,13 @@ export default class AnERP extends PureComponent {
                 </button>
               </a>
             </div>
-            <div className="col-md-6 col-xs-10 right-image-margintop">
-              <img
+            <div className="col-md-6 col-xs-10 mb-4">
+              <Image
+                height="592px"
+                width="752.85px"
                 src={this.props.rightImage}
                 alt="..."
-                className="enterprise-image"
+                className="enterprise-image mb-4"
               />
             </div>
           </div>

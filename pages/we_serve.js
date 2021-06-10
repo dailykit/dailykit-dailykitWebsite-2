@@ -31,7 +31,7 @@ export default class Weservepage extends PureComponent {
           button2text={"Learn More"}
           button1link={"#scheduledemo"}
           button2link={"/"}
-          smallimage={"assets/icons/chat-icon.png"}
+          smallimage={"/assets/icons/chat-icon.png"}
           smallheading={"Minimum Added Revenue"}
           smallsubheading={"$100000"}
           para={

@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-
+import Image from "next/image";
 export default class OptimizeKitchen extends PureComponent {
   render() {
     return (
@@ -25,7 +25,13 @@ export default class OptimizeKitchen extends PureComponent {
                 {this.props.button2text}
               </button>
             </a>
-            <img className="weserve_img" src={this.props.image} alt="..." />
+            <Image
+              height="743.58px"
+              width="499.76px"
+              className="weserve_img"
+              src={this.props.image}
+              alt="..."
+            />
           </div>
           <div className="sideBar_right">
             <div
@@ -62,11 +68,12 @@ export default class OptimizeKitchen extends PureComponent {
                       >
                         {point.para}
                       </p>
-                      <img
+                      <Image
+                        height="100px"
+                        width="90px"
                         alt="icon"
                         src={point.link}
                         style={{
-                          width: "90px",
                           display: "block",
                           margin: "2rem 40% 2rem 30%",
                         }}
@@ -100,11 +107,12 @@ export default class OptimizeKitchen extends PureComponent {
                         >
                           {point.para}
                         </p>
-                        <img
+                        <Image
+                          height="100px"
+                          width="90px"
                           alt="icon"
                           src={point.link}
                           style={{
-                            width: "90px",
                             display: "block",
                             margin: "2rem 40% 2rem 30%",
                           }}

@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import ContactFormSection2 from "../shared/ContactFormSection2";
-
+import Image from "next/image";
 export default class Makethejuice extends PureComponent {
   render() {
     return (
@@ -55,12 +55,13 @@ export default class Makethejuice extends PureComponent {
                 dataForm={this.props.dataForm}
               />
               <div className="row" style={{ paddingTop: "1rem" }}>
-                <div className="col-md-3 col-xs-10">
+                <div className="col-md-3 col-xs-10 pt-4">
                   {" "}
-                  <img
+                  <Image
+                    width="110px"
+                    height="80px"
                     src={this.props.smallimage}
-                    alt=""
-                    style={{ paddingTop: "2rem", width: "110px" }}
+                    alt="icon"
                   />
                 </div>
                 <div
@@ -74,8 +75,13 @@ export default class Makethejuice extends PureComponent {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xs-10">
-              <img
+            <div
+              className="col-md-6 col-xs-10"
+              style={{ margin: "-251px 0px 0px 0px" }}
+            >
+              <Image
+                width="656px"
+                height="852.85px"
                 src={this.props.image}
                 alt="..."
                 className="image-responsive-1"
