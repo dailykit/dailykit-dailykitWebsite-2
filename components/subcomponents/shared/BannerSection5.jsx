@@ -9,8 +9,8 @@ export default class BannerSection5 extends PureComponent {
             {this.props.leftimage && (
               <div className="col-md-6 col-xs-10">
                 <Image
-                  height="590px"
-                  width="550.17px"
+                  height="698px"
+                  width="546px"
                   src={this.props.leftimage}
                   className="d-block w-100"
                   alt="..."
@@ -116,8 +116,8 @@ export default class BannerSection5 extends PureComponent {
             {this.props.rightimage && (
               <div className="col-md-6 col-xs-10">
                 <Image
-                  height="590px"
-                  width="550.17px"
+                  height="698px"
+                  width="546px"
                   src={this.props.rightimage}
                   className="d-block w-100"
                   alt="..."
