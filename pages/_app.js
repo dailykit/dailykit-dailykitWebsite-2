@@ -32,7 +32,19 @@ function MyApp({ Component, pageProps }) {
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-146874242-1"
         ></script>
+        {/* meta tags */}
 
+        <meta name="twitter" content="dailykitorg" key="twhandle" />
+        <meta name="facebook" content="dailykitorg" key="fbhandle" />
+        <meta name="linkedin" content="DailyKIT" key="linkedin" />
+        <meta property="og:site_name" content="Dailykit" key="ogsitename" />
+        <meta property="og:title" content="Dailykit" key="ogtitle" />
+        <meta property="og:image" content="/Dailykit Icon.png" key="ogimage" />
+        <meta
+          property="og:description"
+          content="Dailykit is the only trend responsive platform that allows you to sell anything from Meal Kits, Meal Prep, Subscription, On Demand, Ready to Eat, Grocery..,etc and manage Operations like a boss with Inventory, Recipe Management, Menu Management, Product Management, Manage Ghost Brands, Order Management and Delivery Tracking and many more."
+          key="ogdesc"
+        />
         <link rel="icon" href="/Dailykit Icon.png" />
       </Head>
       <Component {...pageProps} />;
