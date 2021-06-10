@@ -41,7 +41,7 @@ export default class Home extends PureComponent {
         <BannerSection1
           boximage1subheading="Product Presentation"
           boximage1heading="Trend-Responsive Demand Platform"
-          boximage1url="assets/images/trending@2x.png"
+          boximage1url="/assets/images/trending@2x.png"
           boximage2subheading="Add Combos"
           boximage2heading="Add Accompaniments"
           boximage2url="/assets/images/slidertrending@2x.png"
@@ -116,7 +116,7 @@ export default class Home extends PureComponent {
           ]}
         />
         <BannerSection2
-          leftimageurl="assets/images/Operate-hero@2x.png"
+          leftimageurl="/assets/images/Operate-hero@2x.png"
           heading={"Deliver Excellence With DailyOS"}
           subheading={"Trend-Agnostic Supply Platform"}
           greenbuttontext={"TELL ME MORE"}

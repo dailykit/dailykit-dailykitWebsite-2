@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-
+import Image from "next/image";
 export default class BannerSection2 extends PureComponent {
   render() {
     return (
@@ -7,7 +7,12 @@ export default class BannerSection2 extends PureComponent {
         <div className="row justify-content-center text-center">
           {this.props.leftimageurl && (
             <div className="col-md-6 col-xs-10 leftimage1">
-              <img src={this.props.leftimageurl} alt="women-cooking" />
+              <Image
+                width="494px"
+                height="546px"
+                src={this.props.leftimageurl}
+                alt="women-cooking"
+              />
             </div>
           )}
           <div className="col-md-5 col-xs-10 trend-responsive banner-section1-description">
@@ -50,7 +55,12 @@ export default class BannerSection2 extends PureComponent {
           </div>
           {this.props.rightimageurl && (
             <div className="col-md-6 col-xs-10 leftimage1">
-              <img src={this.props.rightimageurl} alt="right-picture" />
+              <Image
+                width="694px"
+                height="546px"
+                src={this.props.rightimageurl}
+                alt="right-picture"
+              />
             </div>
           )}
           {this.props.rightimagecarousel && (
@@ -84,21 +94,27 @@ export default class BannerSection2 extends PureComponent {
                 </div>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img
+                    <Image
+                      height="640px"
+                      width="640px"
                       src={this.props.rightimagecarousel[0]}
                       className="d-block w-80"
                       alt="..."
                     />
                   </div>
                   <div className="carousel-item">
-                    <img
+                    <Image
+                      height="640px"
+                      width="640px"
                       src={this.props.rightimagecarousel[1]}
                       className="d-block w-80"
                       alt="..."
                     />
                   </div>
                   <div className="carousel-item">
-                    <img
+                    <Image
+                      height="640px"
+                      width="640px"
                       src={this.props.rightimagecarousel[2]}
                       className="d-block w-80"
                       alt="..."

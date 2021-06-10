@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import ContactFormSection2 from "./ContactFormSection2";
-
+import Image from "next/image";
 export default class BannerSection1 extends PureComponent {
   render() {
     return (
@@ -26,9 +26,11 @@ export default class BannerSection1 extends PureComponent {
                 <h4>{this.props.boximage1heading}</h4>
                 <br />
 
-                <img
+                <Image
+                  height="141px"
+                  width="160px"
                   src={this.props.boximage1url}
-                  style={{ width: "10rem", marginBottom: "2rem" }}
+                  style={{ marginBottom: "2rem" }}
                   alt="trending"
                 />
               </div>
@@ -38,9 +40,11 @@ export default class BannerSection1 extends PureComponent {
                 style={{ background: "#FFF4FA", borderRadius: "5%" }}
               >
                 <br />
-                <img
+                <Image
+                  height="160px"
+                  width="160px"
                   src={this.props.boximage2url}
-                  style={{ width: "10rem", marginBottom: "2rem" }}
+                  style={{ marginBottom: "2rem" }}
                   alt="trending2"
                 />
                 <div>{this.props.boximage2subheading}</div>
@@ -49,7 +53,9 @@ export default class BannerSection1 extends PureComponent {
             </div>
             <div className="row justify-content-start">
               <div className="col-12 col-xs-10 box-image3">
-                <img
+                <Image
+                  width="451px"
+                  height="329.33px"
                   src="/assets/images/customizableProduct.gif"
                   alt="box-image3"
                 />
