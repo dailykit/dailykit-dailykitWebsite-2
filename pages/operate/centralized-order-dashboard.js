@@ -24,11 +24,15 @@ export default class Orderdashboardpage extends PureComponent {
         <SpecialBanner1
           heading={"Centralized Order Management"}
           subheading={"Make Your Life Easier"}
-          image={"/assets/images/order-dashboard/order-dashboard-hero2@2x"}
+          imageurl={
+            "/assets/images/order-dashboard/order-dashboard-hero2@2x.png"
+          }
           button1text={"Get Started Now"}
           button2text={"Free Demo"}
           button1link={"#scheduledemo"}
           button2link={"#scheduledemo"}
+          height="750px"
+          width="646px"
         />
 
         <BannerSection2

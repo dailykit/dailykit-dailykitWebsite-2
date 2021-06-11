@@ -87,6 +87,8 @@ export default class Orderfulfillmentpage extends PureComponent {
             "We understand the nuances of pick-up & delivery. With DailyKIT easily configure precise mile ranges, order value limits, custom delivery charges, as well as days and times at which you deliver or pickup.",
             "Whether 3rd-Party or in-house, once configured, DailyKIT's rule-based & automatic pick-up and delivery assignment is a breeze.",
           ]}
+          height="375px"
+          width="400px"
         />
 
         <BannerSection8
@@ -98,6 +100,8 @@ export default class Orderfulfillmentpage extends PureComponent {
           para={[
             "Operate subscription deliveries from your fingertips. Select delivery days & zip codes, along with with custom delivery prices.DailyKIT takes care of your scheduled & recurring deliveries by assigning the right delivery partner beforehand, ensuring on-time delivery every time.",
           ]}
+          height="375px"
+          width="400px"
         />
         <BannerSection7
           heading={"Delivery and Pickup Insights"}

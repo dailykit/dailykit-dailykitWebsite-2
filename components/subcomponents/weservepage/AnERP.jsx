@@ -23,13 +23,13 @@ export default class AnERP extends PureComponent {
                 </button>
               </a>
             </div>
-            <div className="col-md-6 col-xs-10 mb-4">
+            <div className="col-md-6 col-xs-10">
               <Image
-                height="650px"
-                width="544px"
+                height="544px"
+                width="651px"
                 src={this.props.rightImage}
                 alt="..."
-                className="enterprise-image mb-4"
+                className="enterprise-image"
               />
             </div>
           </div>

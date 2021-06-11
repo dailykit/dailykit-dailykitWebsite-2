@@ -75,6 +75,8 @@ export default class Orderroutingpage extends PureComponent {
             "Step 2 - Your staff is shown precise instructions regarding packaging, weight, SOPs, etc., in order to ensure product consistency.",
             "Step 3 - Post ingredients packing, the assembly station is notified. Staff then assemble meal kits using a hand-scanner or mobile app.",
           ]}
+          height="501px"
+          width="400px"
         />
         <BannerSection8
           heading={"How It Works for Ready-to-Eat"}
@@ -95,6 +97,8 @@ export default class Orderroutingpage extends PureComponent {
             "Step 2 - Your staff is shown precise instructions on picking the supplier item, along with the quantity needed, as well as packaging. Once staff marks it done, the label is automatically printed if configured.",
             "Step 3 - Once all items are packed, it's then sent to the designated assembly station where the label is scanned or marked manually & the items are assembled in their respective bags",
           ]}
+          height="501px"
+          width="400px"
         />
         <EndToEndFoodBusiness
           subheading={"An End-To-End Food Business Software Solution Provider"}

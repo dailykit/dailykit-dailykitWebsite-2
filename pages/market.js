@@ -30,6 +30,8 @@ export default class Marketpage extends PureComponent {
           button2={["Get Started Now", "Get Demo"]}
           button1link={"#scheduledemo"}
           button2link={"#scheduledemo"}
+          height="377px"
+          width="546px"
         />
         <BannerSection5
           icon="/assets/icons/paperplane.PNG"

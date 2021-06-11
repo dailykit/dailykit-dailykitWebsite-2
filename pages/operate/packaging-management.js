@@ -59,6 +59,8 @@ export default class Packagingmanagementpage extends PureComponent {
           ]}
           learn={1}
           buttonlink={"/meal-kit-guides/meal-kit-packaging"}
+          height="501px"
+          width="400px"
         />{" "}
         <BannerSection8
           heading={"Explore & Purchase Packaging"}
@@ -71,6 +73,8 @@ export default class Packagingmanagementpage extends PureComponent {
           ]}
           learn={1}
           buttonlink={"/meal-kit-guides/meal-kit-packaging"}
+          height="501px"
+          width="400px"
         />
         <BannerSection8
           heading={"Ensure Each Order is Properly Packed"}
@@ -82,6 +86,8 @@ export default class Packagingmanagementpage extends PureComponent {
           ]}
           learn={1}
           buttonlink={"/meal-kit-guides/meal-kit-packaging"}
+          height="501px"
+          width="400px"
         />{" "}
         <EndToEndFoodBusiness
           subheading={"An End-To-End Food Business Software Solution Provider"}

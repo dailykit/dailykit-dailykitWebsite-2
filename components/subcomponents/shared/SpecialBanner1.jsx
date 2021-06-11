@@ -41,31 +41,25 @@ export default class SpecialBanner1 extends PureComponent {
                 </a>
               </div>
             </div>
-            {this.props.image ? (
-              <div className="col-4 imagebox11"></div>
-            ) : (
-              <div className="col-md-6 col-xs-10">
-                <div
-                  id="carouselExampleIndicators"
-                  className="carousel slide"
-                  data-bs-ride="carousel"
-                >
-                  <div className="carousel-inner">
-                    <div className="carousel-item active">
-                      <Image
-                        width={this.props.width ? this.props.width : "546px"}
-                        height={
-                          this.props.height ? this.props.height : "260.8px"
-                        }
-                        src={this.props.imageurl}
-                        className="d-block w-80 specialbanner1image"
-                        alt="..."
-                      />
-                    </div>
+            <div className="col-md-6 col-xs-10">
+              <div
+                id="carouselExampleIndicators"
+                className="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <Image
+                      width={this.props.width ? this.props.width : "546px"}
+                      height={this.props.height ? this.props.height : "260.8px"}
+                      src={this.props.imageurl}
+                      className="d-block w-80 specialbanner1image"
+                      alt="..."
+                    />
                   </div>
                 </div>
               </div>
-            )}
+            </div>
           </div>
         </div>
       </>
