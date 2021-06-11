@@ -35,16 +35,8 @@ function MyApp({ Component, pageProps }) {
         {/* meta tags */}
         {/* <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter" content="dailykitorg" key="twhandle" /> */}
-        <meta
-          name="facebook"
-          content="https://www.facebook.com/dailykitorg"
-          key="fbhandle"
-        />
-        <meta
-          name="linkedin"
-          content="https://www.linkedin.com/company/dailykit/"
-          key="linkedin"
-        />
+
+        <meta property="og:type" content="website" key="ogsitetype" />
         <meta property="og:site_name" content="Dailykit" key="ogsitename" />
         <meta
           property="og:title"
