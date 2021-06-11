@@ -986,10 +986,10 @@ ul.link_container {
   background-size: contain;
 }
 .inner-box {
-  height: 305px;
+  height: 385px;
 }
 .small-inner-box {
-  height: 205px;
+  height: 175px;
 }
 .card {
   border: 0;
@@ -1005,7 +1005,7 @@ ul.link_container {
 .image1-button,
 .image2-button {
   font-size: 25px;
-  margin-top: 15rem;
+  margin-top: 19rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   cursor: pointer;
@@ -1225,6 +1225,14 @@ ul.link_container {
   display: none;
 }
 @media only screen and (max-width: 479px) {
+  .inner-box {
+    height: 275px;
+  }
+  .image1-button,
+  .image2-button {
+    margin-top: 14rem;
+    font-size: 18px;
+  }
   .image-section-1,
   .whychoose-container2 {
     padding: 160px 12px 60px 12px;

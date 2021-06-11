@@ -14,7 +14,10 @@ export default class ImageBox1 extends PureComponent {
           <SubHeading1 text={this.props.SubHeading1text} />
         )}
         <div className="row justify-content-center">
-          <div className="col-md-6 col-xs-10" style={{ paddingBottom: "5rem" }}>
+          <div
+            className="col-md-6 col-xs-10"
+            style={{ paddingBottom: "12rem" }}
+          >
             <div className="card">
               <div className="card-body inner-box">
                 <Image
