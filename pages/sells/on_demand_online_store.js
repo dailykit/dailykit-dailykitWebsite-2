@@ -37,6 +37,8 @@ export default class OnDemandStorepage extends PureComponent {
             "Give your customers option to choose between Now/Later & Pickup/Delivery.",
             "Increase conversions by showcasing categories as Digital Aisle for Smooth Browsing.",
           ]}
+          height="546px"
+          width="546px"
         />
 
         <IdealProduct />
@@ -50,6 +52,8 @@ export default class OnDemandStorepage extends PureComponent {
             ["ETA & Map Tracking", "Review & Rating"],
           ]}
           leftimage={"/assets/images/Real-TimeOrderTracking@2x.png"}
+          height="424.46px"
+          width="546px"
         />
         <BannerSection4
           heading={"Showcase your COVID Safety Measures"}
@@ -61,6 +65,8 @@ export default class OnDemandStorepage extends PureComponent {
             ["Use of PPE Checklist", "Cleaning Protocols"],
           ]}
           rightimage={"/assets/images/ShowcaseYourCOVIDSafetyMeasures@2x.png"}
+          height="424.46px"
+          width="546px"
         />
         <BannerSection4
           heading={"Own Your Online Store Completely"}
@@ -73,6 +79,8 @@ export default class OnDemandStorepage extends PureComponent {
             ["iOS & Android Apps", "Custom Brand Pages"],
           ]}
           leftimage={"/assets/images/Themes and brand colors.png"}
+          height="424.46px"
+          width="546px"
         />
         <SpecialBanner5
           heading={"Why Choose DailyKIT"}
