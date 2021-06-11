@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-
+import Image from "next/image";
 export default class Weserve extends PureComponent {
   render() {
     return (
@@ -13,7 +13,7 @@ export default class Weserve extends PureComponent {
             marginTop: "12rem",
           }}
         >
-          DailyKIT Does It All
+          {this.props.subheading}
         </h6>
         <h1
           style={{
@@ -26,42 +26,49 @@ export default class Weserve extends PureComponent {
             marginBottom: "4rem",
           }}
         >
-          We Serve
+          {this.props.heading}
         </h1>
         {/* image-box */}
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-3 col-xs-10">
-              <div className="card card-responsive">
-                <div className="card-body imagebox1">
-                  <a className="btn btn-dark p-4 below-image-button">
+              <div className="card">
+                <div className="card-body small-inner-box">
+                  <Image src={this.props.image1} layout="fill" />
+                  <a className="btn btn-dark below-image-button p-4">
                     Restaurants
                   </a>
                 </div>
               </div>
             </div>
             <div className="col-md-3 col-xs-10">
-              <div className="card card-responsive">
-                <div className="card-body imagebox2">
-                  <a className="btn btn-dark p-4 below-image-button">
+              {" "}
+              <div className="card">
+                <div className="card-body small-inner-box">
+                  <Image src={this.props.image2} layout="fill" />
+                  <a className="btn btn-dark below-image-button p-4">
                     SuperMarkets
                   </a>
                 </div>
               </div>
             </div>
             <div className="col-md-3 col-xs-10">
-              <div className="card card-responsive">
-                <div className="card-body imagebox3">
-                  <a className="btn btn-dark p-4 below-image-button">
+              {" "}
+              <div className="card">
+                <div className="card-body small-inner-box">
+                  <Image src={this.props.image3} layout="fill" />
+                  <a className="btn btn-dark below-image-button p-4">
                     Cloud Kitchens
                   </a>
                 </div>
               </div>
             </div>
             <div className="col-md-3 col-xs-10">
-              <div className="card card-responsive">
-                <div className="card-body imagebox4">
-                  <a className="btn btn-dark p-4 below-image-button">
+              {" "}
+              <div className="card">
+                <div className="card-body small-inner-box">
+                  <Image src={this.props.image4} layout="fill" />
+                  <a className="btn btn-dark below-image-button p-4">
                     Enterprise
                   </a>
                 </div>

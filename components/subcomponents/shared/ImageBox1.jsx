@@ -19,8 +19,6 @@ export default class ImageBox1 extends PureComponent {
               <div className="card-body inner-box">
                 <Image
                   alt={this.props.imagetext1}
-                  // width="526px"
-                  // height="305.41px"
                   layout="fill"
                   src={this.props.image1url}
                 />

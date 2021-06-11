@@ -40,7 +40,14 @@ export default class Weservepage extends PureComponent {
           dataAccount="3161173:g2o5g2c3i8"
           dataForm="4175704:a4w7j9"
         />
-        <Weserve />
+        <Weserve
+          heading="We Serve"
+          subheading="DailyKIT Does It All"
+          image1={"/assets/images/we-serve/Serve-restaurant@2x.png"}
+          image2={"/assets/images/we-serve/Serve-supermarket@2x.png"}
+          image3={"/assets/images/we-serve/Serve-cloudkitchen@2x.png"}
+          image4={"/assets/images/we-serve/Serve-enterprise@2x.png"}
+        />
         <OptimizeKitchen
           subheading={"For Restaurants"}
           heading={"Optimize Kitchen Workflows & Juice New Sales Channels."}

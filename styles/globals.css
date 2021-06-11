@@ -229,50 +229,17 @@ ul.link_container {
   list-style: none;
 }
 
-/* homepage and we-serve-page-images(restaurant,image2s)*/
-.imagebox1 {
-  background-image: url("/assets/images/we-serve/Serve-restaurant@2x.png");
-}
-.imagebox2 {
-  background-image: url("/assets/images/we-serve/Serve-supermarket@2x.png");
-}
-.imagebox3 {
-  background-image: url("/assets/images/we-serve/Serve-cloudkitchen@2x.png");
-}
-.imagebox4 {
-  background-image: url("/assets/images/we-serve/Serve-enterprise@2x.png");
-}
-.imagebox1,
-.imagebox2,
-.imagebox3,
-.imagebox4 {
-  height: 10rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .below-image-button {
   font-size: 16px;
   border: 0 2px 0 2px green;
-  margin-top: 6rem;
-  margin-left: 2rem;
+  position: absolute;
+  margin: 160px 0px 0px 10px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+  width: 80%;
 }
 @media only screen and (max-width: 600px) {
-  .imagebox1,
-  .imagebox2,
-  .imagebox3,
-  .imagebox4 {
-    height: 23rem;
-    background-repeat: "no-repeat";
-    background-size: "cover";
-  }
-  .below-image-button {
-    font-size: 16px;
-    border: 0 2px 0 2px green;
-    margin-top: 20rem;
-    margin-left: 0rem;
-    width: 100%;
-  }
   .card-responsive {
     margin-bottom: 5rem;
   }
@@ -301,17 +268,17 @@ ul.link_container {
   background-image: url("/assets/images/order-fulfilment/delivery partner.png");
   background-position: center;
 }
-.imagebox11 {
+/* .imagebox11 {
   background-image: url("/assets/images/order-dashboard/order-dashboard-hero2@2x.png");
   background-position: left;
   background-size: 130vh;
   background-repeat: no-repeat;
   height: 80vh;
-}
+} */
 
-.imagebox12 {
+/* .imagebox12 {
   background-image: url("/assets/images/order-dashboard/order-dashboard-hero2@2x.png");
-}
+} */
 .imagebox13 {
   background-image: url("/assets/images/order-dashboard/DailyOS-Notifications@2x.png");
 }
@@ -341,9 +308,9 @@ ul.link_container {
 .imagebox20 {
   background-image: url("/assets/images/order-fulfilment/delivery@2x.png");
 }
-.accompaniments_image {
+/* .accompaniments_image {
   background-image: url("https://dailykit-244-www.s3.us-east-2.amazonaws.com/file-export-5773385-1620227535366-0/dailykit-assets/hardwareee.png");
-}
+} */
 .onDemandCategories {
   list-style-type: "✔ ";
 }
@@ -1021,6 +988,9 @@ ul.link_container {
 .inner-box {
   height: 305px;
 }
+.small-inner-box {
+  height: 205px;
+}
 .card {
   border: 0;
   max-width: 100%;
@@ -1043,7 +1013,8 @@ ul.link_container {
 }
 
 .image1-button:hover,
-.image2-button:hover {
+.image2-button:hover,
+.below-image-button:hover {
   border-left: 6px solid #8ac03b;
   border-right: 6px solid #8ac03b;
 }
