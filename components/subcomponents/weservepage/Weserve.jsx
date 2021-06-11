@@ -31,7 +31,10 @@ export default class Weserve extends PureComponent {
         {/* image-box */}
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-3 col-xs-10">
+            <div
+              className="col-md-3 col-xs-10"
+              style={{ paddingBottom: "5rem" }}
+            >
               <div className="card">
                 <div className="card-body small-inner-box">
                   <Image src={this.props.image1} layout="fill" />
@@ -41,7 +44,10 @@ export default class Weserve extends PureComponent {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-xs-10">
+            <div
+              className="col-md-3 col-xs-10"
+              style={{ paddingBottom: "5rem" }}
+            >
               {" "}
               <div className="card">
                 <div className="card-body small-inner-box">
@@ -52,7 +58,10 @@ export default class Weserve extends PureComponent {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-xs-10">
+            <div
+              className="col-md-3 col-xs-10"
+              style={{ paddingBottom: "5rem" }}
+            >
               {" "}
               <div className="card">
                 <div className="card-body small-inner-box">
