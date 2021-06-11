@@ -12,10 +12,24 @@ export default class HowtosellyourMealKits extends PureComponent {
     return (
       <div>
         <Head>
-          <title>Meal-kit-guides: Meal_kit_packaging</title>
+          <title>HOW CAN YOU SELL MEAL KITS</title>
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="HOW CAN YOU SELL MEAL KITS"
+            content="Selling Meal Kits Instore is a great way to establish a strong relationship with your prospective customer. Your products can move quicker, selling them in-store can provide you with great consumer reach and great brand exposure."
+          />{" "}
+          <meta
+            property="og:title"
+            content="HOW CAN YOU SELL MEAL KITS"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/meal-kit-guides/meal-kit-marketing-guides/how-to-sell-your-meal-kits"
+          />
+          <meta
+            property="og:description"
+            content="Selling Meal Kits Instore is a great way to establish a strong relationship with your prospective customer. Your products can move quicker, selling them in-store can provide you with great consumer reach and great brand exposure."
+            key="ogdesc"
           />
         </Head>
 
@@ -43,7 +57,7 @@ export class HowtosellyourMealKitsComponent extends PureComponent {
         <Sidebar
           rest={[
             {
-              sidebar_heading: "HOW CAN YOU PROMOTE MEAL KITS",
+              sidebar_heading: "HOW CAN YOU SELL MEAL KITS",
               sidebar_link: [
                 "Sell them In-Store",
                 "Food Aggregators",

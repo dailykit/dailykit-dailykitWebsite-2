@@ -12,10 +12,24 @@ export default class HowtodecideyourMealKitMenu extends PureComponent {
     return (
       <div>
         <Head>
-          <title>Meal-kit-guides: Meal_kit_packaging</title>
+          <title>HOW TO DECIDE YOUR MEAL KITS</title>
           <meta
-            name="How to prepare a Meal Kit Menu"
-            content="Perfect Meal Kit Menu takes time but we can make this process easier for you. This strategy seems like the perfect one to start with. Here are some tips on coming up with the right Meal Kit menu"
+            name="HOW TO DECIDE YOUR MEAL KITS"
+            content="Restaurants already know what their customers love and appreciate. We all have that one dish we absolutely love from our favorite Restaurant for which we ache almost on a weekly basis and wish we could get our hands-on. So from a consumer’s perspective Restaurants already look set for the perfect Meal Kit menu. Now, all that a Restaurant have to do is to improvise"
+          />{" "}
+          <meta
+            property="og:title"
+            content="HOW TO DECIDE YOUR MEAL KITS"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/meal-kit-guides/meal-kit-marketing-guides/how-to-decide-your-meal-kits"
+          />
+          <meta
+            property="og:description"
+            content="Restaurants already know what their customers love and appreciate. We all have that one dish we absolutely love from our favorite Restaurant for which we ache almost on a weekly basis and wish we could get our hands-on. So from a consumer’s perspective Restaurants already look set for the perfect Meal Kit menu. Now, all that a Restaurant have to do is to improvise"
+            key="ogdesc"
           />
         </Head>
 

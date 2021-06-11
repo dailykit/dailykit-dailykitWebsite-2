@@ -12,10 +12,24 @@ export default class HowtopromoteyourMealKits extends PureComponent {
     return (
       <div>
         <Head>
-          <title>Meal-kit-guides: Meal_kit_packaging</title>
+          <title>HOW CAN YOU PROMOTE MEAL KITS</title>
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="HOW CAN YOU PROMOTE MEAL KITS"
+            content="To boost visibility and fuel growth of your Meal Kits, there are some traditional ways of exposing your Meal Kits to customers and some Modern ways of doing it as well. Understanding the basic mechanics of your goal and how to effectively reach your customers without losing focus on your existing operations is typically what you will need to do."
+          />{" "}
+          <meta
+            property="og:title"
+            content="HOW CAN YOU PROMOTE MEAL KITS"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/meal-kit-guides/meal-kit-marketing-guides/how-to-promote-your-meal-kits"
+          />
+          <meta
+            property="og:description"
+            content="To boost visibility and fuel growth of your Meal Kits, there are some traditional ways of exposing your Meal Kits to customers and some Modern ways of doing it as well. Understanding the basic mechanics of your goal and how to effectively reach your customers without losing focus on your existing operations is typically what you will need to do."
+            key="ogdesc"
           />
         </Head>
 

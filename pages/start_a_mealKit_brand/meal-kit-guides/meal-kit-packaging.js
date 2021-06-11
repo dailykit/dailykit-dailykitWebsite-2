@@ -17,6 +17,20 @@ export default class Meal_kit_packaging extends PureComponent {
             name="How to pack your Meal Kits?"
             content="Works for all types of Meal Kits like Shelf-Based Meal Kits, Prepped Meal Kits, raw Meal Kits and more. Subscription Based Meal Kits. Manage Inner Packaging. More Sustainable Ideas. Meal Kits are nothing to be afraid of and it’s packaged exactly how you think it should be. "
           />
+          <meta
+            property="og:title"
+            content="How to pack your Meal Kits?"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/meal-kit-guides/meal-kit-packaging"
+          />
+          <meta
+            property="og:description"
+            content="Works for all types of Meal Kits like Shelf-Based Meal Kits, Prepped Meal Kits, raw Meal Kits and more. Subscription Based Meal Kits. Manage Inner Packaging. More Sustainable Ideas. Meal Kits are nothing to be afraid of and it’s packaged exactly how you think it should be. "
+            key="ogdesc"
+          />
         </Head>
 
         <Navbar />

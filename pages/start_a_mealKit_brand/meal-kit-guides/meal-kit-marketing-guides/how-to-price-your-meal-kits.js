@@ -12,10 +12,24 @@ export default class HowtopriceyourMealKits extends PureComponent {
     return (
       <div>
         <Head>
-          <title>Meal-kit-guides: Meal_kit_packaging</title>
+          <title>HOW TO PRICE YOUR MEAL KITS</title>
           <meta
-            name="Dailykit"
-            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+            name="HOW TO PRICE YOUR MEAL KITS"
+            content="In Meal Kits too, food cost of your item can be easily calculated, which you probably know and if not, DailyKit’s software shows you real-time food cost while making your recipes."
+          />{" "}
+          <meta
+            property="og:title"
+            content="HOW TO PRICE YOUR MEAL KITS"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/meal-kit-guides/meal-kit-marketing-guides/how-to-price-your-meal-kits"
+          />
+          <meta
+            property="og:description"
+            content="In Meal Kits too, food cost of your item can be easily calculated, which you probably know and if not, DailyKit’s software shows you real-time food cost while making your recipes."
+            key="ogdesc"
           />
         </Head>
 
