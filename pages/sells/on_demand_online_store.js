@@ -41,7 +41,19 @@ export default class OnDemandStorepage extends PureComponent {
           width="546px"
         />
 
-        <IdealProduct />
+        <IdealProduct
+          heading="Ideal Product Presentations"
+          subheading="For Every Trend Out There"
+          card1subheading="Customer's Choice"
+          card1heading="Customizable Products"
+          card1description="Allow to customers to modify different components of a dish."
+          card2subheading="Cross-Sell & Up-Sell"
+          card2heading="Accompaniments"
+          card2description="Recommend & Showcase Cross-Sell Products such as Beverages, Desserts and More."
+          card3subheading="Extra Product Presentations "
+          card3heading="Flexible Combo Options"
+          card3description="Suited for 'Build Your Own Meal' concepts"
+        />
         <BannerSection4
           heading={"Real-Time Order Tracking"}
           description={

@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react";
-import Image from "next/image";
 export default class IdealProduct extends PureComponent {
   render() {
     return (
@@ -12,7 +11,7 @@ export default class IdealProduct extends PureComponent {
             marginTop: "10.5rem",
           }}
         >
-          For Every Trend Out There
+          {this.props.subheading}
         </h5>
         <div
           style={{
@@ -29,7 +28,7 @@ export default class IdealProduct extends PureComponent {
               letterSpacing: "1.5px",
             }}
           >
-            Ideal Product Presentations
+            {this.props.heading}
           </h1>
         </div>
 
@@ -69,13 +68,13 @@ export default class IdealProduct extends PureComponent {
 
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="10000">
-              <Image
-                height="393px"
-                width="509px"
-                src="/assets/images/customizableProduct.gif"
-                className="d-block w-30"
-                alt="..."
-              />
+              <video autoplay loop muted playsinline>
+                <source
+                  src="/assets/videos/assets/videos/customizableProduct.mp4"
+                  type="video/mp4"
+                />
+              </video>
+
               <div
                 className="carousel-caption d-none w-60 d-md-block"
                 style={{ textAlign: "left", marginLeft: "28rem" }}
@@ -88,7 +87,7 @@ export default class IdealProduct extends PureComponent {
                     marginTop: "10.5rem",
                   }}
                 >
-                  Customer's Choice
+                  {this.props.card1subheading}
                 </h5>
                 <div
                   style={{
@@ -105,22 +104,19 @@ export default class IdealProduct extends PureComponent {
                       letterSpacing: "1.5px",
                     }}
                   >
-                    Customizable Products
+                    {this.props.card1heading}
                   </h1>
                 </div>
-                <h3>
-                  Allow to customers to modify different components of a dish.
-                </h3>
+                <h3>{this.props.card1description}</h3>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="2000">
-              <Image
-                height="393px"
-                width="509px"
-                src="/assets/images/customizableProduct.gif"
-                className="d-block w-30"
-                alt="..."
-              />
+              <video autoplay loop muted playsinline>
+                <source
+                  src="/assets/videos/customizableProduct.mp4"
+                  type="video/mp4"
+                />
+              </video>
               <div
                 className="carousel-caption d-none w-50 d-md-block"
                 style={{ textAlign: "left", marginLeft: "25rem" }}
@@ -133,7 +129,7 @@ export default class IdealProduct extends PureComponent {
                     marginTop: "10.5rem",
                   }}
                 >
-                  Cross-Sell & Up-Sell
+                  {this.props.card2subheading}
                 </h5>
                 <div
                   style={{
@@ -150,23 +146,19 @@ export default class IdealProduct extends PureComponent {
                       letterSpacing: "1.5px",
                     }}
                   >
-                    Accompaniments
+                    {this.props.card2heading}
                   </h1>
                 </div>
-                <h3>
-                  Recommend & Showcase Cross-Sell Products such as Beverages,
-                  Desserts and More..
-                </h3>
+                <h3>{this.props.card2description}</h3>
               </div>
             </div>
             <div className="carousel-item">
-              <Image
-                height="393px"
-                width="509px"
-                src="/assets/images/customizableProduct.gif"
-                className="d-block w-30"
-                alt="..."
-              />
+              <video autoplay loop muted playsinline>
+                <source
+                  src="/assets/videos/customizableProduct.mp4"
+                  type="video/mp4"
+                />
+              </video>
               <div
                 className="carousel-caption d-none w-50 d-md-block"
                 style={{ textAlign: "left", marginLeft: "28rem" }}
@@ -179,7 +171,7 @@ export default class IdealProduct extends PureComponent {
                     marginTop: "10.5rem",
                   }}
                 >
-                  Extra Product Presentations
+                  {this.props.card3subheading}
                 </h5>
                 <div
                   style={{
@@ -196,10 +188,10 @@ export default class IdealProduct extends PureComponent {
                       letterSpacing: "1.5px",
                     }}
                   >
-                    Flexible Combo Options
+                    {this.props.card3heading}
                   </h1>
                 </div>
-                <h3>Suited for "Build Your Own Meal" concepts</h3>
+                <h3> {this.props.card3description}</h3>
               </div>
             </div>
           </div>
