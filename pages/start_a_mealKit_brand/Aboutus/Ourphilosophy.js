@@ -17,6 +17,20 @@ export default class OurPhilosophyPage extends PureComponent {
             name="Our Philosophy : No Harvested Grain of Grocery should be lost wasted"
             content="We believe in the future either Cooking will become obsolete or Meal Kits will thrive as a go to choice for the daily food. We fear the former and inspire from latter."
           />
+          <meta
+            property="og:title"
+            content="Our Philosophy : No Harvested Grain of Grocery should be lost wasted"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/Aboutus/Ourphilosophy"
+          />
+          <meta
+            property="og:description"
+            content="We believe in the future either Cooking will become obsolete or Meal Kits will thrive as a go to choice for the daily food. We fear the former and inspire from latter."
+            key="ogdesc"
+          />
         </Head>
 
         <Navbar />

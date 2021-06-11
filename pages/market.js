@@ -18,6 +18,17 @@ export default class Marketpage extends PureComponent {
             name="Referral Campaigns, Loyalty Points, Wallet and Reward Points"
             content="Dailykit's Rule based Campaign Management allows you to apply simple to complex rules to your campaigns so that you can be creative with you Loyalty Points, Referral Campaigns, Wallet Rewards and many more"
           />
+          <meta
+            property="og:title"
+            content="Referral Campaigns, Loyalty Points, Wallet and Reward Points"
+            key="ogtitle"
+          />
+          <meta property="og:url" content="https://dailykit.org/market" />
+          <meta
+            property="og:description"
+            content="Dailykit's Rule based Campaign Management allows you to apply simple to complex rules to your campaigns so that you can be creative with you Loyalty Points, Referral Campaigns, Wallet Rewards and many more."
+            key="ogdesc"
+          />
         </Head>
 
         <Navbar />

@@ -19,6 +19,20 @@ export default class Franchisees extends PureComponent {
             content="How do you stand out from the competition? How do you increase profitability and increase your offering? How do you add new franchisees? Dailykit will address all the challenges presented above. Discard Competition. Achieve Sustainable Operations. Explore New Revenue Streams. Expand your customers base.
             "
           />
+          <meta
+            property="og:title"
+            content="WHY SHOULD FRANCHISEES START MEAL KITS?"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/enterprise/how-dailykit-can-help-franchisees"
+          />
+          <meta
+            property="og:description"
+            content="How do you stand out from the competition? How do you increase profitability and increase your offering? How do you add new franchisees? Dailykit will address all the challenges presented above. Discard Competition. Achieve Sustainable Operations. Explore New Revenue Streams. Expand your customers base."
+            key="ogdesc"
+          />
         </Head>
         <Navbar />
         <FranchiseesComponent />

@@ -20,6 +20,20 @@ export default class Portioncontrolpage extends PureComponent {
             name="Portion to Perfection and Ensure Proper Waste Management"
             content="Ensure Portion Consistency, Reduce Food Cost and Control Inventory Wastage. Follow Recipes with Precise Instructions. Works effectively if you are doing Meal Kits, Meal Prep or even if you are a Grocer. Everybody loves waste management. "
           />
+          <meta
+            property="og:title"
+            content="Portion to Perfection and Ensure Proper Waste Management "
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/operate/portion-control"
+          />
+          <meta
+            property="og:description"
+            content="Ensure Portion Consistency, Reduce Food Cost and Control Inventory Wastage. Follow Recipes with Precise Instructions. Works effectively if you are doing Meal Kits, Meal Prep or even if you are a Grocer. Everybody loves waste management."
+            key="ogdesc"
+          />
         </Head>
         <Navbar />
         <SpecialBanner1

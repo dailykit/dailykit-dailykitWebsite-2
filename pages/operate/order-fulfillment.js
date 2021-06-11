@@ -20,6 +20,20 @@ export default class Orderfulfillmentpage extends PureComponent {
             name="DailyKit Delivery Management - Assign, Track and Manage"
             content="Manage Pick Up, Delivery or Handle Multiple 3rd Part Delivery Platforms all from one dashboard. Track and Manage Orders very easily. Handle Multiple deliveries at the same time. Work with Multiple Delivery partners for Pre Orders or Same Day Delivery all at the same time. Enjoy easy order fulfillment using our Insights and Analytics tool. "
           />
+          <meta
+            property="og:title"
+            content="DailyKit Delivery Management - Assign, Track and Manage"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/operate/order-fulfillment"
+          />
+          <meta
+            property="og:description"
+            content="Manage Pick Up, Delivery or Handle Multiple 3rd Part Delivery Platforms all from one dashboard. Track and Manage Orders very easily. Handle Multiple deliveries at the same time. Work with Multiple Delivery partners for Pre Orders or Same Day Delivery all at the same time. Enjoy easy order fulfillment using our Insights and Analytics tool. "
+            key="ogdesc"
+          />
         </Head>
 
         <Navbar />

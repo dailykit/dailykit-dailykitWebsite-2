@@ -16,7 +16,21 @@ export default class SubscriptionStorepage extends PureComponent {
           <title>Sells: Subscription Store</title>
           <meta
             name="Best Subscription Management Software - Free Demo "
-            content="Automate your billing with powereful auto deduct features. Generate Recurring Revenue. Allow customers to subscribe to Weekly Plans. Incorporate weekly or monthly changing Menus easily. Experience Customer Retention like never before. Personalise subscriber experience "
+            content="Automate your billing with powereful auto deduct features. Generate Recurring Revenue. Allow customers to subscribe to Weekly Plans. Incorporate weekly or monthly changing Menus easily. Experience Customer Retention like never before. Personalise subscriber experience."
+          />
+          <meta
+            property="og:title"
+            content="Best Subscription Management Software - Free Demo "
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/sells/subscription_store"
+          />
+          <meta
+            property="og:description"
+            content="Automate your billing with powereful auto deduct features. Generate Recurring Revenue. Allow customers to subscribe to Weekly Plans. Incorporate weekly or monthly changing Menus easily. Experience Customer Retention like never before. Personalise subscriber experience."
+            key="ogdesc"
           />
         </Head>
 

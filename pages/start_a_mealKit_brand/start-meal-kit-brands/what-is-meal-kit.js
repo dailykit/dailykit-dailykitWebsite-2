@@ -17,6 +17,20 @@ export default class What_is_a_mealkit extends PureComponent {
             name="Dailykit"
             content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
           />
+          <meta
+            property="og:title"
+            content="Start-meal-kit-brands: What_is_a_mealkit"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/start-meal-kit-brands/what-is-meal-kit"
+          />
+          <meta
+            property="og:description"
+            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need."
+            key="ogdesc"
+          />
         </Head>
 
         <Navbar />

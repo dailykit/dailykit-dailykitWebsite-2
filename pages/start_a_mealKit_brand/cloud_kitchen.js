@@ -18,6 +18,20 @@ export default class Cloud_kitchen extends PureComponent {
             name="WHY CLOUD KITCHENS SHOULD DO MEAL KITS?"
             content="Dailykit is the most Startup friendly software technology company. We help you build a strong and sustainable business by providing Customization control to your customer, Delivery within hours & Real Time Control. Boost your Brand up with Dailykit. Off the Roof ROI. Sell more and Streamline Operations. Easy to scale. "
           />
+          <meta
+            property="og:title"
+            content="WHY CLOUD KITCHENS SHOULD DO MEAL KITS?"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/cloud_kitchen"
+          />
+          <meta
+            property="og:description"
+            content="Dailykit is the most Startup friendly software technology company. We help you build a strong and sustainable business by providing Customization control to your customer, Delivery within hours & Real Time Control. Boost your Brand up with Dailykit. Off the Roof ROI. Sell more and Streamline Operations. Easy to scale. "
+            key="ogdesc"
+          />
         </Head>
 
         <Navbar />

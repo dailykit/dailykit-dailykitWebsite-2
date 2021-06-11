@@ -16,7 +16,21 @@ export default class Orderdashboardpage extends PureComponent {
           <title>Operate: Order Dashboard</title>
           <meta
             name="The Most Complete Order Management Software Capabilities"
-            content="Dailykit's Order Management is equipped with one of the most advanced Order Management Capabilities. Easily Manage Meal Kit Orders. Pack Meal Kits with Ease. Delivery Management Made Easy. Print KOTs and Recipe Information. Ingredient Level Information. Recieve Pre Orders and make Ingredient level Inventory Planning"
+            content="Dailykit's Order Management is equipped with one of the most advanced Order Management Capabilities. Easily Manage Meal Kit Orders. Pack Meal Kits with Ease. Delivery Management Made Easy. Print KOTs and Recipe Information. Ingredient Level Information. Recieve Pre Orders and make Ingredient level Inventory Planning."
+          />
+          <meta
+            property="og:title"
+            content="The Most Complete Order Management Software Capabilities "
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/operate/centralized-order-dashboard"
+          />
+          <meta
+            property="og:description"
+            content="Dailykit's Order Management is equipped with one of the most advanced Order Management Capabilities. Easily Manage Meal Kit Orders. Pack Meal Kits with Ease. Delivery Management Made Easy. Print KOTs and Recipe Information. Ingredient Level Information. Recieve Pre Orders and make Ingredient level Inventory Planning."
+            key="ogdesc"
           />
         </Head>
 

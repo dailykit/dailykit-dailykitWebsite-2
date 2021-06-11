@@ -18,6 +18,20 @@ export default class OnDemandStorepage extends PureComponent {
             name="Dailykit Restaurant Online Ordering - Best E Commerce Platform"
             content="Best Online Restaurant Ordering System For Online Ordering, Takeout, & Delivery. Increase Daily Revenue. Marketing Insights. Unparalleled Service. Increase Avg. Check Size. Multi-store website. Operate Multiple Ghost Brands"
           />
+          <meta
+            property="og:title"
+            content="Dailykit Restaurant Online Ordering - Best E Commerce Platform"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/sells/on_demand_online_store"
+          />
+          <meta
+            property="og:description"
+            content="Best Online Restaurant Ordering System For Online Ordering, Takeout, & Delivery. Increase Daily Revenue. Marketing Insights. Unparalleled Service. Increase Avg. Check Size. Multi-store website. Operate Multiple Ghost Brands."
+            key="ogdesc"
+          />
         </Head>
 
         <Navbar />

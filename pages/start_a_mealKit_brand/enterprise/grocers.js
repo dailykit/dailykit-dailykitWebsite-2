@@ -18,6 +18,20 @@ export default class Grocers extends PureComponent {
             name="WHY SHOULD GROCERS DO MEAL KITS?"
             content="Grab Your share of the Meal Kit Revenue. Discard Competition. Achieve Sustainable Operations. Explore New Revenue Streams. Expand your customers base. Dailykit will help you get there easily. "
           />
+          <meta
+            property="og:title"
+            content="WHY SHOULD GROCERS DO MEAL KITS?"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/enterprise/grocers"
+          />
+          <meta
+            property="og:description"
+            content="Grab Your share of the Meal Kit Revenue. Discard Competition. Achieve Sustainable Operations. Explore New Revenue Streams. Expand your customers base. Dailykit will help you get there easily. "
+            key="ogdesc"
+          />
         </Head>
         <Navbar />
         <GrocersComponent />

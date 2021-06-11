@@ -19,6 +19,17 @@ export default class Weservepage extends PureComponent {
             name="Restaurants, Cloud Kitchens, Super Markets, Enterprise - One Stop Solution"
             content="Dailykit is a one stop shop for Restaurants, Cloud Kitchens, Franchisees, Super Markets, Food Startups or even Large Enterprises. Optimize Kitchen Workflows. Explore Multiple New Sales Channels. Never before seen scalability as Dailykit Scales as you Scale. "
           />
+          <meta
+            property="og:title"
+            content="Restaurants, Cloud Kitchens, Super Markets, Enterprise - One Stop Solution"
+            key="ogtitle"
+          />
+          <meta property="og:url" content="https://dailykit.org/we_serve" />
+          <meta
+            property="og:description"
+            content="Dailykit is a one stop shop for Restaurants, Cloud Kitchens, Franchisees, Super Markets, Food Startups or even Large Enterprises. Optimize Kitchen Workflows. Explore Multiple New Sales Channels. Never before seen scalability as Dailykit Scales as you Scale. "
+            key="ogdesc"
+          />
         </Head>
 
         <Navbar />

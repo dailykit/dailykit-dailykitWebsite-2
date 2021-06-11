@@ -17,6 +17,20 @@ export default class Packagingmanagementpage extends PureComponent {
             name="Meal Kit, Meal Prep, Ready to Eat Packaging all within DailyKIT"
             content="Easily order all your packaging requirements right within Dailykit platform. Don't worry if don't find what you are looking for, we will source them for you. Just choose your packaging, Add to cart and order."
           />
+          <meta
+            property="og:title"
+            content="Meal Kit, Meal Prep, Ready to Eat Packaging all within DailyKIT "
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/operate/packaging-management"
+          />
+          <meta
+            property="og:description"
+            content="Easily order all your packaging requirements right within Dailykit platform. Don't worry if don't find what you are looking for, we will source them for you. Just choose your packaging, Add to cart and order."
+            key="ogdesc"
+          />
         </Head>
         <Navbar />
         <BannerSection3

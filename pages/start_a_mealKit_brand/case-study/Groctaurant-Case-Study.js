@@ -17,6 +17,20 @@ export default class GroctaurantCaseStudy extends PureComponent {
           <meta
             name="Dailykit"
             content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+          />{" "}
+          <meta
+            property="og:title"
+            content="Case-study: Groctaurant-Case-Study"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/case-study/Groctaurant-Case-Study"
+          />
+          <meta
+            property="og:description"
+            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need."
+            key="ogdesc"
           />
         </Head>
         <Navbar />

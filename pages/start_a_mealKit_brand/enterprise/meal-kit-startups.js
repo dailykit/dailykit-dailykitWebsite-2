@@ -18,6 +18,20 @@ export default class MealkitStartups extends PureComponent {
             content="Dailykit is the only trend responsive platform that allows you to sell anything from Meal Kits, Meal Prep, Subscription, On Demand, Ready to Eat, Grocery..,etc and manage Operations like a boss with Inventory, Recipe Management, Menu Management, Product Management, Manage Ghost Brands, Order Management and Delivery Tracking and many more."
             name="Dailykit: The Goto Food Technology Software for Startups. "
           />
+          <meta
+            property="og:title"
+            content="Dailykit: The Go to Food Technology Software for Startups."
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/enterprise/meal-kit-startups"
+          />
+          <meta
+            property="og:description"
+            content="Dailykit is the only trend responsive platform that allows you to sell anything from Meal Kits, Meal Prep, Subscription, On Demand, Ready to Eat, Grocery..,etc and manage Operations like a boss with Inventory, Recipe Management, Menu Management, Product Management, Manage Ghost Brands, Order Management and Delivery Tracking and many more."
+            key="ogdesc"
+          />
         </Head>
         <Navbar />
         <MealkitStartupsComponent />

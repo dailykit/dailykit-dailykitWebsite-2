@@ -16,6 +16,20 @@ export default class MenuManagementpage extends PureComponent {
             name="Menu Management like never before - Dailykit"
             content="Best Menu management software. Adjust recipes. Offer nutritional Information. Offer allergen Information. Manage multiple Menus across multiple store and Ghost Brands under a single platform. Improve Efficiency. Improve Customer Ordering Experience. Offer Recommendations. Upsell and Cross Sell"
           />
+          <meta
+            property="og:title"
+            content="Menu Management like never before - Dailykit"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/sells/menu_management"
+          />
+          <meta
+            property="og:description"
+            content="Best Menu management software. Adjust recipes. Offer nutritional Information. Offer allergen Information. Manage multiple Menus across multiple store and Ghost Brands under a single platform. Improve Efficiency. Improve Customer Ordering Experience. Offer Recommendations. Upsell and Cross Sell."
+            key="ogdesc"
+          />
         </Head>
         <Navbar />
         <BannerSection3

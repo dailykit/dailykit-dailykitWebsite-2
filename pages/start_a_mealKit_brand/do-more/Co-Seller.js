@@ -17,6 +17,16 @@ export default class Coseller extends PureComponent {
           <meta
             name="Dailykit"
             content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+          />{" "}
+          <meta property="og:title" content="Do-more: Coseller" key="ogtitle" />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/do-more/Co-Seller"
+          />
+          <meta
+            property="og:description"
+            content="The Only Trend-Responsive Food-Tech Solution You'll Ever Need."
+            key="ogdesc"
           />
         </Head>
         <Navbar />

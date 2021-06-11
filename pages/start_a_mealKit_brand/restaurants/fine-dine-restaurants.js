@@ -18,6 +18,21 @@ export default class For_Restaurants extends PureComponent {
             content="Your recipes are unique, Loyal Customers & You can get very high ROI. Low turnout on regular week nights. Losing revenue by unexpected crowd. 
             Conundrum to partner with 3rd party delivery or not."
           />
+          <meta
+            property="og:title"
+            content="WHY FINE DINING RESTAURANTS SHOULD DO MEAL KITS?"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/restaurants/fine-dine-restaurants"
+          />
+          <meta
+            property="og:description"
+            content="Your recipes are unique, Loyal Customers & You can get very high ROI. Low turnout on regular week nights. Losing revenue by unexpected crowd. 
+            Conundrum to partner with 3rd party delivery or not."
+            key="ogdesc"
+          />
         </Head>
 
         <Navbar />

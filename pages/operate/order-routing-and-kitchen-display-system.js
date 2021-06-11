@@ -18,6 +18,20 @@ export default class Orderroutingpage extends PureComponent {
             name="Create Work Stations, Assign Roles and Create SOP's"
             content="Idiot-Proof Production. Connect Kitchen Display System (KDS). Create Kitchen Order Tickets (KOT). Create Stations. Assign Users. Role Management. Easily Manage Meal Kits Productions. Whether you are a Startup or a Restaurant Owner or Grocer or a Large Enterprise, Scale your Operations easily. "
           />
+          <meta
+            property="og:title"
+            content="Create Work Stations, Assign Roles and Create SOP's"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/operate/order-routing-and-kitchen-display-system"
+          />
+          <meta
+            property="og:description"
+            content="Idiot-Proof Production. Connect Kitchen Display System (KDS). Create Kitchen Order Tickets (KOT). Create Stations. Assign Users. Role Management. Easily Manage Meal Kits Productions. Whether you are a Startup or a Restaurant Owner or Grocer or a Large Enterprise, Scale your Operations easily. "
+            key="ogdesc"
+          />
         </Head>
 
         <Navbar />

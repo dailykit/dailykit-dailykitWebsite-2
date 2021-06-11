@@ -17,6 +17,20 @@ export default class BakeryPage extends PureComponent {
             name="WHY SHOULD BAKERIES DO MEAL KITS?"
             content="Bakers can get the most out ofMeal Kits by enjoying Substantial Revenue, Diverse menu & Increased Customer Loyalty. Diversify your Menu. Your Loyal Customers would be craving for your recipes. Achieve Higher Profit Margins"
           />
+          <meta
+            property="og:title"
+            content="WHY SHOULD BAKERIES DO MEAL KITS?"
+            key="ogtitle"
+          />
+          <meta
+            property="og:url"
+            content="https://dailykit.org/start_a_mealKit_brand/bakerypage"
+          />
+          <meta
+            property="og:description"
+            content="Bakers can get the most out ofMeal Kits by enjoying Substantial Revenue, Diverse menu & Increased Customer Loyalty. Diversify your Menu. Your Loyal Customers would be craving for your recipes. Achieve Higher Profit Margins"
+            key="ogdesc"
+          />
         </Head>
 
         <Navbar />
