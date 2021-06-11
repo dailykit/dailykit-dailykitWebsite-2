@@ -26,6 +26,8 @@ export default class SubscriptionStorepage extends PureComponent {
           heading={"Get your share of subscription Revenue"}
           image={"/assets/images/subscription-banner-2.png"}
           blackbuttontext={"Start Now"}
+          height="382.86px"
+          width="546px"
         />
 
         <BannerSection2
@@ -40,6 +42,8 @@ export default class SubscriptionStorepage extends PureComponent {
             "Give your customers option to choose between Item Count, Servings & Delivery Week-Day.",
             "Increase Conversions by funneling Customers to preview menus prior to signing up.",
           ]}
+          height="546px"
+          width="546px"
         />
 
         <BlueBox2 heading={"Don't Just Manage, Own it."} />
