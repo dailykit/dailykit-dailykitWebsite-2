@@ -68,7 +68,7 @@ export default class IdealProduct extends PureComponent {
 
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="10000">
-              <video autoplay loop muted playsinline>
+              <video autoPlay loop muted playsInline>
                 <source
                   src="/assets/videos/customizableProduct.mp4"
                   type="video/mp4"
@@ -111,7 +111,7 @@ export default class IdealProduct extends PureComponent {
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="2000">
-              <video autoplay loop muted playsinline>
+              <video autoPlay loop muted playsInline>
                 <source
                   src="/assets/videos/customizableProduct.mp4"
                   type="video/mp4"
@@ -153,7 +153,7 @@ export default class IdealProduct extends PureComponent {
               </div>
             </div>
             <div className="carousel-item">
-              <video autoplay loop muted playsinline>
+              <video autoPlay loop muted playsInline>
                 <source
                   src="/assets/videos/customizableProduct.mp4"
                   type="video/mp4"
