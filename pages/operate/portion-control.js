@@ -52,6 +52,9 @@ export default class Portioncontrolpage extends PureComponent {
           imagepara3={
             "Make sure your staff is using the required quantities every time."
           }
+          height1Image="195.5px"
+          width1Image="270px"
+          height="180px"
         />
         <BannerSection8
           heading={`How It Works:

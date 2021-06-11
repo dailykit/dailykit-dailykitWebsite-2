@@ -24,17 +24,23 @@ export default class BannerSection9 extends PureComponent {
         <div className="container bannerSection9-container">
           <div className="row justify-content-evenly">
             <div className="col-md-3 col-xs-10 p-4  justify-content-center">
-              <Image
-                width={this.props.width ? this.props.width : "200px"}
-                height={this.props.height ? this.props.height : "206.25px"}
-                alt="icon"
-                src={this.props.image1}
-                style={{
-                  width: "220px",
-                  display: "block",
-                  margin: "0rem 40% 2rem 30%",
-                }}
-              />
+              <div style={{ display: "block" }}>
+                <Image
+                  width={
+                    this.props.width1Image ? this.props.width1Image : "200px"
+                  }
+                  height={
+                    this.props.height1Image
+                      ? this.props.height1Image
+                      : "206.25px"
+                  }
+                  alt="icon"
+                  src={this.props.image1}
+                  style={{
+                    margin: "0rem 40% 2rem 30%",
+                  }}
+                />
+              </div>
               <h5
                 style={{
                   display: "inline",
@@ -63,17 +69,19 @@ export default class BannerSection9 extends PureComponent {
               </p>
             </div>
             <div className="col-md-3 col-xs-10 p-4  justify-content-center">
-              <Image
-                width={this.props.width ? this.props.width : "220px"}
-                height={this.props.height ? this.props.height : "206.25px"}
-                alt="icon"
-                src={this.props.image2}
-                style={{
-                  width: "220px",
-                  display: "block",
-                  margin: "0rem 40% 2rem 30%",
-                }}
-              />
+              <div style={{ display: "block" }}>
+                <Image
+                  width={this.props.width ? this.props.width : "220px"}
+                  height={this.props.height ? this.props.height : "206.25px"}
+                  alt="icon"
+                  src={this.props.image2}
+                  style={{
+                    width: "220px",
+                    display: "block",
+                    margin: "0rem 40% 2rem 30%",
+                  }}
+                />
+              </div>
               <h5
                 style={{
                   display: "inline",
@@ -99,18 +107,19 @@ export default class BannerSection9 extends PureComponent {
               </p>
             </div>
             <div className="col-md-3 col-xs-10 p-4  justify-content-center">
-              {" "}
-              <Image
-                width={this.props.width ? this.props.width : "220px"}
-                height={this.props.height ? this.props.height : "206.25px"}
-                alt="icon"
-                src={this.props.image3}
-                style={{
-                  width: "220px",
-                  display: "block",
-                  margin: "0rem 40% 2rem 30%",
-                }}
-              />{" "}
+              <div style={{ display: "block" }}>
+                <Image
+                  width={this.props.width ? this.props.width : "220px"}
+                  height={this.props.height ? this.props.height : "206.25px"}
+                  alt="icon"
+                  src={this.props.image3}
+                  style={{
+                    width: "220px",
+                    display: "block",
+                    margin: "0rem 40% 2rem 30%",
+                  }}
+                />
+              </div>
               <h5
                 style={{
                   display: "inline",

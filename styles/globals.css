@@ -82,10 +82,6 @@ ul.link_container {
   color: black;
 }
 
-/* small {
-  color: grey;
-} */
-
 .head {
   margin: 0vh 0vh 0vh 15vh;
 }
@@ -233,7 +229,7 @@ ul.link_container {
   font-size: 16px;
   border: 0 2px 0 2px green;
   position: absolute;
-  margin: 160px 0px 0px 10px;
+  margin: 120px 0px 0px 10px;
   padding-top: 2rem;
   padding-bottom: 2rem;
   cursor: pointer;
@@ -276,9 +272,9 @@ ul.link_container {
   height: 80vh;
 } */
 
-/* .imagebox12 {
+.imagebox12 {
   background-image: url("/assets/images/order-dashboard/order-dashboard-hero2@2x.png");
-} */
+}
 .imagebox13 {
   background-image: url("/assets/images/order-dashboard/DailyOS-Notifications@2x.png");
 }
@@ -1227,6 +1223,12 @@ ul.link_container {
 @media only screen and (max-width: 479px) {
   .inner-box {
     height: 275px;
+  }
+  .small-inner-box {
+    height: 230px;
+  }
+  .below-image-button {
+    margin: 160px 0px 0px 10px;
   }
   .image1-button,
   .image2-button {
