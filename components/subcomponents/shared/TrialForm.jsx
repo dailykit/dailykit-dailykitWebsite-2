@@ -7,7 +7,15 @@ export default class TrialForm extends PureComponent {
           className="ml-form-embed"
           data-account={this.props.dataAccount}
           data-form={this.props.dataForm}
-        ></div>
+        >
+          {" "}
+          <div className="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
       </div>
     );
   }

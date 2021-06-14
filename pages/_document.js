@@ -13,6 +13,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script defer src="/loader.js" />
           <script defer src="/mailer.js" />
           <script defer src="/analytics.js" />
           <script defer src="/googleTagManager.js" />

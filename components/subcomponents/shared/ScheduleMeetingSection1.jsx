@@ -20,13 +20,18 @@ export default class ScheduleMeetingSection1 extends PureComponent {
           <div className="col-md-7 col-xs-10 nunito">
             <div className="row justify-content-center text-center">
               <div className="col-md-8 col-xs-10">
-                <br />
                 <div
                   className="calendly-inline-widget"
                   data-url="https://calendly.com/dailykit/15min"
                   style={{ minWidth: "320px", height: "630px" }}
-                ></div>
-
+                >
+                  <div className="lds-ring">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                </div>
                 <small>
                   <br /> <br />
                 </small>

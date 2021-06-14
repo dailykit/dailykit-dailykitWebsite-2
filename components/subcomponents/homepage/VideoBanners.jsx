@@ -35,7 +35,7 @@ const VideoBanner = (props) => {
         </a>
         <br />
         <br />
-        <div className="offer">{props.offertext}</div> */}
+  <div className="offer">{props.offertext}</div> */}
       </div>
     </div>
   );
