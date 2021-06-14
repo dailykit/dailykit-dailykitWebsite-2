@@ -6,7 +6,7 @@ export default class Categoriessection extends PureComponent {
         <div className="row justify-content-around categories">
           {this.props.list.map((item) => {
             return (
-              <div className="col-md-3 col-xs-10">
+              <div className="col-md-3 col-xs-10" key={item}>
                 <ul className="onDemandCategories">
                   {item.map((li) => {
                     return <li key={li}>{li}</li>;

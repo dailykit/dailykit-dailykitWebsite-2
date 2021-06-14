@@ -11,7 +11,10 @@ export default class BlueBoxSection1 extends PureComponent {
             {this.props.boxes &&
               this.props.boxes.map((box) => {
                 return (
-                  <div className="col-md-4 col-xs-10 box-container">
+                  <div
+                    className="col-md-4 col-xs-10 box-container"
+                    key={box.heading}
+                  >
                     <div className="row justify-content-center ">
                       <div className="col-md-4 col-xs-10 ">
                         <Image

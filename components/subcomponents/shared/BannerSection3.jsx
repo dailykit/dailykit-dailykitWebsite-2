@@ -63,6 +63,21 @@ export default class BannerSection3 extends PureComponent {
                   </div>
                 ) : (
                   <div className="form-banner">
+                    <div class="lds-spinner">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>{" "}
+                    &&
                     <TrialForm
                       dataAccount={"3161173:g2o5g2c3i8"}
                       dataForm={"4175542:d4z0s3"}

@@ -9,7 +9,7 @@ export default class PricingSection1 extends PureComponent {
           <div className="row justify-content-center">
             {this.props.offers.map((offer) => {
               return (
-                <div className="col-md-6 col-xs-10">
+                <div className="col-md-6 col-xs-10" key={offer.name}>
                   <div className="card pricing-box">
                     <div className="card-body">
                       <h4 className="card-subtitle">{offer.name}</h4>
