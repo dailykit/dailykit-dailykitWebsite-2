@@ -49,7 +49,7 @@ export default class MenuManagementpage extends PureComponent {
             "What Sides Would You Like? Configure the specfic sides to offer along with a main product.",
             "How Do You Want It? Offer your customers a choice of different recipes for the main product and sides to cater to your customer’s dietary preferences.",
           ]}
-          leftImage={"/assets/images/personalization.gif"}
+          leftVideo={"/assets/videos/personalization.mp4"}
           dataAccount="3161173:g2o5g2c3i8"
           dataForm={"4175704:a4w7j9"}
         />{" "}
@@ -60,7 +60,7 @@ export default class MenuManagementpage extends PureComponent {
             "Gone are the days of The Static Menu",
             "With DailyKIT, you can rotate your menu by days & seasons, and offer special menus for special occasions to bring life to your brand, keeping your valued cusomters coming back for more!",
           ]}
-          leftImage={"/assets/images/give-life-to-your-menu2.gif"}
+          leftVideo={"/assets/videos/give-life-to-your-menu2.mp4"}
           dataAccount="3161173:g2o5g2c3i8"
           dataForm={"4175704:a4w7j9"}
         />

@@ -46,7 +46,7 @@ export default class BannerSection5 extends PureComponent {
                 {this.props.para &&
                   this.props.para.map((i) => {
                     return (
-                      <div style={{ display: "inline" }}>
+                      <div style={{ display: "inline" }} key={i}>
                         {i}
                         <br />
                         <br />

@@ -18,6 +18,26 @@ export default class BannerSection6 extends PureComponent {
                 />
               </div>
             )}
+            {this.props.leftVideo && (
+              <div className="col-md-5 col-xs-10">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="video-responsive"
+                >
+                  <source src={this.props.leftVideo} type="video/mp4" />
+                </video>
+                {/* <Video
+                  height="556px"
+                  width="475px"
+                 
+                  className="d-block image-responsive-size"
+                  alt="..."
+                /> */}
+              </div>
+            )}
             <div className="col-md-5 col-xs-10 trend-responsive">
               <h2
                 style={{

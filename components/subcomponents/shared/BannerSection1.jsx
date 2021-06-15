@@ -53,12 +53,17 @@ export default class BannerSection1 extends PureComponent {
             </div>
             <div className="row justify-content-start">
               <div className="col-12 col-xs-10 box-image3">
-                <Image
-                  width="451px"
-                  height="329.33px"
-                  src="/assets/images/customizableProduct.gif"
+                <video autoPlay loop muted playsInline>
+                  <source
+                    src="/assets/videos/customizableProduct.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+                {/* <Image
+                
+                  src="/assets/videos/customizableProduct.mp4"
                   alt="box-image3"
-                />
+                /> */}
               </div>
             </div>
           </div>
