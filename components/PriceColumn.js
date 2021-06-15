@@ -31,7 +31,7 @@ export default class PriceColumn extends PureComponent {
               return (
                 <li key={list}>
                   {" "}
-                  {list[0]}&nbsp; <b>{list[1]}</b>
+                  {list[0]}&nbsp; <b>: {list[1]}</b>
                 </li>
               );
             })}
@@ -45,7 +45,7 @@ export default class PriceColumn extends PureComponent {
               return (
                 <li key={list}>
                   {" "}
-                  {list[0]}&nbsp; <b>{list[1]}</b>
+                  {list[0]}&nbsp; <b>: {list[1]}</b>
                 </li>
               );
             })}
@@ -58,7 +58,7 @@ export default class PriceColumn extends PureComponent {
               return (
                 <li key={list}>
                   {" "}
-                  {list[0]}&nbsp; <b>{list[1]}</b>
+                  {list[0]}&nbsp; <b>: {list[1]}</b>
                 </li>
               );
             })}
@@ -71,7 +71,7 @@ export default class PriceColumn extends PureComponent {
               return (
                 <li key={list}>
                   {" "}
-                  {list[0]}&nbsp; <b>{list[1]}</b>
+                  {list[0]}&nbsp; <b>: {list[1]}</b>
                 </li>
               );
             })}
@@ -84,7 +84,7 @@ export default class PriceColumn extends PureComponent {
               return (
                 <li key={list}>
                   {" "}
-                  {list[0]}&nbsp; <b>{list[1]}</b>
+                  {list[0]}&nbsp; <b>: {list[1]}</b>
                 </li>
               );
             })}
@@ -97,7 +97,7 @@ export default class PriceColumn extends PureComponent {
               return (
                 <li key={list}>
                   {" "}
-                  {list[0]}&nbsp; <b>{list[1]}</b>
+                  {list[0]}&nbsp; <b>: {list[1]}</b>
                 </li>
               );
             })}
@@ -110,7 +110,7 @@ export default class PriceColumn extends PureComponent {
               return (
                 <li key={list}>
                   {" "}
-                  {list[0]}&nbsp; <b>{list[1]}</b>
+                  {list[0]}&nbsp; <b>: {list[1]}</b>
                 </li>
               );
             })}
@@ -148,7 +148,7 @@ export default class PriceColumn extends PureComponent {
               return (
                 <li key={list}>
                   {" "}
-                  {list[0]}&nbsp; <b>{list[1]}</b>
+                  {list[0]}&nbsp; <b>: {list[1]}</b>
                 </li>
               );
             })}
