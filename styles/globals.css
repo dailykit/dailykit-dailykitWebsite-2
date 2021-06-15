@@ -1368,26 +1368,44 @@ ul.link_container {
 #pricing-table {
   margin: 100px auto;
   text-align: center;
+  transition-property: margin-top 2s ease 2s;
+  margin-top: 50px;
+}
+#pricing-table:hover {
+  margin-top: 55px;
 }
 #pricing-table li {
   font-size: 16px;
-  font-family: "Chivo", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
-#pricing-table h4,
-#pricing-table h3 {
-  font-family: "Chivo", sans-serif;
-  font-weight: bold;
+#pricing-table h4 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
+#pricing-table h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  color: #3d486a;
+  padding: 20px;
+  margin: -20px -20px 50px -20px;
+  border-bottom: 1px solid #e6edf7;
+}
+.pricing-price {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  display: block;
+  color: #3d486a;
+  padding-right: 25px;
+  font-size: 4em;
+  font-weight: normal;
 }
 #pricing-table .plan {
-  font: 12px "Lucida Sans", "trebuchet MS", Arial, Helvetica;
   text-shadow: 0 1px rgba(255, 255, 255, 0.8);
   background: #fff;
   border: 1px solid #ddd;
   color: #333;
   padding: 20px;
-  width: 380px; /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */
-  float: left;
-  position: relative;
+  width: 390px;
 }
 
 #pricing-table #most-popular {
@@ -1417,80 +1435,27 @@ ul.link_container {
   -webkit-border-radius: 0 5px 5px 0;
   border-radius: 0 5px 5px 0;
 }
-
-/* --------------- */
-
-#pricing-table h3 {
-  font-size: 20px;
+.btn-lg:hover {
+  color: #fff;
+  background-color: #7c98e7;
+  box-shadow: 0px 25px 35px rgb(124 152 231 / 30%);
+}
+.btn-lg {
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  font-family: "Poppins";
   font-weight: normal;
-  padding: 20px;
-  margin: -20px -20px 50px -20px;
-  background-color: #eee;
-  background-image: -moz-linear-gradient(#fff, #eee);
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#fff),
-    to(#eee)
-  );
-  background-image: -webkit-linear-gradient(#fff, #eee);
-  background-image: -o-linear-gradient(#fff, #eee);
-  background-image: -ms-linear-gradient(#fff, #eee);
-  background-image: linear-gradient(#fff, #eee);
+  padding: 5px 30px 5px 30px;
+  color: #fff;
+  box-shadow: 0px 25px 35px rgb(255 94 141 / 30%);
+  font-family: "Nunito", sans-serif;
+  line-height: 2;
+  background-color: #ff5e8d;
+  padding: 7px 80px 7px 80px;
+  font-size: 1.725em;
+  margin: 20px 20px;
 }
-
-#pricing-table #most-popular h3 {
-  background-color: #ddd;
-  background-image: -moz-linear-gradient(#eee, #ddd);
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#eee),
-    to(#ddd)
-  );
-  background-image: -webkit-linear-gradient(#eee, #ddd);
-  background-image: -o-linear-gradient(#eee, #ddd);
-  background-image: -ms-linear-gradient(#eee, #ddd);
-  background-image: linear-gradient(#eee, #ddd);
-  margin-top: -30px;
-  padding-top: 30px;
-  -moz-border-radius: 5px 5px 0 0;
-  -webkit-border-radius: 5px 5px 0 0;
-  border-radius: 5px 5px 0 0;
-}
-
-#pricing-table .plan:nth-child(1) h3 {
-  -moz-border-radius: 5px 0 0 0;
-  -webkit-border-radius: 5px 0 0 0;
-  border-radius: 5px 0 0 0;
-}
-
-#pricing-table .plan:nth-child(4) h3 {
-  -moz-border-radius: 0 5px 0 0;
-  -webkit-border-radius: 0 5px 0 0;
-  border-radius: 0 5px 0 0;
-}
-
-#pricing-table h3 span {
-  display: block;
-  font: bold 25px/100px Georgia, Serif;
-  color: #777;
-  background: #fff;
-  border: 5px solid #fff;
-  height: 100px;
-  width: 100px;
-  margin: 10px auto -65px;
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
-  border-radius: 100px;
-  -moz-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
-  -webkit-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
-  box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
-}
-
-/* --------------- */
 
 #pricing-table ul {
   margin: 20px 0 0 0;
@@ -1501,68 +1466,11 @@ ul.link_container {
 #pricing-table li {
   border-top: 1px solid #ddd;
   padding: 10px 0;
+  line-height: 2.25;
+  font-size: 15px;
+  font-weight: bold;
+  color: #6f7c8a;
 }
-
-/* --------------- */
-
-#pricing-table .signup {
-  position: relative;
-  padding: 8px 20px;
-  margin: 20px 0 0 0;
-  color: #fff;
-  font: bold 14px Arial, Helvetica;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-  background-color: #72ce3f;
-  background-image: -moz-linear-gradient(#72ce3f, #62bc30);
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#72ce3f),
-    to(#62bc30)
-  );
-  background-image: -webkit-linear-gradient(#72ce3f, #62bc30);
-  background-image: -o-linear-gradient(#72ce3f, #62bc30);
-  background-image: -ms-linear-gradient(#72ce3f, #62bc30);
-  background-image: linear-gradient(#72ce3f, #62bc30);
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 0 rgba(0, 0, 0, 0.7);
-  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
-    0 2px 0 rgba(0, 0, 0, 0.7);
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 0 rgba(0, 0, 0, 0.7);
-}
-
-#pricing-table .signup:hover {
-  background-color: #62bc30;
-  background-image: -moz-linear-gradient(#62bc30, #72ce3f);
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#62bc30),
-    to(#72ce3f)
-  );
-  background-image: -webkit-linear-gradient(#62bc30, #72ce3f);
-  background-image: -o-linear-gradient(#62bc30, #72ce3f);
-  background-image: -ms-linear-gradient(#62bc30, #72ce3f);
-  background-image: linear-gradient(#62bc30, #72ce3f);
-}
-
-#pricing-table .signup:active,
-#pricing-table .signup:focus {
-  background: #62bc30;
-  top: 2px;
-  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
-  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
-}
-
-/* --------------- */
 
 .clear:before,
 .clear:after {
@@ -1576,4 +1484,34 @@ ul.link_container {
 
 .clear {
   zoom: 1;
+}
+.header-text-lg {
+  padding-top: 50px;
+  color: #3d486a;
+
+  line-height: 1.2;
+}
+.header-text-lg h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 4em;
+}
+.header-text-lg p {
+  font-family: "Nunito", sans-serif;
+  padding-top: 10px;
+  font-size: 1.4em;
+  line-height: 1.8;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+.sec-title-lg {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.55em;
+  line-height: 1.5;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+
+.sec-heading p {
+  padding-top: 50px;
 }

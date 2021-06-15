@@ -1,17 +1,27 @@
 import React, { PureComponent } from "react";
-
+import ContactFormSection2 from "./subcomponents/shared/ContactFormSection2";
 export default class PriceColumn extends PureComponent {
   render() {
     return (
       <div id="pricing-table" className="clear">
-        <div className="plan">
-          <h3>
-            {this.props.planName}
-            <span>{this.props.price}</span>
-          </h3>
-          <a className="signup" href="/">
-            Select Plan
+        <div className="col-md-5 col-xs-10 plan">
+          <h2>{this.props.planName}</h2>
+          <span className="pricing-price">
+            <sup>$</sup>
+            {this.props.price}
+          </span>
+          <a
+            href="/"
+            className="btn btn-lg btn-price"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Get started
           </a>
+          <ContactFormSection2
+            dataAccount={this.props.dataAccount}
+            dataForm={this.props.dataForm}
+          />
           <ul>
             <h4>Online store</h4>
             {this.props.onlinestore.map((list) => {

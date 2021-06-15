@@ -65,11 +65,6 @@ export default class BannerSection1 extends PureComponent {
                     type="video/mp4"
                   />
                 </video>
-                {/* <Image
-                
-                  src="/assets/videos/customizableProduct.mp4"
-                  alt="box-image3"
-                /> */}
               </div>
             </div>
           </div>

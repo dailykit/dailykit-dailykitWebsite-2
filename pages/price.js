@@ -3,6 +3,8 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import PriceColumn from "../components/PriceColumn";
+import PriceBanner1 from "../components/PriceBanner1";
+import PriceHeading from "./PriceHeading";
 export default class pricepage extends PureComponent {
   render() {
     return (
@@ -27,13 +29,16 @@ export default class pricepage extends PureComponent {
         </Head>
 
         <Navbar />
+        <PriceBanner1 />
+        <PriceHeading heading={"Best pricing"} />
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-xs-10">
-              {" "}
               <PriceColumn
+                dataAccount="3161173:g2o5g2c3i8"
+                dataForm={"4175704:a4w7j9"}
                 planName="Standard"
-                price="$100"
+                price="100"
                 onlinestore={[
                   "onDemandStore",
                   "Subscription Store",
@@ -109,8 +114,10 @@ export default class pricepage extends PureComponent {
             </div>
             <div className="col-md-4 col-xs-10">
               <PriceColumn
+                dataAccount="3161173:g2o5g2c3i8"
+                dataForm={"4175704:a4w7j9"}
                 planName="Premium"
-                price="$150"
+                price="150"
                 onlinestore={[
                   "onDemandStore",
                   "Subscription Store",
@@ -187,8 +194,10 @@ export default class pricepage extends PureComponent {
             <div className="col-md-4 col-xs-10">
               {" "}
               <PriceColumn
+                dataAccount="3161173:g2o5g2c3i8"
+                dataForm={"4175704:a4w7j9"}
                 planName="Professional"
-                price="$500"
+                price="500"
                 onlinestore={[
                   "onDemandStore",
                   "Subscription Store",
