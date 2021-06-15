@@ -1368,11 +1368,11 @@ ul.link_container {
 #pricing-table {
   margin: 100px auto;
   text-align: center;
-  transition-property: margin-top 2s ease 2s;
+  transition-property: all 2s ease 2s;
   margin-top: 50px;
 }
 #pricing-table:hover {
-  margin-top: 55px;
+  margin-top: 52px;
 }
 #pricing-table li {
   font-size: 16px;
@@ -1405,7 +1405,7 @@ ul.link_container {
   border: 1px solid #ddd;
   color: #333;
   padding: 20px;
-  width: 390px;
+  width: 360px;
 }
 
 #pricing-table #most-popular {
@@ -1444,16 +1444,15 @@ ul.link_container {
   display: inline-block;
   border: none;
   border-radius: 30px;
-  font-family: "Poppins";
   font-weight: normal;
-  padding: 5px 30px 5px 30px;
+  padding: 7px 50px;
   color: #fff;
   box-shadow: 0px 25px 35px rgb(255 94 141 / 30%);
   font-family: "Nunito", sans-serif;
   line-height: 2;
   background-color: #ff5e8d;
   padding: 7px 80px 7px 80px;
-  font-size: 1.725em;
+  font-size: 1em;
   margin: 20px 20px;
 }
 
