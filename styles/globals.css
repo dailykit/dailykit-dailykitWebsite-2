@@ -1369,7 +1369,15 @@ ul.link_container {
   margin: 100px auto;
   text-align: center;
 }
-
+#pricing-table li {
+  font-size: 16px;
+  font-family: "Chivo", sans-serif;
+}
+#pricing-table h4,
+#pricing-table h3 {
+  font-family: "Chivo", sans-serif;
+  font-weight: bold;
+}
 #pricing-table .plan {
   font: 12px "Lucida Sans", "trebuchet MS", Arial, Helvetica;
   text-shadow: 0 1px rgba(255, 255, 255, 0.8);

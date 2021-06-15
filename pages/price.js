@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import PriceBanner from "../components/PriceBanner";
+import PriceColumn from "../components/PriceColumn";
 export default class pricepage extends PureComponent {
   render() {
     return (
@@ -27,11 +27,11 @@ export default class pricepage extends PureComponent {
         </Head>
 
         <Navbar />
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 col-xs-10">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4 col-xs-10">
               {" "}
-              <PriceBanner
+              <PriceColumn
                 planName="Standard"
                 price="$100"
                 onlinestore={[
@@ -44,34 +44,71 @@ export default class pricepage extends PureComponent {
                   "SEO Optimization",
                 ]}
                 features={[
-                  {
-                    "Unlimited products": "yes",
-                    "Staff accounts: Staff members with access to the admin and POS.":
-                      "yes",
-                    "24/7 support": "no",
-                    "Locations:Assign inventory to stores, warehouses,pop-ups, or wherever you store products":
-                      "no",
-                    "Manual order creation": "no",
-                    "Discount codes": "yes",
-                    "SSL certificate": "yes",
-                    "Abandoned cart recovery": "yes",
-                    "Referral Programs": "yes",
-                    " Wallet": "no",
-                    "Professional reports": "no",
-                    "Third-party calculated shipping rates: Show calculated rates with your own account or third-party apps at checkout.":
-                      "Basic",
-                    "Menu Engineeing": "no",
-                    "Weighing Scale Integration, KOT, Print Routing": "yes",
-                    "Multi Locations Support": "yes",
-                    "Recipe Management": "yes",
-                    "Station Management": "yes",
-                    "Standard Kitchen Operating Procedures": "no",
-                  },
+                  ["Unlimited products", "Yes"],
+                  [
+                    "Staff accounts: Staff members with access to the admin and POS.",
+                    "Yes",
+                  ],
+                  ["24/7 support", "No"],
+                  [
+                    "Locations:Assign inventory to stores, warehouses,pop-ups, or wherever you store products",
+                    "No",
+                  ],
+                  ["Manual order creation", "No"],
+                  ["Discount codes", "Yes"],
+                  ["SSL certificate", "Yes"],
+                  ["Abandoned cart recovery", "Yes"],
+                  ["Referral Programs", "Yes"],
+                  [" Wallet", "No"],
+                  ["Professional reports", "No"],
+                  [
+                    "Third-party calculated shipping rates: Show calculated rates with your own account or third-party apps at checkout.",
+                    "Basic",
+                  ],
+                  ["Menu Engineeing", "No"],
+                  ["Weighing Scale Integration, KOT, Print Routing", "Yes"],
+                  ["Multi Locations Support", "Yes"],
+                  ["Recipe Management", "Yes"],
+                  ["Station Management", "Yes"],
+                  ["Standard Kitchen Operating Procedures", "No"],
+                ]}
+                delivery={[
+                  ["Print shipping labels", "Yes"],
+                  ["Postmastes Integration", "Yes"],
+                  ["3rd party delivery support", "Yes"],
+                  ["Order based delivery routing to delivery partners", "Yes"],
+                  ["3rd Party Food Aggregator Support", "Yes"],
+                  ["Live Delivery Tracking", "Yes"],
+                  ["Multiple Delivery Partner Integration", "Yes"],
+                ]}
+                orderManagement={[
+                  ["Real time order tracking", "Yes"],
+                  ["Reject an Order", "Yes"],
+                ]}
+                globalSelling={[
+                  ["Sell in multiple languages", "Yes"],
+                  ["Multi Currency", "No"],
+                ]}
+                customization={[["Support Custom Requests", "No"]]}
+                editorApp={[
+                  ["Online Store Creation", "Basic"],
+                  ["Multiple Themes", "No"],
+                ]}
+                contentApp={[
+                  ["Page Management", "No"],
+                  ["Manage Subscription Store Content", "No"],
+                ]}
+                cartManagement={[["No"]]}
+                insights={[["No"]]}
+                support={[["Basic"]]}
+                paymentGatewayIntegration={[
+                  ["Stripe", "Yes"],
+                  ["Custom", "No"],
                 ]}
               />
             </div>
-            <div class="col-md-4 col-xs-10">
-              <PriceBanner
+            <div className="col-md-4 col-xs-10">
+              <PriceColumn
                 planName="Premium"
                 price="$150"
                 onlinestore={[
@@ -83,11 +120,73 @@ export default class pricepage extends PureComponent {
                   "Build your own meal",
                   "SEO Optimization",
                 ]}
+                features={[
+                  ["Unlimited products", "Yes"],
+                  [
+                    "Staff accounts: Staff members with access to the admin and POS.",
+                    "Yes",
+                  ],
+                  ["24/7 support", "No"],
+                  [
+                    "Locations:Assign inventory to stores, warehouses,pop-ups, or wherever you store products",
+                    "No",
+                  ],
+                  ["Manual order creation", "No"],
+                  ["Discount codes", "Yes"],
+                  ["SSL certificate", "Yes"],
+                  ["Abandoned cart recovery", "Yes"],
+                  ["Referral Programs", "Yes"],
+                  [" Wallet", "Yes"],
+                  ["Professional reports", "No"],
+                  [
+                    "Third-party calculated shipping rates: Show calculated rates with your own account or third-party apps at checkout.",
+                    "Advanced",
+                  ],
+                  ["Menu Engineeing", "Yes"],
+                  ["Weighing Scale Integration, KOT, Print Routing", "Yes"],
+                  ["Multi Locations Support", "Yes"],
+                  ["Recipe Management", "Yes"],
+                  ["Station Management", "Yes"],
+                  ["Standard Kitchen Operating Procedures", "Yes"],
+                ]}
+                delivery={[
+                  ["Print shipping labels", "Yes"],
+                  ["Postmastes Integration", "Yes"],
+                  ["3rd party delivery support", "Yes"],
+                  ["Order based delivery routing to delivery partners", "Yes"],
+                  ["3rd Party Food Aggregator Support", "Yes"],
+                  ["Live Delivery Tracking", "Yes"],
+                  ["Multiple Delivery Partner Integration", "NO"],
+                ]}
+                orderManagement={[
+                  ["Real time order tracking", "Yes"],
+                  ["Reject an Order", "Yes"],
+                ]}
+                globalSelling={[
+                  ["Sell in multiple languages", "Yes"],
+                  ["Multi Currency", "No"],
+                ]}
+                customization={[["Support Custom Requests", "No"]]}
+                editorApp={[
+                  ["Online Store Creation", "Basic"],
+                  ["Multiple Themes", "Basic"],
+                ]}
+                contentApp={[
+                  ["Page Management", "Yes"],
+                  ["Manage Subscription Store Content", "Yes"],
+                ]}
+                cartManagement={[["Yes"]]}
+                insights={[["Basic"]]}
+                support={[["24/7"]]}
+                paymentGatewayIntegration={[
+                  ["Stripe", "Yes"],
+                  ["Custom", "No"],
+                ]}
               />
             </div>
-            <div class="col-md-4 col-xs-10">
+            <div className="col-md-4 col-xs-10">
               {" "}
-              <PriceBanner
+              <PriceColumn
                 planName="Professional"
                 price="$500"
                 onlinestore={[
@@ -98,6 +197,68 @@ export default class pricepage extends PureComponent {
                   "Upsell & Cross Sell",
                   "Build your own meal",
                   "SEO Optimization",
+                ]}
+                features={[
+                  ["Unlimited products", "Yes"],
+                  [
+                    "Staff accounts: Staff members with access to the admin and POS.",
+                    "Yes",
+                  ],
+                  ["24/7 support", "Yes"],
+                  [
+                    "Locations:Assign inventory to stores, warehouses,pop-ups, or wherever you store products",
+                    "Yes",
+                  ],
+                  ["Manual order creation", "Yes"],
+                  ["Discount codes", "Yes"],
+                  ["SSL certificate", "Yes"],
+                  ["Abandoned cart recovery", "Yes"],
+                  ["Referral Programs", "Yes"],
+                  [" Wallet", "Yes"],
+                  ["Professional reports", "Yes"],
+                  [
+                    "Third-party calculated shipping rates: Show calculated rates with your own account or third-party apps at checkout.",
+                    "Complete Control",
+                  ],
+                  ["Menu Engineeing", "Yes"],
+                  ["Weighing Scale Integration, KOT, Print Routing", "Yes"],
+                  ["Multi Locations Support", "Yes"],
+                  ["Recipe Management", "Yes"],
+                  ["Station Management", "Yes"],
+                  ["Standard Kitchen Operating Procedures", "Yes"],
+                ]}
+                delivery={[
+                  ["Print shipping labels", "Yes"],
+                  ["Postmastes Integration", "Yes"],
+                  ["3rd party delivery support", "Yes"],
+                  ["Order based delivery routing to delivery partners", "Yes"],
+                  ["3rd Party Food Aggregator Support", "Yes"],
+                  ["Live Delivery Tracking", "Yes"],
+                  ["Multiple Delivery Partner Integration", "Yes"],
+                ]}
+                orderManagement={[
+                  ["Real time order tracking", "Yes"],
+                  ["Reject an Order", "Yes"],
+                ]}
+                globalSelling={[
+                  ["Sell in multiple languages", "Yes"],
+                  ["Multi Currency", "Yes"],
+                ]}
+                customization={[["Support Custom Requests", "Yes"]]}
+                editorApp={[
+                  ["Online Store Creation", "Basic"],
+                  ["Multiple Themes", "Advanced"],
+                ]}
+                contentApp={[
+                  ["Page Management", "Yes"],
+                  ["Manage Subscription Store Content", "Yes"],
+                ]}
+                cartManagement={[["Yes"]]}
+                insights={[["Advanced"]]}
+                support={[["24/7"]]}
+                paymentGatewayIntegration={[
+                  ["Stripe", "Yes"],
+                  ["Custom", "Yes"],
                 ]}
               />
             </div>
