@@ -160,7 +160,7 @@ export default class pricepage extends PureComponent {
                   ["Order based delivery routing to delivery partners", "Yes"],
                   ["3rd Party Food Aggregator Support", "Yes"],
                   ["Live Delivery Tracking", "Yes"],
-                  ["Multiple Delivery Partner Integration", "Yes"],
+                  ["Multiple Delivery Partner Integration", "No"],
                 ]}
                 orderManagement={[
                   ["Real time order tracking", "Yes"],
@@ -239,7 +239,7 @@ export default class pricepage extends PureComponent {
                   ["Order based delivery routing to delivery partners", "Yes"],
                   ["3rd Party Food Aggregator Support", "Yes"],
                   ["Live Delivery Tracking", "Yes"],
-                  ["Multiple Delivery Partner Integration", "NO"],
+                  ["Multiple Delivery Partner Integration", "Yes"],
                 ]}
                 orderManagement={[
                   ["Real time order tracking", "Yes"],
@@ -252,7 +252,7 @@ export default class pricepage extends PureComponent {
                 customization={[["Support Custom Requests", "No"]]}
                 editorApp={[
                   ["Online Store Creation", "Basic"],
-                  ["Multiple Themes", "Basic"],
+                  ["Multiple Themes", "Upto 5"],
                 ]}
                 contentApp={[
                   ["Page Management", "Yes"],
@@ -331,8 +331,8 @@ export default class pricepage extends PureComponent {
                 ]}
                 customization={[["Support Custom Requests", "Yes"]]}
                 editorApp={[
-                  ["Online Store Creation", "Basic"],
-                  ["Multiple Themes", "Advanced"],
+                  ["Online Store Creation", "Advanced"],
+                  ["Multiple Themes", "Multiple"],
                 ]}
                 contentApp={[
                   ["Page Management", "Yes"],
