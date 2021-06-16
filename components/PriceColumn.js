@@ -27,7 +27,8 @@ export default class PriceColumn extends PureComponent {
             {this.props.onlinestore.map((list) => {
               return (
                 <li key={list}>
-                  <b>Yes</b>
+                  <b className="list-responsive">{list}</b>
+                  <b className="list-responsive-value">Yes</b>
                 </li>
               );
             })}
@@ -39,7 +40,10 @@ export default class PriceColumn extends PureComponent {
             {this.props.features.map((list) => {
               return (
                 <li key={list}>
-                  <b>{list[1]}</b>
+                  {list[1] === "Yes" && (
+                    <b className="list-responsive">{list[0]}</b>
+                  )}
+                  <b className="list-responsive-value">{list[1]}</b>
                 </li>
               );
             })}
@@ -52,7 +56,10 @@ export default class PriceColumn extends PureComponent {
             {this.props.delivery.map((list) => {
               return (
                 <li key={list}>
-                  <b>{list[1]}</b>
+                  {list[1] === "Yes" && (
+                    <b className="list-responsive">{list[0]}</b>
+                  )}
+                  <b className="list-responsive-value">{list[1]}</b>
                 </li>
               );
             })}
@@ -64,7 +71,10 @@ export default class PriceColumn extends PureComponent {
             {this.props.orderManagement.map((list) => {
               return (
                 <li key={list}>
-                  <b>{list[1]}</b>
+                  {list[1] === "Yes" && (
+                    <b className="list-responsive">{list[0]}</b>
+                  )}
+                  <b className="list-responsive-value">{list[1]}</b>
                 </li>
               );
             })}
@@ -76,7 +86,10 @@ export default class PriceColumn extends PureComponent {
             {this.props.globalSelling.map((list) => {
               return (
                 <li key={list}>
-                  <b>{list[1]}</b>
+                  {list[1] === "Yes" && (
+                    <b className="list-responsive">{list[0]}</b>
+                  )}
+                  <b className="list-responsive-value">{list[1]}</b>
                 </li>
               );
             })}
@@ -88,7 +101,10 @@ export default class PriceColumn extends PureComponent {
             {this.props.customization.map((list) => {
               return (
                 <li key={list}>
-                  <b>{list[1]}</b>
+                  {list[1] === "Yes" && (
+                    <b className="list-responsive">{list[0]}</b>
+                  )}
+                  <b className="list-responsive-value">{list[1]}</b>
                 </li>
               );
             })}
@@ -100,7 +116,10 @@ export default class PriceColumn extends PureComponent {
             {this.props.editorApp.map((list) => {
               return (
                 <li key={list}>
-                  <b>{list[1]}</b>
+                  {list[1] === "Yes" && (
+                    <b className="list-responsive">{list[0]}</b>
+                  )}
+                  <b className="list-responsive-value">{list[1]}</b>
                 </li>
               );
             })}
@@ -112,7 +131,10 @@ export default class PriceColumn extends PureComponent {
             {this.props.contentApp.map((list) => {
               return (
                 <li key={list}>
-                  <b>{list[1]}</b>
+                  {list[1] === "Yes" && (
+                    <b className="list-responsive">{list[0]}</b>
+                  )}
+                  <b className="list-responsive-value">{list[1]}</b>
                 </li>
               );
             })}
@@ -123,7 +145,8 @@ export default class PriceColumn extends PureComponent {
             {this.props.cartManagement.map((list) => {
               return (
                 <li key={list} style={{ borderTop: "none" }}>
-                  {list[0]}
+                  <b className="list-responsive">cartManagement: {list[0]}</b>
+                  <b className="list-responsive-value"> {list[0]}</b>
                 </li>
               );
             })}
@@ -134,7 +157,8 @@ export default class PriceColumn extends PureComponent {
             {this.props.insights.map((list) => {
               return (
                 <li key={list} style={{ borderTop: "none" }}>
-                  {list[0]}
+                  <b className="list-responsive">insights: {list[0]}</b>
+                  <b className="list-responsive-value"> {list[0]}</b>
                 </li>
               );
             })}
@@ -145,7 +169,8 @@ export default class PriceColumn extends PureComponent {
             {this.props.support.map((list) => {
               return (
                 <li key={list} style={{ borderTop: "none" }}>
-                  {list[0]}
+                  <b className="list-responsive">Support: {list[0]}</b>
+                  <b className="list-responsive-value"> {list[0]}</b>
                 </li>
               );
             })}
@@ -157,7 +182,10 @@ export default class PriceColumn extends PureComponent {
             {this.props.paymentGatewayIntegration.map((list) => {
               return (
                 <li key={list}>
-                  <b>{list[1]}</b>
+                  {list[1] === "Yes" && (
+                    <b className="list-responsive">{list[0]}</b>
+                  )}
+                  <b className="list-responsive-value">{list[1]}</b>
                 </li>
               );
             })}

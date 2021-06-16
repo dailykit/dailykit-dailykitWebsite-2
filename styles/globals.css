@@ -1511,6 +1511,10 @@ ul.link_container {
 .sec-heading p {
   padding-top: 50px;
 }
+.list-responsive {
+  display: none;
+}
+
 @media only screen and (max-width: 479px) {
   .priceColumnLabel {
     display: none;
@@ -1518,5 +1522,16 @@ ul.link_container {
   .header-text-lg h1 {
     font-weight: 900;
     font-size: 3em;
+  }
+  .list-responsive {
+    display: inline-block;
+  }
+  .list-responsive-value {
+    display: none;
+  }
+  #pricing-table li {
+    line-height: 2.25;
+    height: auto;
+    border: none;
   }
 }
