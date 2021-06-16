@@ -487,7 +487,20 @@ export default class Navbar extends PureComponent {
                   </li>
                 </ul>
               </li>
-
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  style={{
+                    color: "#113D63",
+                    fontWeight: "600",
+                    marginLeft: "0.7rem",
+                    fontSize: "14px",
+                  }}
+                  href="/price"
+                >
+                  Pricing
+                </a>
+              </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
