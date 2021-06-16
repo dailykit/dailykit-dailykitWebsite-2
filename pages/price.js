@@ -33,7 +33,7 @@ export default class pricepage extends PureComponent {
         <PriceHeading heading={"Best pricing"} />
         <div className="container">
           <div className="row">
-            <div className="col-md-4 col-xs-10">
+            <div className="col-md-3 col-xs-10">
               <PriceColumn
                 dataAccount="3161173:g2o5g2c3i8"
                 dataForm={"4175704:a4w7j9"}
@@ -112,7 +112,86 @@ export default class pricepage extends PureComponent {
                 ]}
               />
             </div>
-            <div className="col-md-4 col-xs-10">
+            <div className="col-md-3 col-xs-10">
+              <PriceColumn
+                dataAccount="3161173:g2o5g2c3i8"
+                dataForm={"4175704:a4w7j9"}
+                planName="Standard"
+                price="100"
+                onlinestore={[
+                  "onDemandStore",
+                  "Subscription Store",
+                  "Ecommerce",
+                  "Meal Kit Specific Store capabilities",
+                  "Upsell & Cross Sell",
+                  "Build your own meal",
+                  "SEO Optimization",
+                ]}
+                features={[
+                  ["Unlimited products", "Yes"],
+                  [
+                    "Staff accounts: Staff members with access to the admin and POS.",
+                    "Yes",
+                  ],
+                  ["24/7 support", "No"],
+                  [
+                    "Locations:Assign inventory to stores, warehouses,pop-ups, or wherever you store products",
+                    "No",
+                  ],
+                  ["Manual order creation", "No"],
+                  ["Discount codes", "Yes"],
+                  ["SSL certificate", "Yes"],
+                  ["Abandoned cart recovery", "Yes"],
+                  ["Referral Programs", "Yes"],
+                  [" Wallet", "No"],
+                  ["Professional reports", "No"],
+                  [
+                    "Third-party calculated shipping rates: Show calculated rates with your own account or third-party apps at checkout.",
+                    "Basic",
+                  ],
+                  ["Menu Engineeing", "No"],
+                  ["Weighing Scale Integration, KOT, Print Routing", "Yes"],
+                  ["Multi Locations Support", "Yes"],
+                  ["Recipe Management", "Yes"],
+                  ["Station Management", "Yes"],
+                  ["Standard Kitchen Operating Procedures", "No"],
+                ]}
+                delivery={[
+                  ["Print shipping labels", "Yes"],
+                  ["Postmastes Integration", "Yes"],
+                  ["3rd party delivery support", "Yes"],
+                  ["Order based delivery routing to delivery partners", "Yes"],
+                  ["3rd Party Food Aggregator Support", "Yes"],
+                  ["Live Delivery Tracking", "Yes"],
+                  ["Multiple Delivery Partner Integration", "Yes"],
+                ]}
+                orderManagement={[
+                  ["Real time order tracking", "Yes"],
+                  ["Reject an Order", "Yes"],
+                ]}
+                globalSelling={[
+                  ["Sell in multiple languages", "Yes"],
+                  ["Multi Currency", "No"],
+                ]}
+                customization={[["Support Custom Requests", "No"]]}
+                editorApp={[
+                  ["Online Store Creation", "Basic"],
+                  ["Multiple Themes", "No"],
+                ]}
+                contentApp={[
+                  ["Page Management", "No"],
+                  ["Manage Subscription Store Content", "No"],
+                ]}
+                cartManagement={[["No"]]}
+                insights={[["No"]]}
+                support={[["Basic"]]}
+                paymentGatewayIntegration={[
+                  ["Stripe", "Yes"],
+                  ["Custom", "No"],
+                ]}
+              />
+            </div>
+            <div className="col-md-3 col-xs-10">
               <PriceColumn
                 dataAccount="3161173:g2o5g2c3i8"
                 dataForm={"4175704:a4w7j9"}
@@ -191,7 +270,7 @@ export default class pricepage extends PureComponent {
                 ]}
               />
             </div>
-            <div className="col-md-4 col-xs-10">
+            <div className="col-md-3 col-xs-10">
               {" "}
               <PriceColumn
                 dataAccount="3161173:g2o5g2c3i8"
