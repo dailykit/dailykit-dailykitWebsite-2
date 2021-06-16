@@ -49,7 +49,7 @@ export default class PriceColumn extends PureComponent {
         </div>{" "}
         <div className="plan">
           <ul>
-            {console.log(this.props.Delivery)}
+            {/* {console.log(this.props.Delivery)} */}
             <h4>Delivery</h4>
             {this.props.delivery.map((list) => {
               return (

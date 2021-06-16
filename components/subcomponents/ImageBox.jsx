@@ -4,7 +4,7 @@ const ImageBox = (props) => {
   return (
     <div className="col">
       <div className="card imagebox-start-mealkit-brand">
-        {console.log(props.rest.image)}
+        {/* {console.log(props.rest.image)} */}
         <Image
           src={props.rest.image}
           width="448px"
