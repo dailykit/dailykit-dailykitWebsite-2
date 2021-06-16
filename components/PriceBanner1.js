@@ -3,7 +3,7 @@ import React, { PureComponent } from "react";
 export default class PriceBanner1 extends PureComponent {
   render() {
     return (
-      <div class="container">
+      <div class="container" style={{ marginTop: "-4rem" }}>
         <div class="row align-items-center justify-content-between">
           <div class="col-lg-5 text-center text-lg-left order-last order-lg-first">
             <div class="header-text-lg">

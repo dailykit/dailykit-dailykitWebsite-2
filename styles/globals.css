@@ -930,9 +930,7 @@ ul.link_container {
   .all-text {
     font-size: 16px;
   }
-  /* .box-image3 {
-    width: 360px;
-  } */
+
   .sideBar_left h5 {
     font-size: 16px;
     margin-bottom: 2rem;
@@ -1513,4 +1511,10 @@ ul.link_container {
 
 .sec-heading p {
   padding-top: 50px;
+}
+@media only screen and (max-width: 479px) {
+  .header-text-lg h1 {
+    font-weight: 900;
+    font-size: 3em;
+  }
 }
