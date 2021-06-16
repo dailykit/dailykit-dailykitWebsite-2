@@ -3,6 +3,7 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import PriceColumn from "../components/PriceColumn";
+import PriceColumnLabel from "../components/PriceColumnLabel";
 import PriceBanner1 from "../components/PriceBanner1";
 import PriceHeading from "./PriceHeading";
 export default class pricepage extends PureComponent {
@@ -34,11 +35,7 @@ export default class pricepage extends PureComponent {
         <div className="container">
           <div className="row">
             <div className="col-md-3 col-xs-10">
-              <PriceColumn
-                dataAccount="3161173:g2o5g2c3i8"
-                dataForm={"4175704:a4w7j9"}
-                planName="Standard"
-                price="100"
+              <PriceColumnLabel
                 onlinestore={[
                   "onDemandStore",
                   "Subscription Store",
