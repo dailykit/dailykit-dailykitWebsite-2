@@ -1461,7 +1461,6 @@ ul.link_container {
 #pricing-table li {
   border-top: 1px solid #ddd;
   padding: 10px 0;
-  /* line-height: 2.25; */
   font-size: 15px;
   font-weight: bold;
   color: #6f7c8a;
@@ -1484,7 +1483,6 @@ ul.link_container {
 .header-text-lg {
   padding-top: 50px;
   color: #3d486a;
-
   line-height: 1.2;
 }
 .header-text-lg h1 {
@@ -1516,6 +1514,9 @@ ul.link_container {
 }
 
 @media only screen and (max-width: 479px) {
+  #pricing-table .plan {
+    width: 350px;
+  }
   .priceColumnLabel {
     display: none;
   }
