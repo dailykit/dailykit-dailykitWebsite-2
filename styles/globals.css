@@ -916,6 +916,7 @@ ul.link_container {
   color: #fefdfc;
 }
 .green:hover {
+  font-weight: bold;
   background-color: white;
   color: #111b2b;
 }
@@ -1408,7 +1409,7 @@ text-align: left;
   border: 1px solid #ddd;
   color: #333;
   padding: 20px;
-  width: 330px;
+  width: 329.5px;
 }
 
 #pricing-table #most-popular {
@@ -1466,7 +1467,7 @@ text-align: left;
 #pricing-table li {
   border-top: 1px solid #ddd;
   padding: 10px 0;
-  font-size: 15px;
+  font-size: 13.5px;
   font-weight: bold;
   color: #6f7c8a;
   height: 100px;
@@ -1494,6 +1495,9 @@ text-align: left;
   font-family: "Nunito", sans-serif;
   font-weight: 900;
   font-size: 4em;
+}
+.normal{
+  font-weight: normal;
 }
 .header-text-lg p {
   font-family: "Nunito", sans-serif;

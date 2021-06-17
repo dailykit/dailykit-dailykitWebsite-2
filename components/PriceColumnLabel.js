@@ -4,7 +4,7 @@ export default class PriceColumnLabel extends PureComponent {
     return (
       <div id="pricing-table" className="clear  priceColumnLabel  left">
         <div className="col-md-5 col-xs-10 plan text-align-left">
-          <div style={{ marginTop: "19.25rem" }} />
+          <div style={{ marginTop: "18rem" }} />
           <ul>
             <h4>Online store</h4>
             {this.props.onlinestore.map((list) => {

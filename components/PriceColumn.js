@@ -11,10 +11,12 @@ export default class PriceColumn extends PureComponent {
             {this.props.price}
           </span>
           <a
+                type="button"
+                className="btn-style-thirteen green normal"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
             href="/"
-            className="btn btn-lg btn-price"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
+           
           >
             Get started
           </a>
