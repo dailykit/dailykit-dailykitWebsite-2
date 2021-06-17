@@ -251,8 +251,8 @@ export default class pricepage extends PureComponent {
                 ]}
                 customization={[["Support Custom Requests", "No"]]}
                 editorApp={[
-                  ["Online Store Creation", "Yes"],
-                  ["Multiple Themes", "< 5"],
+                  ["Online Store Creation", "Basic"],
+                  ["Multiple Themes", "upto 5"],
                 ]}
                 contentApp={[
                   ["Page Management", "Yes"],
@@ -303,7 +303,7 @@ export default class pricepage extends PureComponent {
                   ["Professional reports", "Yes"],
                   [
                     "Third-party calculated shipping rates: Show calculated rates with your own account or third-party apps at checkout.",
-                    "Complete Control",
+                    "Yes",
                   ],
                   ["Menu Engineeing", "Complete Control"],
                   ["Weighing Scale Integration, KOT, Print Routing", "Yes"],
@@ -331,8 +331,8 @@ export default class pricepage extends PureComponent {
                 ]}
                 customization={[["Support Custom Requests", "Yes"]]}
                 editorApp={[
-                  ["Online Store Creation", "Yes"],
-                  ["Multiple Themes", "> 5"],
+                  ["Online Store Creation", "Advanced"],
+                  ["Multiple Themes", "Multiple"],
                 ]}
                 contentApp={[
                   ["Page Management", "Yes"],
