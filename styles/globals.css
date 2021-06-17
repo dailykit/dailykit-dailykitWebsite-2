@@ -1006,7 +1006,7 @@ ul.link_container {
 .image1-button,
 .image2-button {
   font-size: 25px;
-  margin-top: 19rem;
+  margin-top: 18.9rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   cursor: pointer;
@@ -1375,8 +1375,8 @@ ul.link_container {
 .left {
   text-align: left;
 }
-#pricing-table:hover {
-  margin-top: 52px;
+#pricing-table li:hover {
+  font-size: 17px;
 }
 #pricing-table li {
   font-size: 16px;

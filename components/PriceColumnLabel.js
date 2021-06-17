@@ -8,7 +8,7 @@ export default class PriceColumnLabel extends PureComponent {
           <ul>
             <h4>Online store</h4>
             {this.props.onlinestore.map((list) => {
-              return <li key={list}> {list}&nbsp;</li>;
+              return <li key={list}> {list[0]}&nbsp;</li>;
             })}
           </ul>
         </div>{" "}
@@ -22,13 +22,20 @@ export default class PriceColumnLabel extends PureComponent {
         </div>
         <div className="plan">
           <ul>
-            {console.log(this.props.Delivery)}
+            <h4>Inventory</h4>
+            {this.props.inventory.map((list) => {
+              return <li key={list}> {list}&nbsp;</li>;
+            })}
+          </ul>
+        </div>
+        <div className="plan">
+          <ul>
             <h4>Delivery</h4>
             {this.props.delivery.map((list) => {
               return <li key={list}> {list[0]}&nbsp;</li>;
             })}
           </ul>
-        </div>{" "}
+        </div>
         <div className="plan">
           <ul>
             <h4>Order Management</h4>
