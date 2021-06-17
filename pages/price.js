@@ -33,7 +33,7 @@ export default class pricepage extends PureComponent {
         <PriceBanner1 />
         <PriceHeading heading={"Best pricing"} />
         <div className="container">
-          <div className="row">
+          <div className="row ">
             <div className="col-md-3 col-xs-10">
               <PriceColumnLabel
                 onlinestore={[

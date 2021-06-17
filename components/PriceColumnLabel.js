@@ -19,7 +19,7 @@ export default class PriceColumnLabel extends PureComponent {
               return <li key={list}> {list[0]}&nbsp;</li>;
             })}
           </ul>
-        </div>{" "}
+        </div>
         <div className="plan">
           <ul>
             {console.log(this.props.Delivery)}
