@@ -3,7 +3,7 @@ export default class PriceColumnLabel extends PureComponent {
   render() {
     return (
       <div id="pricing-table" className="clear  priceColumnLabel">
-        <div className="col-md-5 col-xs-10 plan">
+        <div className="col-md-5 col-xs-10 plan text-align-left">
           <div style={{ marginTop: "19.25rem" }} />
           <ul>
             <h4>Online store</h4>
