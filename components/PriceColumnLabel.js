@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 export default class PriceColumnLabel extends PureComponent {
   render() {
     return (
-      <div id="pricing-table" className="clear  priceColumnLabel">
+      <div id="pricing-table" className="clear  priceColumnLabel  left">
         <div className="col-md-5 col-xs-10 plan text-align-left">
           <div style={{ marginTop: "19.25rem" }} />
           <ul>
