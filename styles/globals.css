@@ -1508,6 +1508,8 @@ ul.link_container {
 
 .sec-heading p {
   padding-top: 50px;
+  color: #3d486a;
+  font-size: 1.4em;
 }
 .list-responsive {
   display: none;

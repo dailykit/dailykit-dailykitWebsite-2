@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import PriceColumn from "../components/PriceColumn";
 import PriceColumnLabel from "../components/PriceColumnLabel";
 import PriceBanner1 from "../components/PriceBanner1";
-import PriceHeading from "./PriceHeading";
+import PriceHeading from "../components/PriceHeading";
 export default class pricepage extends PureComponent {
   render() {
     return (
