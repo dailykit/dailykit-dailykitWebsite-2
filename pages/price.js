@@ -140,14 +140,14 @@ export default class pricepage extends PureComponent {
                   ["SSL certificate", "Yes"],
                   ["Abandoned cart recovery", "Yes"],
                   ["Referral Programs", "Yes"],
-                  [" Wallet", "No"],
+                  [" Wallet", "Yes"],
                   ["Professional reports", "No"],
                   [
                     "Third-party calculated shipping rates: Show calculated rates with your own account or third-party apps at checkout.",
-                    "Basic",
+                    "No",
                   ],
-                  ["Menu Engineeing", "No"],
-                  ["Weighing Scale Integration, KOT, Print Routing", "Yes"],
+                  ["Menu Engineeing", "Basic"],
+                  ["Weighing Scale Integration, KOT, Print Routing", "No"],
                   ["Multi Locations Support", "Yes"],
                   ["Recipe Management", "Yes"],
                   ["Station Management", "Yes"],
@@ -209,23 +209,23 @@ export default class pricepage extends PureComponent {
                     "Staff accounts: Staff members with access to the admin and POS.",
                     "Yes",
                   ],
-                  ["24/7 support", "No"],
+                  ["24/7 support", "Yes"],
                   [
                     "Locations:Assign inventory to stores, warehouses,pop-ups, or wherever you store products",
-                    "No",
+                    "Yes",
                   ],
-                  ["Manual order creation", "No"],
+                  ["Manual order creation", "Yes"],
                   ["Discount codes", "Yes"],
                   ["SSL certificate", "Yes"],
                   ["Abandoned cart recovery", "Yes"],
                   ["Referral Programs", "Yes"],
                   [" Wallet", "Yes"],
-                  ["Professional reports", "No"],
+                  ["Professional reports", "Yes"],
                   [
                     "Third-party calculated shipping rates: Show calculated rates with your own account or third-party apps at checkout.",
-                    "Advanced",
+                    "No",
                   ],
-                  ["Menu Engineeing", "Yes"],
+                  ["Menu Engineeing", "Advanced"],
                   ["Weighing Scale Integration, KOT, Print Routing", "Yes"],
                   ["Multi Locations Support", "Yes"],
                   ["Recipe Management", "Yes"],
@@ -251,8 +251,8 @@ export default class pricepage extends PureComponent {
                 ]}
                 customization={[["Support Custom Requests", "No"]]}
                 editorApp={[
-                  ["Online Store Creation", "Basic"],
-                  ["Multiple Themes", "Upto 5"],
+                  ["Online Store Creation", "Yes"],
+                  ["Multiple Themes", "< 5"],
                 ]}
                 contentApp={[
                   ["Page Management", "Yes"],
@@ -305,7 +305,7 @@ export default class pricepage extends PureComponent {
                     "Third-party calculated shipping rates: Show calculated rates with your own account or third-party apps at checkout.",
                     "Complete Control",
                   ],
-                  ["Menu Engineeing", "Yes"],
+                  ["Menu Engineeing", "Complete Control"],
                   ["Weighing Scale Integration, KOT, Print Routing", "Yes"],
                   ["Multi Locations Support", "Yes"],
                   ["Recipe Management", "Yes"],
@@ -331,8 +331,8 @@ export default class pricepage extends PureComponent {
                 ]}
                 customization={[["Support Custom Requests", "Yes"]]}
                 editorApp={[
-                  ["Online Store Creation", "Advanced"],
-                  ["Multiple Themes", "Multiple"],
+                  ["Online Store Creation", "Yes"],
+                  ["Multiple Themes", "> 5"],
                 ]}
                 contentApp={[
                   ["Page Management", "Yes"],
