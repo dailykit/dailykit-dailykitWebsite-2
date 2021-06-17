@@ -3,7 +3,7 @@ import ContactFormSection2 from "./subcomponents/shared/ContactFormSection2";
 export default class PriceColumn extends PureComponent {
   render() {
     return (
-      <div id="pricing-table" className="clear">
+      <div id="pricing-table" className="clear center">
         <div className="col-md-5 col-xs-10 plan">
           <h2>{this.props.planName}</h2>
           <span className="pricing-price">
