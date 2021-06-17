@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-
+import Image from "next/image";
 export default class PriceBanner1 extends PureComponent {
   render() {
     return (
@@ -16,10 +16,12 @@ export default class PriceBanner1 extends PureComponent {
 
           <div className="col-lg-6">
             <div className="header-img sec-img">
-              <img
-                src="assets/images/pricingheader.png"
+              <Image
+                src="/assets/images/pricingheader.png"
                 className="img-fluid"
                 alt="header-img"
+                height="673.5px"
+                width="636.01px"
               />
             </div>
           </div>
