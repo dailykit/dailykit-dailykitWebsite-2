@@ -39,6 +39,7 @@ export default class pricepage extends PureComponent {
                 onlinestore={[
                   ["onDemandStore"],
                   ["Subscription Store"],
+                  ["Auto Select Menu "],
                   ["Ecommerce"],
                   ["Meal Kit Specific Store capabilities"],
                   ["Upsell & Cross Sell"],
@@ -127,6 +128,7 @@ export default class pricepage extends PureComponent {
                 onlinestore={[
                   ["onDemandStore", "Yes"],
                   ["Subscription Store", "$10/Month Addon"],
+                  ["Auto Select Menu", "Applicable on Subscription AddOn"],
                   ["Ecommerce", "Yes"],
                   ["Meal Kit Specific Store capabilities", "Yes"],
                   ["Upsell & Cross Sell", "Yes"],
@@ -219,6 +221,7 @@ export default class pricepage extends PureComponent {
                 onlinestore={[
                   ["onDemandStore", "Yes"],
                   ["Subscription Store", "Included"],
+                  ["Auto Select Menu", "Included"],
                   ["Ecommerce", "Yes"],
                   ["Meal Kit Specific Store capabilities", "Yes"],
                   ["Upsell & Cross Sell", "Yes"],
@@ -313,6 +316,7 @@ export default class pricepage extends PureComponent {
                 onlinestore={[
                   ["onDemandStore", "Yes"],
                   ["Subscription Store", "Included"],
+                  ["Auto Select Menu", "Included"],
                   ["Ecommerce", "Yes"],
                   ["Meal Kit Specific Store capabilities", "Yes"],
                   ["Upsell & Cross Sell", "Yes"],
