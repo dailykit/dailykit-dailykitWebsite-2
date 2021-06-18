@@ -1428,17 +1428,6 @@ ul.link_container {
     -20px 0 10px -10px rgba(0, 0, 0, 0.15);
 }
 
-#pricing-table .plan:nth-child(1) {
-  -moz-border-radius: 5px 0 0 5px;
-  -webkit-border-radius: 5px 0 0 5px;
-  border-radius: 5px 0 0 5px;
-}
-
-#pricing-table .plan:nth-child(4) {
-  -moz-border-radius: 0 5px 5px 0;
-  -webkit-border-radius: 0 5px 5px 0;
-  border-radius: 0 5px 5px 0;
-}
 /* .btn-lg:hover {
   color: #fff;
   background-color: #7c98e7;
