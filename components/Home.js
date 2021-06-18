@@ -182,18 +182,19 @@ export default class Home extends PureComponent {
           ]}
         />
         <PricingSection1
+          heading={" Choose the best plan that fits your requirments"}
           offers={[
             {
-              name: "One Time Setup Fees",
-              price: "$ 999",
-              feature1: "Store Setup, Menu Building, Includes Onboarding",
-              feature2: "Staff Training, Data Upload",
+              name: "Standard.",
+              price: "$ 29",
             },
             {
-              name: "Monthly Subscription",
-              price: "$ 99",
-              feature1: "* 4.7% + 30c per transaction",
-              feature2: "Includes Every feature Listed Above",
+              name: "Premium",
+              price: "$ 79",
+            },
+            {
+              name: "Professional",
+              price: "$ 499",
             },
           ]}
         />

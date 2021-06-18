@@ -1104,7 +1104,7 @@ ul.link_container {
 .pricingsection1 > .price-heading {
   position: relative;
   color: #8ac03b;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 30px;
   letter-spacing: 1px;
@@ -1116,13 +1116,13 @@ ul.link_container {
   color: #111b2b;
   font-size: 60px;
   line-height: 1em;
-  font-family: "lato", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .pricing-box {
   position: relative;
   width: 100%;
   text-align: center;
-  padding: 45px 10px;
+  padding: 20px 10px;
   border-radius: 5px;
   display: inline-block;
   background: #f8f8f7;
@@ -1136,7 +1136,7 @@ ul.link_container {
 .pricing-box h4 {
   margin: 10px 0px 0px;
   padding: 0px 0px 10px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 }
 .schedule-meeting-section1 {
