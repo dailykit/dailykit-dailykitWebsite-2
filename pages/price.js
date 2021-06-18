@@ -11,7 +11,7 @@ export default class pricepage extends PureComponent {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Head>
-          <title>We serve</title>
+          <title>Pricing</title>
           <meta
             name="Restaurants, Cloud Kitchens, Super Markets, Enterprise - One Stop Solution"
             content="Dailykit is a one stop shop for Restaurants, Cloud Kitchens, Franchisees, Super Markets, Food Startups or even Large Enterprises. Optimize Kitchen Workflows. Explore Multiple New Sales Channels. Never before seen scalability as Dailykit Scales as you Scale. "
