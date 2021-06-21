@@ -1369,17 +1369,19 @@ ul.link_container {
   transition-property: all 2s ease 2s;
   margin-top: 50px;
 }
+#pricing-table:hover {
+  margin-top: 46px;
+}
 .center {
   text-align: center;
 }
+
 .left {
   text-align: left;
 }
-#pricing-table li:hover {
-  font-size: 17px;
-}
+
 #pricing-table li {
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Nunito", sans-serif;
 }
 #pricing-table h4 {
@@ -1405,11 +1407,11 @@ ul.link_container {
 }
 #pricing-table .plan {
   text-shadow: 0 1px rgba(255, 255, 255, 0.8);
-  background: #fff;
+
   border: 1px solid #ddd;
   color: #333;
   padding: 20px;
-  width: 329.5px;
+  width: 328.5px;
 }
 
 #pricing-table #most-popular {
@@ -1535,4 +1537,14 @@ ul.link_container {
     height: auto;
     border: none;
   }
+}
+.recommended .plan {
+  background-color: #cee2fd;
+}
+.recommended h2 {
+  background-color: #1e60e1;
+  color: white !important;
+}
+.recommended li {
+  border-top: 1px solid rgb(119, 119, 119) !important;
 }

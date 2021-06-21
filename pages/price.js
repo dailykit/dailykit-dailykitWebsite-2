@@ -54,7 +54,7 @@ export default class pricepage extends PureComponent {
                   ["24/7 support"],
                   [
                     "Locations:Assign inventory to stores, warehouses,pop-ups, or wherever you store products",
-                    "No",
+                    "✖",
                   ],
                   ["Manual order creation"],
                   ["Discount codes"],
@@ -109,8 +109,8 @@ export default class pricepage extends PureComponent {
                   ["Page Management"],
                   ["Manage Subscription Store Content"],
                 ]}
-                cartManagement={[["No"]]}
-                insights={[["No"]]}
+                cartManagement={[["✖"]]}
+                insights={[["✖"]]}
                 support={[["Basic"]]}
                 paymentGatewayIntegration={[
                   ["Stripe"],
@@ -126,44 +126,44 @@ export default class pricepage extends PureComponent {
                 planName="Standard"
                 price="29"
                 onlinestore={[
-                  ["onDemandStore", "Yes"],
+                  ["onDemandStore", "✔"],
                   ["Subscription Store", "$10/Month Addon"],
                   ["Auto Select Menu", "Applicable on Subscription AddOn"],
-                  ["Ecommerce", "Yes"],
-                  ["Meal Kit Specific Store capabilities", "Yes"],
-                  ["Upsell & Cross Sell", "Yes"],
-                  ["Build your own meal", "Yes"],
-                  ["SEO Optimization", "Yes"],
+                  ["Ecommerce", "✔"],
+                  ["Meal Kit Specific Store capabilities", "✔"],
+                  ["Upsell & Cross Sell", "✔"],
+                  ["Build your own meal", "✔"],
+                  ["SEO Optimization", "✔"],
                 ]}
                 features={[
-                  ["Unlimited products", "Yes"],
+                  ["Unlimited products", "✔"],
                   [
                     "Staff accounts: Staff members with access to the admin and POS.",
                     "2",
                   ],
-                  ["24/7 support", "No"],
+                  ["24/7 support", "✖"],
                   [
                     "Locations:Assign inventory to stores, warehouses,pop-ups, or wherever you store products",
-                    "No",
+                    "✖",
                   ],
-                  ["Manual order creation", "No"],
-                  ["Discount codes", "Yes"],
-                  ["SSL certificate", "Yes"],
-                  ["Abandoned cart recovery", "Yes"],
-                  ["Referral Programs", "Yes"],
-                  [" Wallet", "Yes"],
-                  ["Professional reports", "No"],
+                  ["Manual order creation", "✖"],
+                  ["Discount codes", "✔"],
+                  ["SSL certificate", "✔"],
+                  ["Abandoned cart recovery", "✔"],
+                  ["Referral Programs", "✔"],
+                  [" Wallet", "✔"],
+                  ["Professional reports", "✖"],
                   [
                     "Third-party calculated shipping rates: Show calculated rates with your own account or third-party apps at checkout.",
-                    "No",
+                    "✖",
                   ],
                   ["Menu Engineeing", "Basic"],
-                  ["Weighing Scale Integration, KOT, Print Routing", "No"],
-                  ["Multi Locations Support", "Yes"],
-                  ["Recipe Management", "Yes"],
-                  ["Station Management", "Yes"],
-                  ["Standard Kitchen Operating Procedures", "No"],
-                  ["Meal Kit Management (New)", "No"],
+                  ["Weighing Scale Integration, KOT, Print Routing", "✖"],
+                  ["Multi Locations Support", "✔"],
+                  ["Recipe Management", "✔"],
+                  ["Station Management", "✔"],
+                  ["Standard Kitchen Operating Procedures", "✖"],
+                  ["Meal Kit Management (New)", "✖"],
                   ["Campaign Management", "Basic Rules"],
                   ["Multi Brand / Ghost Kitchens", "Upto 2 Brands"],
                 ]}
@@ -174,90 +174,91 @@ export default class pricepage extends PureComponent {
                   ["Packaging Management", "Available at $49 Addon"],
                 ]}
                 delivery={[
-                  ["Print shipping labels", "Yes"],
-                  ["Postmastes Integration", "Yes"],
-                  ["3rd party delivery support", "Yes"],
-                  ["Order based delivery routing to delivery partners", "Yes"],
-                  ["3rd Party Food Aggregator Support", "Yes"],
-                  ["Live Delivery Tracking", "Yes"],
-                  ["Multiple Delivery Partner Integration", "No"],
-                  ["Auto Delivery", "No"],
+                  ["Print shipping labels", "✔"],
+                  ["Postmastes Integration", "✔"],
+                  ["3rd party delivery support", "✔"],
+                  ["Order based delivery routing to delivery partners", "✔"],
+                  ["3rd Party Food Aggregator Support", "✔"],
+                  ["Live Delivery Tracking", "✔"],
+                  ["Multiple Delivery Partner Integration", "✖"],
+                  ["Auto Delivery", "✖"],
                 ]}
                 orderManagement={[
-                  ["Real time order tracking", "Yes"],
-                  ["Reject an Order", "Yes"],
-                  ["Weighing Scale Integration, KOT, Print Routing", "No"],
-                  ["Station Management", "Yes"],
+                  ["Real time order tracking", "✔"],
+                  ["Reject an Order", "✔"],
+                  ["Weighing Scale Integration, KOT, Print Routing", "✖"],
+                  ["Station Management", "✔"],
                 ]}
                 globalSelling={[
-                  ["Sell in multiple languages", "Yes"],
-                  ["Multi Currency", "No"],
+                  ["Sell in multiple languages", "✔"],
+                  ["Multi Currency", "✖"],
                 ]}
-                customization={[["Support Custom Requests", "No"]]}
+                customization={[["Support Custom Requests", "✖"]]}
                 editorApp={[
                   ["Online Store Creation", "Basic"],
-                  ["Multiple Themes", "No"],
+                  ["Multiple Themes", "✖"],
                 ]}
                 contentApp={[
-                  ["Page Management", "No"],
-                  ["Manage Subscription Store Content", "No"],
+                  ["Page Management", "✖"],
+                  ["Manage Subscription Store Content", "✖"],
                 ]}
-                cartManagement={[["No"]]}
-                insights={[["No"]]}
+                cartManagement={[["✖"]]}
+                insights={[["✖"]]}
                 support={[["Basic"]]}
                 paymentGatewayIntegration={[
-                  ["Stripe", "Yes"],
-                  ["Custom", "No"],
+                  ["Stripe", "✔"],
+                  ["Custom", "✖"],
                   ["Transaction Fees", "2%"],
                 ]}
               />
             </div>
             <div className="col-md-3 col-xs-10">
               <PriceColumn
+                recommended
                 dataAccount="3161173:g2o5g2c3i8"
                 dataForm={"4175704:a4w7j9"}
                 planName="Premium"
                 price="79"
                 onlinestore={[
-                  ["onDemandStore", "Yes"],
+                  ["onDemandStore", "✔"],
                   ["Subscription Store", "Included"],
                   ["Auto Select Menu", "Included"],
-                  ["Ecommerce", "Yes"],
-                  ["Meal Kit Specific Store capabilities", "Yes"],
-                  ["Upsell & Cross Sell", "Yes"],
-                  ["Build your own meal", "Yes"],
-                  ["SEO Optimization", "Yes"],
+                  ["Ecommerce", "✔"],
+                  ["Meal Kit Specific Store capabilities", "✔"],
+                  ["Upsell & Cross Sell", "✔"],
+                  ["Build your own meal", "✔"],
+                  ["SEO Optimization", "✔"],
                 ]}
                 features={[
-                  ["Unlimited products", "Yes"],
+                  ["Unlimited products", "✔"],
                   [
                     "Staff accounts: Staff members with access to the admin and POS.",
                     "5",
                   ],
-                  ["24/7 support", "Yes"],
+                  ["24/7 support", "✔"],
                   [
                     "Locations:Assign inventory to stores, warehouses,pop-ups, or wherever you store products",
-                    "Yes",
+                    "✔",
                   ],
-                  ["Manual order creation", "Yes"],
-                  ["Discount codes", "Yes"],
-                  ["SSL certificate", "Yes"],
-                  ["Abandoned cart recovery", "Yes"],
-                  ["Referral Programs", "Yes"],
-                  [" Wallet", "Yes"],
-                  ["Professional reports", "Yes"],
+                  ["Manual order creation", "✔"],
+                  ["Discount codes", "✔"],
+                  ["SSL certificate", "✔"],
+                  ["Abandoned cart recovery", "✔"],
+                  ["Referral Programs", "✔"],
+                  [" Wallet", "✔"],
+                  ["Professional reports", "✔"],
                   [
                     "Third-party calculated shipping rates: Show calculated rates with your own account or third-party apps at checkout.",
-                    "No",
+                    "✖",
                   ],
                   ["Menu Engineeing", "Advanced"],
-                  ["Weighing Scale Integration, KOT, Print Routing", "Yes"],
-                  ["Multi Locations Support", "Yes"],
-                  ["Recipe Management", "Yes"],
-                  ["Station Management", "Yes"],
-                  ["Standard Kitchen Operating Procedures", "Yes"],
+                  ["Weighing Scale Integration, KOT, Print Routing", "✔"],
+                  ["Multi Locations Support", "✔"],
+                  ["Recipe Management", "✔"],
+                  ["Station Management", "✔"],
+                  ["Standard Kitchen Operating Procedures", "✔"],
 
-                  ["Meal Kit Management (New)", "Yes"],
+                  ["Meal Kit Management (New)", "✔"],
                   ["Campaign Management", "Advanced Rules"],
                   ["Multi Brand / Ghost Kitchens", "Upto 5 brands"],
                 ]}
@@ -268,40 +269,40 @@ export default class pricepage extends PureComponent {
                   ["Packaging Management", "Available at $49 Addon"],
                 ]}
                 delivery={[
-                  ["Print shipping labels", "Yes"],
-                  ["Postmastes Integration", "Yes"],
-                  ["3rd party delivery support", "Yes"],
-                  ["Order based delivery routing to delivery partners", "Yes"],
-                  ["3rd Party Food Aggregator Support", "Yes"],
-                  ["Live Delivery Tracking", "Yes"],
-                  ["Multiple Delivery Partner Integration", "Yes"],
-                  ["Auto Delivery", "No"],
+                  ["Print shipping labels", "✔"],
+                  ["Postmastes Integration", "✔"],
+                  ["3rd party delivery support", "✔"],
+                  ["Order based delivery routing to delivery partners", "✔"],
+                  ["3rd Party Food Aggregator Support", "✔"],
+                  ["Live Delivery Tracking", "✔"],
+                  ["Multiple Delivery Partner Integration", "✔"],
+                  ["Auto Delivery", "✖"],
                 ]}
                 orderManagement={[
-                  ["Real time order tracking", "Yes"],
-                  ["Reject an Order", "Yes"],
-                  ["Weighing Scale Integration, KOT, Print Routing", "Yes"],
-                  ["Station Management", "Yes"],
+                  ["Real time order tracking", "✔"],
+                  ["Reject an Order", "✔"],
+                  ["Weighing Scale Integration, KOT, Print Routing", "✔"],
+                  ["Station Management", "✔"],
                 ]}
                 globalSelling={[
-                  ["Sell in multiple languages", "Yes"],
-                  ["Multi Currency", "No"],
+                  ["Sell in multiple languages", "✔"],
+                  ["Multi Currency", "✖"],
                 ]}
-                customization={[["Support Custom Requests", "No"]]}
+                customization={[["Support Custom Requests", "✖"]]}
                 editorApp={[
                   ["Online Store Creation", "Basic"],
                   ["Multiple Themes", "upto 5"],
                 ]}
                 contentApp={[
-                  ["Page Management", "Yes"],
-                  ["Manage Subscription Store Content", "Yes"],
+                  ["Page Management", "✔"],
+                  ["Manage Subscription Store Content", "✔"],
                 ]}
-                cartManagement={[["Yes"]]}
+                cartManagement={[["✔"]]}
                 insights={[["Basic"]]}
                 support={[["24/7"]]}
                 paymentGatewayIntegration={[
-                  ["Stripe", "Yes"],
-                  ["Custom", "No"],
+                  ["Stripe", "✔"],
+                  ["Custom", "✖"],
                   ["Transaction Fees", "1.50%"],
                 ]}
               />
@@ -314,44 +315,44 @@ export default class pricepage extends PureComponent {
                 planName="Professional"
                 price="449"
                 onlinestore={[
-                  ["onDemandStore", "Yes"],
+                  ["onDemandStore", "✔"],
                   ["Subscription Store", "Included"],
                   ["Auto Select Menu", "Included"],
-                  ["Ecommerce", "Yes"],
-                  ["Meal Kit Specific Store capabilities", "Yes"],
-                  ["Upsell & Cross Sell", "Yes"],
-                  ["Build your own meal", "Yes"],
-                  ["SEO Optimization", "Yes"],
+                  ["Ecommerce", "✔"],
+                  ["Meal Kit Specific Store capabilities", "✔"],
+                  ["Upsell & Cross Sell", "✔"],
+                  ["Build your own meal", "✔"],
+                  ["SEO Optimization", "✔"],
                 ]}
                 features={[
-                  ["Unlimited products", "Yes"],
+                  ["Unlimited products", "✔"],
                   [
                     "Staff accounts: Staff members with access to the admin and POS.",
                     "Unlimited",
                   ],
-                  ["24/7 support", "Yes"],
+                  ["24/7 support", "✔"],
                   [
                     "Locations:Assign inventory to stores, warehouses,pop-ups, or wherever you store products",
-                    "Yes",
+                    "✔",
                   ],
-                  ["Manual order creation", "Yes"],
-                  ["Discount codes", "Yes"],
-                  ["SSL certificate", "Yes"],
-                  ["Abandoned cart recovery", "Yes"],
-                  ["Referral Programs", "Yes"],
-                  [" Wallet", "Yes"],
-                  ["Professional reports", "Yes"],
+                  ["Manual order creation", "✔"],
+                  ["Discount codes", "✔"],
+                  ["SSL certificate", "✔"],
+                  ["Abandoned cart recovery", "✔"],
+                  ["Referral Programs", "✔"],
+                  [" Wallet", "✔"],
+                  ["Professional reports", "✔"],
                   [
                     "Third-party calculated shipping rates: Show calculated rates with your own account or third-party apps at checkout.",
-                    "Yes",
+                    "✔",
                   ],
                   ["Menu Engineeing", "Complete Control"],
-                  ["Weighing Scale Integration, KOT, Print Routing", "Yes"],
-                  ["Multi Locations Support", "Yes"],
-                  ["Recipe Management", "Yes"],
-                  ["Station Management", "Yes"],
-                  ["Standard Kitchen Operating Procedures", "Yes"],
-                  ["Meal Kit Management (New)", "Yes"],
+                  ["Weighing Scale Integration, KOT, Print Routing", "✔"],
+                  ["Multi Locations Support", "✔"],
+                  ["Recipe Management", "✔"],
+                  ["Station Management", "✔"],
+                  ["Standard Kitchen Operating Procedures", "✔"],
+                  ["Meal Kit Management (New)", "✔"],
                   ["Campaign Management", "Advanced Rules"],
                   ["Multi Brand / Ghost Kitchens", "Unlimited"],
                 ]}
@@ -362,40 +363,40 @@ export default class pricepage extends PureComponent {
                   ["Packaging Management", "Included"],
                 ]}
                 delivery={[
-                  ["Print shipping labels", "Yes"],
-                  ["Postmastes Integration", "Yes"],
-                  ["3rd party delivery support", "Yes"],
-                  ["Order based delivery routing to delivery partners", "Yes"],
-                  ["3rd Party Food Aggregator Support", "Yes"],
-                  ["Live Delivery Tracking", "Yes"],
-                  ["Multiple Delivery Partner Integration", "Yes"],
-                  ["Auto Delivery", "Yes"],
+                  ["Print shipping labels", "✔"],
+                  ["Postmastes Integration", "✔"],
+                  ["3rd party delivery support", "✔"],
+                  ["Order based delivery routing to delivery partners", "✔"],
+                  ["3rd Party Food Aggregator Support", "✔"],
+                  ["Live Delivery Tracking", "✔"],
+                  ["Multiple Delivery Partner Integration", "✔"],
+                  ["Auto Delivery", "✔"],
                 ]}
                 orderManagement={[
-                  ["Real time order tracking", "Yes"],
-                  ["Reject an Order", "Yes"],
-                  ["Weighing Scale Integration, KOT, Print Routing", "Yes"],
-                  ["Station Management", "Yes"],
+                  ["Real time order tracking", "✔"],
+                  ["Reject an Order", "✔"],
+                  ["Weighing Scale Integration, KOT, Print Routing", "✔"],
+                  ["Station Management", "✔"],
                 ]}
                 globalSelling={[
-                  ["Sell in multiple languages", "Yes"],
-                  ["Multi Currency", "Yes"],
+                  ["Sell in multiple languages", "✔"],
+                  ["Multi Currency", "✔"],
                 ]}
-                customization={[["Support Custom Requests", "Yes"]]}
+                customization={[["Support Custom Requests", "✔"]]}
                 editorApp={[
                   ["Online Store Creation", "Advanced"],
                   ["Multiple Themes", "Multiple"],
                 ]}
                 contentApp={[
-                  ["Page Management", "Yes"],
-                  ["Manage Subscription Store Content", "Yes"],
+                  ["Page Management", "✔"],
+                  ["Manage Subscription Store Content", "✔"],
                 ]}
-                cartManagement={[["Yes"]]}
+                cartManagement={[["✔"]]}
                 insights={[["Advanced"]]}
                 support={[["24/7"]]}
                 paymentGatewayIntegration={[
-                  ["Stripe", "Yes"],
-                  ["Custom", "Yes"],
+                  ["Stripe", "✔"],
+                  ["Custom", "✔"],
                   ["Transaction Fees", "1%"],
                 ]}
               />
