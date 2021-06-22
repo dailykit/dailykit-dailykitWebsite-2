@@ -77,6 +77,7 @@ export default class pricepage extends PureComponent {
                   ["Campaign Management"],
                   ["Multi Brand / Ghost Kitchens"],
                 ]}
+
                 inventory={[
                   ["Supplier Management"],
                   ["Purchase Orders"],
@@ -167,11 +168,13 @@ export default class pricepage extends PureComponent {
                   ["Campaign Management", "Basic Rules"],
                   ["Multi Brand / Ghost Kitchens", "Upto 2 Brands"],
                 ]}
-                inventory={[
-                  ["Supplier Management", "Available at $49 Addon"],
-                  ["Purchase Orders", "Available at $49 Addon"],
-                  ["Work Orders", "Available at $49 Addon"],
-                  ["Packaging Management", "Available at $49 Addon"],
+                inventoryOffer="Available at $49 Addon"
+                inventory=
+                {[
+                  ["Supplier Management", "Available with Inventory Add On"],
+                  ["Purchase Orders", "Available with Inventory Add On"],
+                  ["Work Orders", "Available with Inventory Add On"],
+                  ["Packaging Management", "Available with Inventory Add On"],
                 ]}
                 delivery={[
                   ["Print shipping labels", "✔"],
@@ -262,11 +265,14 @@ export default class pricepage extends PureComponent {
                   ["Campaign Management", "Advanced Rules"],
                   ["Multi Brand / Ghost Kitchens", "Upto 5 brands"],
                 ]}
-                inventory={[
-                  ["Supplier Management", "Available at $49 Addon"],
-                  ["Purchase Orders", "Available at $49 Addon"],
-                  ["Work Orders", "Available at $49 Addon"],
-                  ["Packaging Management", "Available at $49 Addon"],
+                inventoryOffer="Available at $49 Addon"
+                inventory=
+
+                {[
+                  ["Supplier Management", "Available with Inventory Add On"],
+                  ["Purchase Orders", "Available with Inventory Add On"],
+                  ["Work Orders", "Available with Inventory Add On"],
+                  ["Packaging Management", "Available with Inventory Add On"],
                 ]}
                 delivery={[
                   ["Print shipping labels", "✔"],
@@ -356,6 +362,7 @@ export default class pricepage extends PureComponent {
                   ["Campaign Management", "Advanced Rules"],
                   ["Multi Brand / Ghost Kitchens", "Unlimited"],
                 ]}
+                inventoryOffer="Included"
                 inventory={[
                   ["Supplier Management", "Included"],
                   ["Purchase Orders", "Included"],
