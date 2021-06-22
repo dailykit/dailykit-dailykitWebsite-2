@@ -83,6 +83,7 @@ export default class pricepage extends PureComponent {
                   ["Purchase Orders"],
                   ["Work Orders"],
                   ["Packaging Management"],
+                  ["Item Management"],
                 ]}
                 delivery={[
                   ["Print shipping labels"],
@@ -175,6 +176,7 @@ export default class pricepage extends PureComponent {
                   ["Purchase Orders", "Available with Inventory Add On"],
                   ["Work Orders", "Available with Inventory Add On"],
                   ["Packaging Management", "Available with Inventory Add On"],
+                  ["Item Management", "Available with Inventory Add On"],
                 ]}
                 delivery={[
                   ["Print shipping labels", "✔"],
@@ -273,6 +275,7 @@ export default class pricepage extends PureComponent {
                   ["Purchase Orders", "Available with Inventory Add On"],
                   ["Work Orders", "Available with Inventory Add On"],
                   ["Packaging Management", "Available with Inventory Add On"],
+                  ["Item Management", "Available with Inventory Add On"],
                 ]}
                 delivery={[
                   ["Print shipping labels", "✔"],
@@ -368,6 +371,7 @@ export default class pricepage extends PureComponent {
                   ["Purchase Orders", "Included"],
                   ["Work Orders", "Included"],
                   ["Packaging Management", "Included"],
+                  ["Item Management", "Included"],
                 ]}
                 delivery={[
                   ["Print shipping labels", "✔"],
