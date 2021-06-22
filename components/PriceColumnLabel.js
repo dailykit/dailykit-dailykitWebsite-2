@@ -46,7 +46,7 @@ export default class PriceColumnLabel extends PureComponent {
         </div>
         <div className="plan">
           <ul>
-            <h4>Global Selliing</h4>
+            <h4>Global Selling</h4>
             {this.props.globalSelling.map((list) => {
               return <li key={list}> {list[0]}&nbsp;</li>;
             })}

@@ -13,7 +13,8 @@ export default class PricingSection1 extends PureComponent {
                   <div className="card pricing-box">
                     <div className="card-body">
                       <h4 className="card-subtitle">{offer.name}</h4>
-                      <h1 className="card-title">{offer.price}</h1>
+                      <h1 className="card-title d-inline">{offer.price}</h1>
+                      <h5 className="d-inline">/month</h5>
                     </div>
                   </div>
                 </div>
@@ -22,7 +23,7 @@ export default class PricingSection1 extends PureComponent {
           </div>
           <a
             type="button"
-            href="/price"
+            href="/pricing"
             className="mt-4 btn-style-thirteen green"
           >
             Learn More

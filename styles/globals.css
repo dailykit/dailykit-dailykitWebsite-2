@@ -1538,6 +1538,13 @@ ul.link_container {
     border: none;
   }
 }
+.offer {
+  margin-top: -0.786rem;
+  font-size: 0.85rem;
+}
+.offerHeading {
+  margin-top: -0.4rem;
+}
 .recommended .plan {
   background-color: #cee2fd;
 }

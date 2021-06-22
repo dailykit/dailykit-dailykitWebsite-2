@@ -15,6 +15,7 @@ export default class PriceColumn extends PureComponent {
             <span className="pricing-price">
               <sup>$</sup>
               {this.props.price}
+              <h4 className="d-inline">/month</h4>
             </span>
             <a
               type="button"
@@ -69,7 +70,8 @@ export default class PriceColumn extends PureComponent {
           </div>
           <div className="plan">
             <ul>
-              <h4>Inventory</h4>
+              <h4 className="offerHeading">Inventory</h4>
+              <div className="offer">({this.props.inventoryOffer})</div>
               {this.props.inventory.map((list) => {
                 return (
                   <li key={list}>
@@ -119,7 +121,7 @@ export default class PriceColumn extends PureComponent {
           </div>
           <div className="plan">
             <ul>
-              <h4>Global Selliing</h4>
+              <h4>Global Selling</h4>
               {this.props.globalSelling.map((list) => {
                 return (
                   <li key={list}>
