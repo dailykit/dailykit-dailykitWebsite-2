@@ -472,20 +472,22 @@ export default class Navbar extends PureComponent {
                       Our Philosophy
                     </a>
                   </li>
-                  <li className="hover">
-                    <a
-                      style={{
-                        color: "#113D63",
-                        fontWeight: "600",
-                        fontSize: "14px",
-                      }}
-                      className="dropdown-item"
-                      href="/start_a_mealKit_brand/AboutUs/Blog"
-                    >
-                      Blog
-                    </a>
-                  </li>
+
                 </ul>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  style={{
+                    color: "#113D63",
+                    fontWeight: "600",
+                    marginLeft: "0.7rem",
+                    fontSize: "14px",
+                  }}
+                  href="https://blog.dailykit.org/"
+                >
+                  Our Blog
+                </a>
               </li>
               <li className="nav-item">
                 <a
