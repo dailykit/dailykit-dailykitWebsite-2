@@ -472,7 +472,6 @@ export default class Navbar extends PureComponent {
                       Our Philosophy
                     </a>
                   </li>
-
                 </ul>
               </li>
               <li className="nav-item">
