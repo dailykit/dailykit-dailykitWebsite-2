@@ -93,7 +93,7 @@ export default class BlueBox2 extends PureComponent {
                   }}
                   className="nunito"
                 >
-                  20px-Card Debit At Cut Off Time
+                  Auto-Card Debit At Cut Off Time
                 </h5>
                 <br />
                 <p
@@ -103,7 +103,7 @@ export default class BlueBox2 extends PureComponent {
                     textAlign: "center",
                   }}
                 >
-                  Saved Card is 20pxmatically debited and order is placed after
+                  Saved Card is automatically debited and order is placed after
                   cutoff time
                 </p>
                 <div style={{ margin: "2rem 40% 2rem 30%" }}>
