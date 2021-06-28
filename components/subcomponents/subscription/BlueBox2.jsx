@@ -57,7 +57,7 @@ export default class BlueBox2 extends PureComponent {
                     display: "inline",
                     fontWeight: "bolder",
                   }}
-                  className="nunito"
+                  className="nunito text-center"
                 >
                   Set Weekly Start and Cutoff Time
                 </h5>
@@ -91,7 +91,7 @@ export default class BlueBox2 extends PureComponent {
                     display: "inline",
                     fontWeight: "bolder",
                   }}
-                  className="nunito"
+                  className="nunito text-center"
                 >
                   Auto-Card Debit At Cut Off Time
                 </h5>

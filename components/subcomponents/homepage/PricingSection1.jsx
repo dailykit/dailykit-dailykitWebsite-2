@@ -5,6 +5,7 @@ export default class PricingSection1 extends PureComponent {
     return (
       <div className="nunito pricingsection1">
         <h6 className="price-heading">{this.props.heading}</h6>
+        <h6 className="price-subheading">{this.props.subheading}</h6>
         <div className="container">
           <div className="row justify-content-center">
             {this.props.offers.map((offer) => {
