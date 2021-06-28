@@ -1110,6 +1110,15 @@ ul.link_container {
   letter-spacing: 1px;
   text-transform: capitalize;
 }
+.price-subheading {
+  position: relative;
+  color: #111b2b;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
 .pricing-box .card-title {
   position: relative;
   font-weight: 700;
