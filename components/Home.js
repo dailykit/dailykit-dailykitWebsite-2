@@ -182,8 +182,8 @@ export default class Home extends PureComponent {
           ]}
         />
         <PricingSection1
-          heading={"Unlimited Sales Channel and World Class Operational Kitchen Operation abilities, at less than the price of a Coffee."}
-          subheading={"Get the world’s first Trend Responsive platform at $0.96/day"}
+          heading={"Unlimited Sales Channels And World Class Kitchen Operation Abilities, At Less Than The Price Of A Coffee."}
+          subheading={"Get The World’s First Trend Responsive Platform At $0.96/Day"}
           offers={[
             {
               name: "Standard.",
