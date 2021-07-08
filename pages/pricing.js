@@ -322,7 +322,7 @@ export default class pricepage extends PureComponent {
                 dataAccount="3161173:g2o5g2c3i8"
                 dataForm={"4175704:a4w7j9"}
                 planName="Professional"
-                price="449"
+                price="499"
                 onlinestore={[
                   ["onDemandStore", "✔"],
                   ["Subscription Store", "Included"],
