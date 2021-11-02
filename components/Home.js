@@ -181,7 +181,7 @@ export default class Home extends PureComponent {
             },
           ]}
         />
-        <PricingSection1
+        {/* <PricingSection1
           heading={"Unlimited Sales Channels And World Class Kitchen Operation Abilities, At Less Than The Price Of A Coffee."}
           subheading={"Get The World’s First Trend Responsive Platform At $0.96/Day"}
           offers={[
@@ -198,7 +198,8 @@ export default class Home extends PureComponent {
               price: "$ 499",
             },
           ]}
-        />
+        /> */}
+        <div style={{ marginTop: "72px" }} />
         <BannerSection2
           rightimageurl="/assets/images/Reseller.png"
           heading={"Partner with DailyKIT."}

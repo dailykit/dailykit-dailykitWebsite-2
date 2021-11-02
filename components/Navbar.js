@@ -488,7 +488,7 @@ export default class Navbar extends PureComponent {
                   Our Blog
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   className="nav-link"
                   style={{
@@ -501,7 +501,7 @@ export default class Navbar extends PureComponent {
                 >
                   Pricing
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a
                   className="nav-link"
